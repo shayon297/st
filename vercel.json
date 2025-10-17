@@ -1,27 +1,13 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/collect.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "api/data.py",
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
-      "src": "/api/collect",
-      "dest": "api/collect.py"
-    },
-    {
-      "src": "/api/data",
-      "dest": "api/data.py"
+      "src": "/",
+      "dest": "/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/dashboard_webapp.html"
+      "dest": "/$1"
     }
   ]
 }
