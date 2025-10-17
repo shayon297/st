@@ -1,0 +1,429 @@
+{
+  "dataset_info": {
+    "total_messages": 14407,
+    "data_file": "stocktwits_ultra_24h.json",
+    "analysis_time": "2025-10-16T02:59:12.138773"
+  },
+  "fast_twitch_traders": [],
+  "trading_behavior": {
+    "total_messages": 14407,
+    "urgent_messages": 3108,
+    "urgency_rate": 21.57,
+    "time_distribution": {
+      "off_hours": 6950,
+      "after_hours": 3699,
+      "market_hours": 3513,
+      "pre_market": 245
+    },
+    "most_active_period": "off_hours"
+  },
+  "conversation_patterns": {
+    "total_posts": 9334,
+    "total_comments": 5073,
+    "posts_with_replies": 0,
+    "posts_without_replies": 9334,
+    "avg_replies_per_post": 0.0,
+    "conversation_starters": [],
+    "engaged_responders": [
+      {
+        "username": "FTV",
+        "posts": 0,
+        "comments": 35,
+        "comment_ratio": 35.0
+      },
+      {
+        "username": "Steve_TheBull_Rogers",
+        "posts": 1,
+        "comments": 34,
+        "comment_ratio": 34.0
+      },
+      {
+        "username": "SoundsAwesome",
+        "posts": 1,
+        "comments": 33,
+        "comment_ratio": 33.0
+      },
+      {
+        "username": "Kornie7",
+        "posts": 1,
+        "comments": 32,
+        "comment_ratio": 32.0
+      },
+      {
+        "username": "Gimore_Happy",
+        "posts": 0,
+        "comments": 30,
+        "comment_ratio": 30.0
+      },
+      {
+        "username": "Twwwwww",
+        "posts": 1,
+        "comments": 30,
+        "comment_ratio": 30.0
+      },
+      {
+        "username": "DiveBomb321",
+        "posts": 2,
+        "comments": 28,
+        "comment_ratio": 14.0
+      },
+      {
+        "username": "friedrich_telecom",
+        "posts": 2,
+        "comments": 28,
+        "comment_ratio": 14.0
+      },
+      {
+        "username": "GordonGekko888",
+        "posts": 2,
+        "comments": 28,
+        "comment_ratio": 14.0
+      },
+      {
+        "username": "Smnorgy1",
+        "posts": 2,
+        "comments": 28,
+        "comment_ratio": 14.0
+      },
+      {
+        "username": "tedh101010",
+        "posts": 2,
+        "comments": 28,
+        "comment_ratio": 14.0
+      },
+      {
+        "username": "FatDuck3",
+        "posts": 3,
+        "comments": 31,
+        "comment_ratio": 10.333333333333334
+      },
+      {
+        "username": "HumanCarBomb",
+        "posts": 3,
+        "comments": 27,
+        "comment_ratio": 9.0
+      },
+      {
+        "username": "HMBLinvestor",
+        "posts": 3,
+        "comments": 27,
+        "comment_ratio": 9.0
+      },
+      {
+        "username": "Dropline",
+        "posts": 3,
+        "comments": 27,
+        "comment_ratio": 9.0
+      },
+      {
+        "username": "PolymathMan",
+        "posts": 3,
+        "comments": 27,
+        "comment_ratio": 9.0
+      },
+      {
+        "username": "TrendEdgeLogan",
+        "posts": 4,
+        "comments": 29,
+        "comment_ratio": 7.25
+      },
+      {
+        "username": "Wolfofwits",
+        "posts": 4,
+        "comments": 28,
+        "comment_ratio": 7.0
+      },
+      {
+        "username": "GoldmanSlaps",
+        "posts": 4,
+        "comments": 26,
+        "comment_ratio": 6.5
+      },
+      {
+        "username": "AnaIyze",
+        "posts": 4,
+        "comments": 26,
+        "comment_ratio": 6.5
+      }
+    ],
+    "one_post_out_users": [
+      {
+        "username": "LiquidThetaLEAPS",
+        "posts": 108,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "ElliottwaveForecast",
+        "posts": 64,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "ZacksResearch",
+        "posts": 62,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Masonato",
+        "posts": 55,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "1ightningAlerts",
+        "posts": 45,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "QuantLake",
+        "posts": 39,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "SPYmyQQQ",
+        "posts": 33,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "TendX",
+        "posts": 32,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Elliottwave_Trading",
+        "posts": 31,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "TrendTracer",
+        "posts": 31,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "OpenOutcrier",
+        "posts": 31,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Estimize",
+        "posts": 31,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "PickAlpha",
+        "posts": 31,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Alexcarry0",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Rahe33",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "Rafa342",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "theflynews",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "magical_pomelo_316546",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "realheisenberg",
+        "posts": 30,
+        "comments": 0,
+        "type": "broadcaster"
+      },
+      {
+        "username": "SBAlpha",
+        "posts": 24,
+        "comments": 0,
+        "type": "broadcaster"
+      }
+    ],
+    "discussion_participants": [
+      {
+        "username": "JarvisFlow",
+        "posts": 69,
+        "comments": 5,
+        "balance": 0.07246376811594203,
+        "total_activity": 74
+      },
+      {
+        "username": "jjsurf8311",
+        "posts": 34,
+        "comments": 12,
+        "balance": 0.35294117647058826,
+        "total_activity": 46
+      },
+      {
+        "username": "Thinking101",
+        "posts": 30,
+        "comments": 16,
+        "balance": 0.5333333333333333,
+        "total_activity": 46
+      },
+      {
+        "username": "HankHedgeHogFund",
+        "posts": 32,
+        "comments": 13,
+        "balance": 0.40625,
+        "total_activity": 45
+      },
+      {
+        "username": "PersistentEnergy13",
+        "posts": 40,
+        "comments": 5,
+        "balance": 0.125,
+        "total_activity": 45
+      },
+      {
+        "username": "Jasonalexander00",
+        "posts": 26,
+        "comments": 17,
+        "balance": 0.6538461538461539,
+        "total_activity": 43
+      },
+      {
+        "username": "23ChaseColeman23",
+        "posts": 30,
+        "comments": 11,
+        "balance": 0.36666666666666664,
+        "total_activity": 41
+      },
+      {
+        "username": "DonCorleone77",
+        "posts": 25,
+        "comments": 14,
+        "balance": 0.56,
+        "total_activity": 39
+      },
+      {
+        "username": "cubie",
+        "posts": 6,
+        "comments": 32,
+        "balance": 0.1875,
+        "total_activity": 38
+      },
+      {
+        "username": "HOODisthefuture",
+        "posts": 9,
+        "comments": 29,
+        "balance": 0.3103448275862069,
+        "total_activity": 38
+      },
+      {
+        "username": "sgcny",
+        "posts": 30,
+        "comments": 8,
+        "balance": 0.26666666666666666,
+        "total_activity": 38
+      },
+      {
+        "username": "DavyDaveCharts",
+        "posts": 24,
+        "comments": 14,
+        "balance": 0.5833333333333334,
+        "total_activity": 38
+      },
+      {
+        "username": "GettnFibbywIT",
+        "posts": 32,
+        "comments": 5,
+        "balance": 0.15625,
+        "total_activity": 37
+      },
+      {
+        "username": "TaylorTwits",
+        "posts": 22,
+        "comments": 15,
+        "balance": 0.6818181818181818,
+        "total_activity": 37
+      },
+      {
+        "username": "JFDI",
+        "posts": 22,
+        "comments": 15,
+        "balance": 0.6818181818181818,
+        "total_activity": 37
+      },
+      {
+        "username": "CowBoE",
+        "posts": 16,
+        "comments": 21,
+        "balance": 0.7619047619047619,
+        "total_activity": 37
+      },
+      {
+        "username": "flywithfitz81",
+        "posts": 13,
+        "comments": 24,
+        "balance": 0.5416666666666666,
+        "total_activity": 37
+      },
+      {
+        "username": "Jack90",
+        "posts": 28,
+        "comments": 9,
+        "balance": 0.32142857142857145,
+        "total_activity": 37
+      },
+      {
+        "username": "Oraki",
+        "posts": 25,
+        "comments": 11,
+        "balance": 0.44,
+        "total_activity": 36
+      },
+      {
+        "username": "Ed_Ng",
+        "posts": 24,
+        "comments": 12,
+        "balance": 0.5,
+        "total_activity": 36
+      }
+    ],
+    "engagement_ratio": 0.5434968930790658,
+    "reply_rate": 0.0
+  },
+  "sentiment_analysis": {
+    "adversarial_count": 0,
+    "collaborative_count": 0,
+    "neutral_count": 0,
+    "no_clear_sentiment": 14407,
+    "adversarial_examples": [],
+    "collaborative_examples": [],
+    "mixed_sentiment": 0,
+    "adversarial_pct": 0.0,
+    "collaborative_pct": 0.0,
+    "neutral_pct": 0.0,
+    "overall_tone": "NEUTRAL"
+  }
+}

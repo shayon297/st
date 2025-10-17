@@ -1,0 +1,30 @@
+# Environment
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Logs
+*.log
+
+# Don't ignore the data files we need for deployment
+!stocktwits_supreme_24h.json
+!fast_twitch_traders.csv
+!enhanced_trading_report.json
+!trading_behavior_report.json
+
+# Old data files (keep only supreme)
+stocktwits_scraped_24h.json
+stocktwits_ultra_24h.json
+stocktwits_mega_24h.json
+stocktwits_comprehensive_24h.json
+
+# Test files
+test_*.py
+quick_test.py
