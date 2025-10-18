@@ -1,0 +1,13 @@
+{
+  "total_users": 2422,
+  "total_messages": 59076,
+  "coverage_estimate_pct": 59,
+  "instrument_preferences": {
+    "options": 602,
+    "crypto": 548,
+    "futures": 122,
+    "leveraged_etf": 104,
+    "stocks_only": 1046
+  },
+  "methodology": "STRICT - Explicit trading language only"
+}

@@ -1,0 +1,16 @@
+{
+  "estimated_dau": 299244,
+  "estimated_posters": 4105,
+  "estimated_engagers": 70783,
+  "estimated_viewers": 224356,
+  "ratio": {
+    "posters_pct": 1.4,
+    "engagers_pct": 23.7,
+    "viewers_pct": 75.0
+  },
+  "sample_coverage": {
+    "messages": 59076,
+    "posters": 2422,
+    "coverage_pct": 59
+  }
+}
