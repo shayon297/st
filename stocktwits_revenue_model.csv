@@ -1,97 +1,77 @@
-"STOCKTWITS REVENUE MODEL - BASED ON OCT 17, 2025 DATA"
+STOCKTWITS REVENUE MODEL
 
-ASSUMPTIONS
+INPUTS
 Daily Active Users (DAU),350000
 Monthly Active Rate,0.85
 Monthly Active Users (MAU),=B4*B5
 
-"POST DISTRIBUTION (from 19,477 posts)"
-Strategy,Posts,Percentage
-Day Trading,187,0.96
-Options,1050,5.39
-Swing,1157,5.94
-Position,4564,23.43
-Directional,6555,33.66
-Passive,5964,30.62
+USER DISTRIBUTION (% of MAU)
+High Twitch %,0.294
+Medium Twitch %,0.408
+Low Twitch %,0.298
 
-SEGMENT DEFINITIONS
-Segment,Strategies,Post %,Engagement Multiplier
-High Twitch,Day Trading + Options,=C11+C12,10
-Medium Twitch,Swing + Position,=C13+C14,3
-Low Twitch,Directional + Passive,=C15+C16,1
-
-USER DISTRIBUTION CALCULATION
-Segment,Post %,Engagement Multiplier,Weighted Share,User Count,% of MAU
-High Twitch,=D21,=E21,=(B27*C27)/SUM($B$27:$B$29*$C$27:$C$29),=D27*$B$6,=E27/$B$6
-Medium Twitch,=D22,=E22,=(B28*C28)/SUM($B$27:$B$29*$C$27:$C$29),=D28*$B$6,=E28/$B$6
-Low Twitch,=D23,=E23,=(B29*C29)/SUM($B$27:$B$29*$C$27:$C$29),=D29*$B$6,=E29/$B$6
-
-ARPU ASSUMPTIONS (Annual)
-Segment,ARPU
-High Twitch,200
-Medium Twitch,50
-Low Twitch,10
+ANNUAL ARPU (per user)
+High Twitch ARPU,200
+Medium Twitch ARPU,50
+Low Twitch ARPU,10
 
 REVENUE CALCULATION
-Segment,Users,Annual ARPU,Annual Revenue,Monthly Revenue,% of Total Revenue
-High Twitch,=E27,=B34,=B40*C40,=D40/12,=D40/SUM($D$40:$D$42)
-Medium Twitch,=E28,=B35,=B41*C41,=D41/12,=D41/SUM($D$40:$D$42)
-Low Twitch,=E29,=B36,=B42*C42,=D42/12,=D42/SUM($D$40:$D$42)
-TOTAL,=SUM(B40:B42),,=SUM(D40:D42),=SUM(E40:E42),=SUM(F40:F42)
+Segment,Users,Annual ARPU,Annual Revenue,Monthly Revenue,% of Total
+High Twitch,=$B$6*$B$9,=$B$14,=B22*C22,=D22/12,=D22/D25
+Medium Twitch,=$B$6*$B$10,=$B$15,=B23*C23,=D23/12,=D23/D25
+Low Twitch,=$B$6*$B$11,=$B$16,=B24*C24,=D24/12,=D24/D25
+TOTAL,=SUM(B22:B24),,=SUM(D22:D24),=SUM(E22:E24),=SUM(F22:F24)
 
 KEY METRICS
-Metric,Value
-Annual Revenue,=D43
-Monthly Revenue,=E43
-ARPU per DAU (annual),=D43/B4
-ARPU per MAU (annual),=D43/B6
+Total Annual Revenue,=D25
+Total Monthly Revenue,=E25
+ARPU per DAU (annual),=D25/B4
+ARPU per MAU (annual),=D25/B6
 
 SCENARIO ANALYSIS
-Scenario,DAU,High ARPU,Medium ARPU,Low ARPU,Annual Revenue,Monthly Revenue
-Bear Case,300000,100,25,5,=(B54*0.85*0.294*C54)+(B54*0.85*0.408*D54)+(B54*0.85*0.298*E54),=F54/12
-Base Case,350000,200,50,10,=(B55*0.85*0.294*C55)+(B55*0.85*0.408*D55)+(B55*0.85*0.298*E55),=F55/12
-Bull Case,500000,400,100,20,=(B56*0.85*0.294*C56)+(B56*0.85*0.408*D56)+(B56*0.85*0.298*E56),=F56/12
-Aggressive High Twitch,350000,500,50,10,=(B57*0.85*0.294*C57)+(B57*0.85*0.408*D57)+(B57*0.85*0.298*E57),=F57/12
-Mass Market,750000,150,40,15,=(B58*0.85*0.294*C58)+(B58*0.85*0.408*D58)+(B58*0.85*0.298*E58),=F58/12
+Scenario,DAU,High ARPU,Med ARPU,Low ARPU,Annual Revenue,Monthly Revenue
+Bear Case,300000,100,25,5,=(B36*0.85)*(0.294*C36+0.408*D36+0.298*E36),=F36/12
+Base Case,350000,200,50,10,=(B37*0.85)*(0.294*C37+0.408*D37+0.298*E37),=F37/12
+Bull Case,500000,400,100,20,=(B38*0.85)*(0.294*C38+0.408*D38+0.298*E38),=F38/12
+Aggressive High-Twitch,350000,500,50,10,=(B39*0.85)*(0.294*C39+0.408*D39+0.298*E39),=F39/12
+Mass Market,750000,150,40,15,=(B40*0.85)*(0.294*C40+0.408*D40+0.298*E40),=F40/12
 
-HIGH TWITCH ARPU SENSITIVITY (Base DAU: 350K)
+ARPU SENSITIVITY - HIGH TWITCH (Base: 350K DAU)
 High Twitch ARPU,Annual Revenue,Change from Base,% Change
-100,=(350000*0.85*0.294*B63)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C63-$F$55,=D63/$F$55
-150,=(350000*0.85*0.294*B64)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C64-$F$55,=D64/$F$55
-200,=(350000*0.85*0.294*B65)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C65-$F$55,=D65/$F$55
-300,=(350000*0.85*0.294*B66)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C66-$F$55,=D66/$F$55
-500,=(350000*0.85*0.294*B67)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C67-$F$55,=D67/$F$55
-1000,=(350000*0.85*0.294*B68)+(350000*0.85*0.408*50)+(350000*0.85*0.298*10),=C68-$F$55,=D68/$F$55
+100,=(350000*0.85)*(0.294*B45+0.408*50+0.298*10),=B45-$F$37,=C45/$F$37
+150,=(350000*0.85)*(0.294*B46+0.408*50+0.298*10),=B46-$F$37,=C46/$F$37
+200,=(350000*0.85)*(0.294*B47+0.408*50+0.298*10),=B47-$F$37,=C47/$F$37
+300,=(350000*0.85)*(0.294*B48+0.408*50+0.298*10),=B48-$F$37,=C48/$F$37
+500,=(350000*0.85)*(0.294*B49+0.408*50+0.298*10),=B49-$F$37,=C49/$F$37
+1000,=(350000*0.85)*(0.294*B50+0.408*50+0.298*10),=B50-$F$37,=C50/$F$37
 
-DAU SENSITIVITY (Base ARPUs)
-DAU,MAU,Annual Revenue,ARPU per MAU
-200000,=B73*0.85,=(B73*0.85*0.294*200)+(B73*0.85*0.408*50)+(B73*0.85*0.298*10),=D73/C73
-300000,=B74*0.85,=(B74*0.85*0.294*200)+(B74*0.85*0.408*50)+(B74*0.85*0.298*10),=D74/C74
-350000,=B75*0.85,=(B75*0.85*0.294*200)+(B75*0.85*0.408*50)+(B75*0.85*0.298*10),=D75/C75
-500000,=B76*0.85,=(B76*0.85*0.294*200)+(B76*0.85*0.408*50)+(B76*0.85*0.298*10),=D76/C76
-750000,=B77*0.85,=(B77*0.85*0.294*200)+(B77*0.85*0.408*50)+(B77*0.85*0.298*10),=D77/C77
-1000000,=B78*0.85,=(B78*0.85*0.294*200)+(B78*0.85*0.408*50)+(B78*0.85*0.298*10),=D78/C78
+"DAU SENSITIVITY (Base ARPUs: High=$200, Med=$50, Low=$10)"
+DAU,MAU,Annual Revenue,Monthly Revenue,ARPU/MAU
+200000,=B55*0.85,=(B55*0.85)*(0.294*200+0.408*50+0.298*10),=C55/12,=C55/B55
+300000,=B56*0.85,=(B56*0.85)*(0.294*200+0.408*50+0.298*10),=C56/12,=C56/B56
+350000,=B57*0.85,=(B57*0.85)*(0.294*200+0.408*50+0.298*10),=C57/12,=C57/B57
+500000,=B58*0.85,=(B58*0.85)*(0.294*200+0.408*50+0.298*10),=C58/12,=C58/B58
+750000,=B59*0.85,=(B59*0.85)*(0.294*200+0.408*50+0.298*10),=C59/12,=C59/B59
+1000000,=B60*0.85,=(B60*0.85)*(0.294*200+0.408*50+0.298*10),=C60/12,=C60/B60
 
-SEGMENT CHARACTERISTICS (from Oct 17 data)
+2D SENSITIVITY: DAU vs HIGH TWITCH ARPU
+DAU \ ARPU,100,150,200,250,300,500,1000
+200000,=(B65*0.85)*(0.294*B64+0.408*50+0.298*10),=(B65*0.85)*(0.294*C64+0.408*50+0.298*10),=(B65*0.85)*(0.294*D64+0.408*50+0.298*10),=(B65*0.85)*(0.294*E64+0.408*50+0.298*10),=(B65*0.85)*(0.294*F64+0.408*50+0.298*10),=(B65*0.85)*(0.294*G64+0.408*50+0.298*10),=(B65*0.85)*(0.294*H64+0.408*50+0.298*10)
+300000,=(B66*0.85)*(0.294*B64+0.408*50+0.298*10),=(B66*0.85)*(0.294*C64+0.408*50+0.298*10),=(B66*0.85)*(0.294*D64+0.408*50+0.298*10),=(B66*0.85)*(0.294*E64+0.408*50+0.298*10),=(B66*0.85)*(0.294*F64+0.408*50+0.298*10),=(B66*0.85)*(0.294*G64+0.408*50+0.298*10),=(B66*0.85)*(0.294*H64+0.408*50+0.298*10)
+350000,=(B67*0.85)*(0.294*B64+0.408*50+0.298*10),=(B67*0.85)*(0.294*C64+0.408*50+0.298*10),=(B67*0.85)*(0.294*D64+0.408*50+0.298*10),=(B67*0.85)*(0.294*E64+0.408*50+0.298*10),=(B67*0.85)*(0.294*F64+0.408*50+0.298*10),=(B67*0.85)*(0.294*G64+0.408*50+0.298*10),=(B67*0.85)*(0.294*H64+0.408*50+0.298*10)
+500000,=(B68*0.85)*(0.294*B64+0.408*50+0.298*10),=(B68*0.85)*(0.294*C64+0.408*50+0.298*10),=(B68*0.85)*(0.294*D64+0.408*50+0.298*10),=(B68*0.85)*(0.294*E64+0.408*50+0.298*10),=(B68*0.85)*(0.294*F64+0.408*50+0.298*10),=(B68*0.85)*(0.294*G64+0.408*50+0.298*10),=(B68*0.85)*(0.294*H64+0.408*50+0.298*10)
+750000,=(B69*0.85)*(0.294*B64+0.408*50+0.298*10),=(B69*0.85)*(0.294*C64+0.408*50+0.298*10),=(B69*0.85)*(0.294*D64+0.408*50+0.298*10),=(B69*0.85)*(0.294*E64+0.408*50+0.298*10),=(B69*0.85)*(0.294*F64+0.408*50+0.298*10),=(B69*0.85)*(0.294*G64+0.408*50+0.298*10),=(B69*0.85)*(0.294*H64+0.408*50+0.298*10)
+1000000,=(B70*0.85)*(0.294*B64+0.408*50+0.298*10),=(B70*0.85)*(0.294*C64+0.408*50+0.298*10),=(B70*0.85)*(0.294*D64+0.408*50+0.298*10),=(B70*0.85)*(0.294*E64+0.408*50+0.298*10),=(B70*0.85)*(0.294*F64+0.408*50+0.298*10),=(B70*0.85)*(0.294*G64+0.408*50+0.298*10),=(B70*0.85)*(0.294*H64+0.408*50+0.298*10)
 
-HIGH TWITCH SEGMENT
-Characteristic,Value,Source
-% of post volume,6.3%,Day Trading (0.96%) + Options (5.39%)
-Time-sensitive posts,7.2%,Posts with specific timeframes
-Prescriptive posts,15.9%,Give trade recommendations
-Options focus,3.7%,Explicit options discussion
-Engagement multiplier,10x,Post 10x more than average
+DATA SOURCE & ASSUMPTIONS
+Source,"19,477 posts from Oct 17, 2025"
+High Twitch,"Day traders, options traders, scalpers (29.4% of users, 71.6% of revenue)"
+Medium Twitch,"Swing & position traders (40.8% of users, 24.8% of revenue)"
+Low Twitch,"Passive observers, long-term investors (29.8% of users, 3.6% of revenue)"
 
-MEDIUM TWITCH SEGMENT
-Characteristic,Value,Source
-% of post volume,29.4%,Swing (5.94%) + Position (23.43%)
-Mention timeframes,22.6%,"Specific days, weeks, events"
-Active debate,23.9%,Posts with @mentions
-Engagement multiplier,3x,Post 3x more than average
-
-LOW TWITCH SEGMENT
-Characteristic,Value,Source
-% of post volume,64.3%,Directional (33.66%) + Passive (30.62%)
-Discussion-focused,84.1%,Talk ABOUT trading vs recommending
-Low conviction,94.2%,"Passive, observational"
-Engagement multiplier,1x,Baseline posting frequency
+KEY BEHAVIORAL SIGNALS
+Time-sensitive posts,7.2%,Posts with specific timeframes/deadlines
+Prescriptive posts,15.9%,Give explicit trade recommendations
+Active debate,23.9%,Posts with @mentions (conversation)
+Discussion-focused,84.1%,Talk ABOUT trading vs recommending trades
+High conviction,5.8%,"Strong opinions, disagreement"
