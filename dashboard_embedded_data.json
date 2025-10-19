@@ -1,0 +1,601 @@
+{
+  "overview": {
+    "total_messages": 19477,
+    "total_users": 3360,
+    "total_tickers": 1936,
+    "avg_engagement": 1.43,
+    "total_likes": 27832,
+    "total_replies": 0,
+    "posts_with_engagement_pct": 51.8,
+    "avg_posts_per_user": 5.8
+  },
+  "user_breakdown": {
+    "total_dau": 320000,
+    "estimated_posters": 20701,
+    "estimated_engagers": 68590,
+    "estimated_viewers": 230709,
+    "poster_pct": 6.47,
+    "engager_pct": 21.43,
+    "viewer_pct": 72.1
+  },
+  "strategies": {
+    "post_distribution": {
+      "DIRECTIONAL": {
+        "count": 6555,
+        "percentage": 33.66,
+        "description": "Price predictions, directional calls, sentiment without execution",
+        "timeframe": "Varies",
+        "twitch": "LOW-MEDIUM",
+        "skew": "Low"
+      },
+      "PASSIVE": {
+        "count": 5964,
+        "percentage": 30.62,
+        "description": "Observing, asking questions, minimal opinion",
+        "timeframe": "N/A",
+        "twitch": "NONE",
+        "skew": "None"
+      },
+      "POSITION": {
+        "count": 4564,
+        "percentage": 23.43,
+        "description": "Longer-term positions, news/catalyst driven, technical analysis",
+        "timeframe": "Weeks to months",
+        "twitch": "MEDIUM",
+        "skew": "Low"
+      },
+      "SWING": {
+        "count": 1157,
+        "percentage": 5.94,
+        "description": "Multi-day momentum, breakouts, short-term plays (days to weeks)",
+        "timeframe": "Days to weeks",
+        "twitch": "HIGH",
+        "skew": "Medium"
+      },
+      "OPTIONS": {
+        "count": 1050,
+        "percentage": 5.39,
+        "description": "Options, leverage, volatility trading (any timeframe)",
+        "timeframe": "Varies",
+        "twitch": "HIGH",
+        "skew": "ULTRA HIGH"
+      },
+      "DAY_TRADING": {
+        "count": 187,
+        "percentage": 0.96,
+        "description": "Intraday & ultra-short term (scalping, 0DTE, same-day)",
+        "timeframe": "Minutes to hours",
+        "twitch": "ULTRA HIGH",
+        "skew": "Medium"
+      }
+    },
+    "user_distribution": {
+      "27": 1,
+      "199": 1,
+      "85": 1,
+      "816": 1,
+      "1354": 1,
+      "879": 1
+    }
+  },
+  "instruments": {
+    "post_distribution": {
+      "STOCKS": {
+        "count": 15672,
+        "percentage": 80.46,
+        "description": "Individual stocks/equities"
+      },
+      "INDEXES": {
+        "count": 1601,
+        "percentage": 8.22,
+        "description": "Index funds/ETFs (SPY, QQQ, etc.)"
+      },
+      "CRYPTO": {
+        "count": 1143,
+        "percentage": 5.87,
+        "description": "Cryptocurrencies"
+      },
+      "OPTIONS": {
+        "count": 716,
+        "percentage": 3.68,
+        "description": "Options contracts (calls/puts)"
+      },
+      "LEVERAGED_ETFS": {
+        "count": 345,
+        "percentage": 1.77,
+        "description": "Leveraged/inverse ETFs (2x, 3x, inverse)"
+      }
+    },
+    "user_distribution": {
+      "OPTIONS": {
+        "count": 45,
+        "percentage": 1.34
+      },
+      "CRYPTO": {
+        "count": 143,
+        "percentage": 4.26
+      },
+      "LEVERAGED_ETFS": {
+        "count": 73,
+        "percentage": 2.17
+      },
+      "INDEXES": {
+        "count": 146,
+        "percentage": 4.35
+      },
+      "STOCKS": {
+        "count": 2953,
+        "percentage": 87.89
+      }
+    }
+  },
+  "time_distribution": {
+    "market_phase": {
+      "After-Hours": {
+        "count": 4839,
+        "percentage": 24.84
+      },
+      "Market Hours": {
+        "count": 9845,
+        "percentage": 50.55
+      },
+      "Pre-Market": {
+        "count": 2815,
+        "percentage": 14.45
+      },
+      "Overnight": {
+        "count": 1978,
+        "percentage": 10.16
+      }
+    },
+    "hourly": {
+      "00:00": {
+        "count": 350,
+        "et_hour": "20:00",
+        "percentage": 1.8
+      },
+      "01:00": {
+        "count": 383,
+        "et_hour": "21:00",
+        "percentage": 1.97
+      },
+      "02:00": {
+        "count": 294,
+        "et_hour": "22:00",
+        "percentage": 1.51
+      },
+      "03:00": {
+        "count": 267,
+        "et_hour": "23:00",
+        "percentage": 1.37
+      },
+      "04:00": {
+        "count": 186,
+        "et_hour": "00:00",
+        "percentage": 0.95
+      },
+      "05:00": {
+        "count": 140,
+        "et_hour": "01:00",
+        "percentage": 0.72
+      },
+      "06:00": {
+        "count": 151,
+        "et_hour": "02:00",
+        "percentage": 0.78
+      },
+      "07:00": {
+        "count": 207,
+        "et_hour": "03:00",
+        "percentage": 1.06
+      },
+      "08:00": {
+        "count": 219,
+        "et_hour": "04:00",
+        "percentage": 1.12
+      },
+      "09:00": {
+        "count": 243,
+        "et_hour": "05:00",
+        "percentage": 1.25
+      },
+      "10:00": {
+        "count": 329,
+        "et_hour": "06:00",
+        "percentage": 1.69
+      },
+      "11:00": {
+        "count": 656,
+        "et_hour": "07:00",
+        "percentage": 3.37
+      },
+      "12:00": {
+        "count": 854,
+        "et_hour": "08:00",
+        "percentage": 4.38
+      },
+      "13:00": {
+        "count": 1240,
+        "et_hour": "09:00",
+        "percentage": 6.37
+      },
+      "14:00": {
+        "count": 1503,
+        "et_hour": "10:00",
+        "percentage": 7.72
+      },
+      "15:00": {
+        "count": 1602,
+        "et_hour": "11:00",
+        "percentage": 8.23
+      },
+      "16:00": {
+        "count": 1402,
+        "et_hour": "12:00",
+        "percentage": 7.2
+      },
+      "17:00": {
+        "count": 1341,
+        "et_hour": "13:00",
+        "percentage": 6.89
+      },
+      "18:00": {
+        "count": 1441,
+        "et_hour": "14:00",
+        "percentage": 7.4
+      },
+      "19:00": {
+        "count": 1830,
+        "et_hour": "15:00",
+        "percentage": 9.4
+      },
+      "20:00": {
+        "count": 1577,
+        "et_hour": "16:00",
+        "percentage": 8.1
+      },
+      "21:00": {
+        "count": 1181,
+        "et_hour": "17:00",
+        "percentage": 6.06
+      },
+      "22:00": {
+        "count": 1085,
+        "et_hour": "18:00",
+        "percentage": 5.57
+      },
+      "23:00": {
+        "count": 996,
+        "et_hour": "19:00",
+        "percentage": 5.11
+      }
+    }
+  },
+  "device_distribution": {
+    "Desktop": {
+      "count": 7094,
+      "percentage": 36.42
+    },
+    "iOS": {
+      "count": 8929,
+      "percentage": 45.84
+    },
+    "Android": {
+      "count": 3228,
+      "percentage": 16.57
+    },
+    "Bot": {
+      "count": 66,
+      "percentage": 0.34
+    },
+    "Other": {
+      "count": 160,
+      "percentage": 0.82
+    }
+  },
+  "top_tickers": [
+    {
+      "ticker": "SPY",
+      "post_count": 1418
+    },
+    {
+      "ticker": "QQQ",
+      "post_count": 675
+    },
+    {
+      "ticker": "BTC.X",
+      "post_count": 574
+    },
+    {
+      "ticker": "TSLA",
+      "post_count": 383
+    },
+    {
+      "ticker": "NVDA",
+      "post_count": 316
+    },
+    {
+      "ticker": "GLD",
+      "post_count": 311
+    },
+    {
+      "ticker": "SUGP",
+      "post_count": 283
+    },
+    {
+      "ticker": "DJT",
+      "post_count": 276
+    },
+    {
+      "ticker": "BYND",
+      "post_count": 245
+    },
+    {
+      "ticker": "ORCL",
+      "post_count": 204
+    },
+    {
+      "ticker": "RANI",
+      "post_count": 201
+    },
+    {
+      "ticker": "BITF",
+      "post_count": 197
+    },
+    {
+      "ticker": "HIMS",
+      "post_count": 197
+    },
+    {
+      "ticker": "INTC",
+      "post_count": 186
+    },
+    {
+      "ticker": "AMZN",
+      "post_count": 182
+    },
+    {
+      "ticker": "AMD",
+      "post_count": 170
+    },
+    {
+      "ticker": "RGTI",
+      "post_count": 166
+    },
+    {
+      "ticker": "ETH.X",
+      "post_count": 160
+    },
+    {
+      "ticker": "IREN",
+      "post_count": 158
+    },
+    {
+      "ticker": "XRP.X",
+      "post_count": 153
+    }
+  ],
+  "time_sensitivity": {
+    "posts_with_timeframes_pct": 22.57,
+    "time_sensitive_pct": 7.2,
+    "avg_time_sensitivity": 3.01,
+    "timeframes": {
+      "temporal_modifier": 1557,
+      "specific exp": 343,
+      "today": 1058,
+      "quarter": 209,
+      "this week": 114,
+      "specific day": 553,
+      "next week": 472,
+      "earnings": 46,
+      "long-term": 97,
+      "catalyst": 69,
+      "expiration": 141,
+      "swing": 90,
+      "after-hours": 107,
+      "tomorrow": 97,
+      "weeks": 62,
+      "months": 45,
+      "close/EOD": 145,
+      "pre-market": 73,
+      "short-term": 72,
+      "fed": 9,
+      "power hour": 31,
+      "opening": 47,
+      "countdown": 6,
+      "mid-day": 8,
+      "ex-div": 1
+    }
+  },
+  "conviction": {
+    "high_conviction_pct": 5.79,
+    "avg_conviction_score": 6.02,
+    "indicators": {
+      "shouting_conviction": 5029,
+      "emphatic": 983,
+      "high_conviction": 365,
+      "direct_challenge": 4647,
+      "disagreement": 777,
+      "questioning": 245,
+      "specific_prediction": 63,
+      "contrarian": 35
+    }
+  },
+  "content_style": {
+    "prescriptive_pct": 15.9,
+    "discussion_pct": 84.1,
+    "prescriptive_users": [
+      {
+        "username": "1ightningAlerts",
+        "total_posts": 171,
+        "avg_engagement_per_post": 0.04,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 10.0,
+        "prescriptive_pct": 100.0,
+        "discussion_pct": 0.0,
+        "non_equity_pct": 1.2,
+        "unique_tickers": 171,
+        "followers": 90,
+        "following": 2
+      },
+      {
+        "username": "MoneyGroupLLC",
+        "total_posts": 110,
+        "avg_engagement_per_post": 0.02,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 19.9,
+        "prescriptive_pct": 99.1,
+        "discussion_pct": 0.9,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 112,
+        "followers": 5876,
+        "following": 21
+      },
+      {
+        "username": "SuperGreenToday",
+        "total_posts": 45,
+        "avg_engagement_per_post": 0.04,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 0.2,
+        "prescriptive_pct": 100.0,
+        "discussion_pct": 0.0,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 45,
+        "followers": 451,
+        "following": 1
+      }
+    ],
+    "discussion_users": [
+      {
+        "username": "LiquidThetaLEAPS",
+        "total_posts": 130,
+        "avg_engagement_per_post": 0.05,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 0.1,
+        "prescriptive_pct": 0.0,
+        "discussion_pct": 100.0,
+        "non_equity_pct": 2.3,
+        "unique_tickers": 130,
+        "followers": 981,
+        "following": 0
+      },
+      {
+        "username": "Masonato",
+        "total_posts": 95,
+        "avg_engagement_per_post": 0.06,
+        "avg_antagonism": 8.1,
+        "avg_urgency": 12.3,
+        "prescriptive_pct": 2.1,
+        "discussion_pct": 97.9,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 26,
+        "followers": 337,
+        "following": 9
+      },
+      {
+        "username": "topstockalerts",
+        "total_posts": 57,
+        "avg_engagement_per_post": 0.79,
+        "avg_antagonism": 0.7,
+        "avg_urgency": 2.4,
+        "prescriptive_pct": 19.3,
+        "discussion_pct": 80.7,
+        "non_equity_pct": 19.3,
+        "unique_tickers": 54,
+        "followers": 104546,
+        "following": 69
+      },
+      {
+        "username": "Paraboljoker",
+        "total_posts": 47,
+        "avg_engagement_per_post": 3.19,
+        "avg_antagonism": 2.5,
+        "avg_urgency": 4.3,
+        "prescriptive_pct": 6.4,
+        "discussion_pct": 93.6,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 38,
+        "followers": 13555,
+        "following": 133
+      },
+      {
+        "username": "TalkMarkets",
+        "total_posts": 46,
+        "avg_engagement_per_post": 0.15,
+        "avg_antagonism": 0.2,
+        "avg_urgency": 0.4,
+        "prescriptive_pct": 2.2,
+        "discussion_pct": 97.8,
+        "non_equity_pct": 41.3,
+        "unique_tickers": 57,
+        "followers": 31579,
+        "following": 343
+      },
+      {
+        "username": "SpartanVI",
+        "total_posts": 46,
+        "avg_engagement_per_post": 2.13,
+        "avg_antagonism": 0.7,
+        "avg_urgency": 1.0,
+        "prescriptive_pct": 2.2,
+        "discussion_pct": 97.8,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 36,
+        "followers": 3005,
+        "following": 74
+      },
+      {
+        "username": "StockVentures",
+        "total_posts": 44,
+        "avg_engagement_per_post": 0.55,
+        "avg_antagonism": 3.2,
+        "avg_urgency": 5.0,
+        "prescriptive_pct": 11.4,
+        "discussion_pct": 88.6,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 32,
+        "followers": -1,
+        "following": 0
+      },
+      {
+        "username": "Bazzzigar",
+        "total_posts": 44,
+        "avg_engagement_per_post": 1.0,
+        "avg_antagonism": 5.7,
+        "avg_urgency": 8.6,
+        "prescriptive_pct": 2.3,
+        "discussion_pct": 97.7,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 30,
+        "followers": 686,
+        "following": 25
+      },
+      {
+        "username": "TheVulcanDevilWhale",
+        "total_posts": 40,
+        "avg_engagement_per_post": 0.65,
+        "avg_antagonism": 6.5,
+        "avg_urgency": 9.8,
+        "prescriptive_pct": 10.0,
+        "discussion_pct": 90.0,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 12,
+        "followers": 863,
+        "following": 127
+      },
+      {
+        "username": "StocktwitsNews",
+        "total_posts": 40,
+        "avg_engagement_per_post": 2.52,
+        "avg_antagonism": 0.3,
+        "avg_urgency": 0.9,
+        "prescriptive_pct": 7.5,
+        "discussion_pct": 92.5,
+        "non_equity_pct": 15.0,
+        "unique_tickers": 76,
+        "followers": 82758,
+        "following": 24
+      }
+    ]
+  }
+}

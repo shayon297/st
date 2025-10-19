@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StockTwits Platform Analysis - October 17, 2025</title>
+    <title>StockTwits Analysis - October 17, 2025</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
@@ -13,9 +13,9 @@
         }
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
-            color: #2c3e50;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+            background: #f8f9fa;
+            color: #212529;
             line-height: 1.6;
             padding: 20px;
         }
@@ -28,27 +28,27 @@
         header {
             background: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 30px;
             text-align: center;
         }
         
         h1 {
             font-size: 2.5em;
-            color: #1a2332;
+            color: #212529;
             margin-bottom: 10px;
         }
         
         .subtitle {
-            font-size: 1.2em;
-            color: #7f8c8d;
-            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #6c757d;
+            margin-bottom: 25px;
         }
         
-        .stat-grid {
+        .overview-stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 20px;
             margin-top: 30px;
         }
@@ -57,9 +57,8 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 25px;
-            border-radius: 10px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
         }
         
         .stat-card h3 {
@@ -75,22 +74,22 @@
         .section {
             background: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 30px;
         }
         
         .section-title {
             font-size: 2em;
-            color: #1a2332;
+            color: #212529;
             margin-bottom: 10px;
             padding-bottom: 15px;
             border-bottom: 3px solid #667eea;
         }
         
         .section-subtitle {
-            font-size: 1.1em;
-            color: #7f8c8d;
+            font-size: 1em;
+            color: #6c757d;
             margin-bottom: 30px;
         }
         
@@ -107,87 +106,31 @@
             margin: 30px 0;
         }
         
-        .post-example {
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .metric-card {
             background: #f8f9fa;
             padding: 20px;
             border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 4px solid #667eea;
-        }
-        
-        .post-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        
-        .post-username {
-            font-weight: 600;
-            color: #667eea;
-        }
-        
-        .post-stats {
-            font-size: 0.9em;
-            color: #7f8c8d;
-        }
-        
-        .post-body {
-            color: #2c3e50;
-            line-height: 1.6;
-            margin: 15px 0;
-        }
-        
-        .post-link {
-            display: inline-block;
-            color: #667eea;
-            text-decoration: none;
-            font-size: 0.9em;
-            margin-top: 10px;
-        }
-        
-        .post-link:hover {
-            text-decoration: underline;
-        }
-        
-        .metric-highlight {
-            background: #e8f4f8;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid #3498db;
-        }
-        
-        .metric-highlight h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .indicator-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        
-        .indicator-card {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
             text-align: center;
-            border: 2px solid #ecf0f1;
+            border: 2px solid #e9ecef;
         }
         
-        .indicator-card .value {
-            font-size: 1.5em;
-            font-weight: 600;
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: 700;
             color: #667eea;
+            margin-bottom: 5px;
         }
         
-        .indicator-card .label {
-            font-size: 0.85em;
-            color: #7f8c8d;
-            margin-top: 5px;
+        .metric-card .label {
+            font-size: 0.9em;
+            color: #6c757d;
         }
         
         table {
@@ -199,53 +142,40 @@
         th {
             background: #667eea;
             color: white;
-            padding: 12px;
+            padding: 15px;
             text-align: left;
             font-weight: 600;
         }
         
         td {
-            padding: 12px;
-            border-bottom: 1px solid #ecf0f1;
+            padding: 15px;
+            border-bottom: 1px solid #dee2e6;
         }
         
         tr:hover {
             background: #f8f9fa;
         }
         
-        .badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            font-weight: 600;
-            margin: 2px;
+        .highlight-box {
+            background: #e7f1ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            margin: 25px 0;
         }
         
-        .badge-high {
-            background: #e74c3c;
-            color: white;
-        }
-        
-        .badge-medium {
-            background: #f39c12;
-            color: white;
-        }
-        
-        .badge-low {
-            background: #95a5a6;
-            color: white;
-        }
-        
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
+        .highlight-box h3 {
+            color: #212529;
+            margin-bottom: 10px;
         }
         
         @media (max-width: 768px) {
-            .chart-row, .two-col {
+            .chart-row {
                 grid-template-columns: 1fr;
+            }
+            
+            .overview-stats {
+                grid-template-columns: 1fr 1fr;
             }
         }
     </style>
@@ -254,16 +184,196 @@
     <div class="container">
         <header>
             <h1>StockTwits Platform Analysis</h1>
-            <p class="subtitle">October 17, 2025 - Comprehensive Behavioral & Sentiment Analysis</p>
-            <div class="stat-grid" id="overview-stats"></div>
+            <p class="subtitle">October 17, 2025 - Behavioral & Market Analysis</p>
+            <div class="overview-stats">
+                <div class="stat-card">
+                    <h3>19,477</h3>
+                    <p>Total Posts</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3,360</h3>
+                    <p>Unique Users</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1,936</h3>
+                    <p>Tickers Discussed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1.43</h3>
+                    <p>Avg Engagement</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5.8</h3>
+                    <p>Posts/User</p>
+                </div>
+            </div>
         </header>
 
-        <!-- Conviction & Debate -->
+        <!-- 1. Trading Strategy -->
         <section class="section">
-            <h2 class="section-title">Conviction & Debate</h2>
-            <p class="section-subtitle">Measuring strong opinions, disagreement, and debate culture</p>
+            <h2 class="section-title">1. Trading Strategy Distribution</h2>
+            <p class="section-subtitle">How users approach the market - by post volume</p>
             
-            <div class="indicator-grid" id="conviction-metrics"></div>
+            <div class="chart-row">
+                <div class="chart-container">
+                    <canvas id="strategyChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="strategyPieChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>Key Insight</h3>
+                <p><strong>69.4% Active Traders</strong> - Directional (33.7%), Position (23.4%), Swing (5.9%), Options (5.4%), Day Trading (1.0%)</p>
+                <p style="margin-top: 10px;"><strong>30.6% Passive</strong> - Observing, asking questions, minimal trading intent</p>
+            </div>
+        </section>
+
+        <!-- 2. Instrument Preference -->
+        <section class="section">
+            <h2 class="section-title">2. Instrument Preference</h2>
+            <p class="section-subtitle">What users are trading - stocks, options, crypto, indexes, leveraged ETFs</p>
+            
+            <div class="chart-row">
+                <div class="chart-container">
+                    <canvas id="instrumentsPostChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="instrumentsUserChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">80.5%</div>
+                    <div class="label">Stocks (Posts)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">87.9%</div>
+                    <div class="label">Stocks (Users)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">3.7%</div>
+                    <div class="label">Options (Posts)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">1.3%</div>
+                    <div class="label">Options (Users)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Time of Posting -->
+        <section class="section">
+            <h2 class="section-title">3. Time of Posting</h2>
+            <p class="section-subtitle">When users post - by market phase and hour</p>
+            
+            <div class="chart-row">
+                <div class="chart-container">
+                    <canvas id="marketPhaseChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="hourlyChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">50.6%</div>
+                    <div class="label">Market Hours</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">24.8%</div>
+                    <div class="label">After-Hours</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">14.5%</div>
+                    <div class="label">Pre-Market</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">63.4%</div>
+                    <div class="label">Mobile (iOS + Android)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Top Tickers -->
+        <section class="section">
+            <h2 class="section-title">4. Top Tickers</h2>
+            <p class="section-subtitle">Most discussed symbols on October 17, 2025</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Ticker</th>
+                        <th>Posts</th>
+                        <th>% of Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tickers-table"></tbody>
+            </table>
+        </section>
+
+        <!-- 5. Time Sensitivity -->
+        <section class="section">
+            <h2 class="section-title">5. Time Sensitivity</h2>
+            <p class="section-subtitle">Posts with timeframes, deadlines, and temporal constraints</p>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">22.6%</div>
+                    <div class="label">Posts with Timeframes</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">7.2%</div>
+                    <div class="label">Highly Time-Sensitive</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">3.0/100</div>
+                    <div class="label">Avg Time-Sensitivity</div>
+                </div>
+            </div>
+            
+            <div class="chart-row">
+                <div class="chart-container">
+                    <canvas id="timeframesChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="timeSensDistChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>Key Insight</h3>
+                <p><strong>Nearly 1 in 4 posts</strong> mention specific timeframes. Most common: "today" (5.4%), specific days (2.8%), options expiration (2.5%)</p>
+            </div>
+        </section>
+
+        <!-- 6. Conviction & Debate -->
+        <section class="section">
+            <h2 class="section-title">6. Conviction & Debate</h2>
+            <p class="section-subtitle">Strong opinions, disagreement, and debate culture</p>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="value">5.8%</div>
+                    <div class="label">High Conviction Posts</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">6.0/100</div>
+                    <div class="label">Avg Conviction Score</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">4.0%</div>
+                    <div class="label">Explicit Disagreement</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">23.9%</div>
+                    <div class="label">Direct Challenges</div>
+                </div>
+            </div>
             
             <div class="chart-row">
                 <div class="chart-container">
@@ -274,698 +384,258 @@
                 </div>
             </div>
             
-            <h3 style="margin-top: 40px; margin-bottom: 20px;">Top High-Conviction Posts</h3>
-            <div id="conviction-examples"></div>
-        </section>
-
-        <!-- Time Sensitivity -->
-        <section class="section">
-            <h2 class="section-title">Time Sensitivity & Urgency</h2>
-            <p class="section-subtitle">Posts with timeframes, deadlines, and temporal constraints</p>
-            
-            <div class="indicator-grid" id="time-metrics"></div>
-            
-            <div class="chart-row">
-                <div class="chart-container">
-                    <canvas id="timeframesChart"></canvas>
-                </div>
-                <div class="chart-container">
-                    <canvas id="timeSensitivityChart"></canvas>
-                </div>
-            </div>
-            
-            <h3 style="margin-top: 40px; margin-bottom: 20px;">Top Time-Sensitive Posts</h3>
-            <div id="time-examples"></div>
-        </section>
-
-        <!-- Content Style -->
-        <section class="section">
-            <h2 class="section-title">Content Style: Prescriptive vs Discussion</h2>
-            <p class="section-subtitle">Are users giving trade recommendations or discussing markets?</p>
-            
-            <div class="chart-row">
-                <div class="chart-container">
-                    <canvas id="contentStyleChart"></canvas>
-                </div>
-                <div>
-                    <div class="metric-highlight">
-                        <h3>Key Insight</h3>
-                        <p><strong>84% of posts are discussion-focused</strong> - users talk ABOUT trading more than RECOMMENDING specific trades. Platform serves as information/discussion hub rather than signal service.</p>
-                    </div>
-                    
-                    <h4 style="margin-top: 30px; margin-bottom: 15px;">Top Prescriptive Users</h4>
-                    <div id="prescriptive-users"></div>
-                    
-                    <h4 style="margin-top: 30px; margin-bottom: 15px;">Top Discussion Users</h4>
-                    <div id="discussion-users"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Post Intent -->
-        <section class="section">
-            <h2 class="section-title">Post Intent Classification</h2>
-            <p class="section-subtitle">What are users trying to communicate?</p>
-            
-            <div class="chart-container">
-                <canvas id="intentChart"></canvas>
-            </div>
-            
-            <div class="two-col" id="intent-examples" style="margin-top: 30px;"></div>
-        </section>
-
-        <!-- Trading Strategies -->
-        <section class="section">
-            <h2 class="section-title">Trading Strategies & Timeframes</h2>
-            <p class="section-subtitle">How users approach the market - by post and by user</p>
-            
-            <div class="chart-row">
-                <div class="chart-container">
-                    <canvas id="strategyPostsChart"></canvas>
-                </div>
-                <div class="chart-container">
-                    <canvas id="strategyUsersChart"></canvas>
-                </div>
-            </div>
-            
-            <h3 style="margin-top: 40px; margin-bottom: 20px;">Top Traders by Strategy</h3>
-            <div id="strategy-tables"></div>
-        </section>
-
-        <!-- Instruments -->
-        <section class="section">
-            <h2 class="section-title">Instrument Preferences</h2>
-            <p class="section-subtitle">What are users trading? Stocks, options, crypto, indexes, leveraged ETFs</p>
-            
-            <div class="chart-row">
-                <div class="chart-container">
-                    <canvas id="instrumentPostsChart"></canvas>
-                </div>
-                <div class="chart-container">
-                    <canvas id="instrumentUsersChart"></canvas>
-                </div>
-            </div>
-            
-            <h3 style="margin-top: 40px; margin-bottom: 20px;">Top Users by Instrument</h3>
-            <div id="instrument-users"></div>
-        </section>
-
-        <!-- Time & Device -->
-        <section class="section">
-            <h2 class="section-title">Platform Usage Patterns</h2>
-            <p class="section-subtitle">When and how users engage with StockTwits</p>
-            
-            <div class="chart-row">
-                <div class="chart-container">
-                    <canvas id="timeDistChart"></canvas>
-                </div>
-                <div class="chart-container">
-                    <canvas id="deviceChart"></canvas>
-                </div>
-            </div>
-        </section>
-
-        <!-- Top Posts -->
-        <section class="section">
-            <h2 class="section-title">Top Engaged Posts</h2>
-            <p class="section-subtitle">Most liked and discussed posts from October 17, 2025</p>
-            <div id="top-posts"></div>
-        </section>
-
-        <!-- Top Users & Tickers -->
-        <section class="section">
-            <h2 class="section-title">Top Users & Tickers</h2>
-            <div class="two-col">
-                <div>
-                    <h3 style="margin-bottom: 15px;">Most Active Users</h3>
-                    <table id="top-users-table"></table>
-                </div>
-                <div>
-                    <h3 style="margin-bottom: 15px;">Most Discussed Tickers</h3>
-                    <table id="top-tickers-table"></table>
-                </div>
+            <div class="highlight-box">
+                <h3>Key Insight</h3>
+                <p><strong>Discussion-heavy platform</strong> (84% discussion vs 16% prescriptive). Users talk ABOUT trading more than RECOMMENDING specific trades.</p>
+                <p style="margin-top: 10px;"><strong>Moderate conviction</strong> - 25.8% use emphatic language (ALL CAPS), 5.8% express strong opinions, but platform remains collaborative and civil.</p>
             </div>
         </section>
     </div>
 
     <script>
-        // Load and process data
-        fetch('vercel_dashboard_data.json')
-            .then(response => response.json())
-            .then(data => {
-                console.log('Data loaded:', data);
-                initializeDashboard(data);
-            })
-            .catch(error => console.error('Error loading data:', error));
+        // Embedded data
+        const data = {"overview":{"total_messages":19477,"total_users":3360,"total_tickers":1936,"avg_engagement":1.43,"total_likes":27832,"total_replies":0,"posts_with_engagement_pct":51.8,"avg_posts_per_user":5.8},"user_breakdown":{"total_dau":320000,"estimated_posters":20701,"estimated_engagers":68590,"estimated_viewers":230709,"poster_pct":6.47,"engager_pct":21.43,"viewer_pct":72.1},"strategies":{"post_distribution":{"DIRECTIONAL":{"count":6555,"percentage":33.66,"description":"Price predictions, directional calls, sentiment without execution","timeframe":"Varies","twitch":"LOW-MEDIUM","skew":"Low"},"PASSIVE":{"count":5964,"percentage":30.62,"description":"Observing, asking questions, minimal opinion","timeframe":"N/A","twitch":"NONE","skew":"None"},"POSITION":{"count":4564,"percentage":23.43,"description":"Longer-term positions, news/catalyst driven, technical analysis","timeframe":"Weeks to months","twitch":"MEDIUM","skew":"Low"},"SWING":{"count":1157,"percentage":5.94,"description":"Multi-day momentum, breakouts, short-term plays (days to weeks)","timeframe":"Days to weeks","twitch":"HIGH","skew":"Medium"},"OPTIONS":{"count":1050,"percentage":5.39,"description":"Options, leverage, volatility trading (any timeframe)","timeframe":"Varies","twitch":"HIGH","skew":"ULTRA HIGH"},"DAY_TRADING":{"count":187,"percentage":0.96,"description":"Intraday & ultra-short term (scalping, 0DTE, same-day)","timeframe":"Minutes to hours","twitch":"ULTRA HIGH","skew":"Medium"}},"user_distribution":{"27":1,"199":1,"85":1,"816":1,"1354":1,"879":1}},"instruments":{"post_distribution":{"STOCKS":{"count":15672,"percentage":80.46,"description":"Individual stocks/equities"},"INDEXES":{"count":1601,"percentage":8.22,"description":"Index funds/ETFs (SPY, QQQ, etc.)"},"CRYPTO":{"count":1143,"percentage":5.87,"description":"Cryptocurrencies"},"OPTIONS":{"count":716,"percentage":3.68,"description":"Options contracts (calls/puts)"},"LEVERAGED_ETFS":{"count":345,"percentage":1.77,"description":"Leveraged/inverse ETFs (2x, 3x, inverse)"}},"user_distribution":{"OPTIONS":{"count":45,"percentage":1.34},"CRYPTO":{"count":143,"percentage":4.26},"LEVERAGED_ETFS":{"count":73,"percentage":2.17},"INDEXES":{"count":146,"percentage":4.35},"STOCKS":{"count":2953,"percentage":87.89}}},"time_distribution":{"market_phase":{"After-Hours":{"count":4839,"percentage":24.84},"Market Hours":{"count":9845,"percentage":50.55},"Pre-Market":{"count":2815,"percentage":14.45},"Overnight":{"count":1978,"percentage":10.16}},"hourly":{"00:00":{"count":350,"et_hour":"20:00","percentage":1.8},"01:00":{"count":383,"et_hour":"21:00","percentage":1.97},"02:00":{"count":294,"et_hour":"22:00","percentage":1.51},"03:00":{"count":267,"et_hour":"23:00","percentage":1.37},"04:00":{"count":186,"et_hour":"00:00","percentage":0.95},"05:00":{"count":140,"et_hour":"01:00","percentage":0.72},"06:00":{"count":151,"et_hour":"02:00","percentage":0.78},"07:00":{"count":207,"et_hour":"03:00","percentage":1.06},"08:00":{"count":219,"et_hour":"04:00","percentage":1.12},"09:00":{"count":243,"et_hour":"05:00","percentage":1.25},"10:00":{"count":329,"et_hour":"06:00","percentage":1.69},"11:00":{"count":656,"et_hour":"07:00","percentage":3.37},"12:00":{"count":854,"et_hour":"08:00","percentage":4.38},"13:00":{"count":1240,"et_hour":"09:00","percentage":6.37},"14:00":{"count":1503,"et_hour":"10:00","percentage":7.72},"15:00":{"count":1602,"et_hour":"11:00","percentage":8.23},"16:00":{"count":1402,"et_hour":"12:00","percentage":7.2},"17:00":{"count":1341,"et_hour":"13:00","percentage":6.89},"18:00":{"count":1441,"et_hour":"14:00","percentage":7.4},"19:00":{"count":1830,"et_hour":"15:00","percentage":9.4},"20:00":{"count":1577,"et_hour":"16:00","percentage":8.1},"21:00":{"count":1181,"et_hour":"17:00","percentage":6.06},"22:00":{"count":1085,"et_hour":"18:00","percentage":5.57},"23:00":{"count":996,"et_hour":"19:00","percentage":5.11}}},"device_distribution":{"Desktop":{"count":7094,"percentage":36.42},"iOS":{"count":8929,"percentage":45.84},"Android":{"count":3228,"percentage":16.57},"Bot":{"count":66,"percentage":0.34},"Other":{"count":160,"percentage":0.82}},"top_tickers":[{"ticker":"SPY","post_count":1418},{"ticker":"QQQ","post_count":675},{"ticker":"BTC.X","post_count":574},{"ticker":"TSLA","post_count":383},{"ticker":"NVDA","post_count":316},{"ticker":"GLD","post_count":311},{"ticker":"SUGP","post_count":283},{"ticker":"DJT","post_count":276},{"ticker":"BYND","post_count":245},{"ticker":"ORCL","post_count":204},{"ticker":"RANI","post_count":201},{"ticker":"BITF","post_count":197},{"ticker":"HIMS","post_count":197},{"ticker":"INTC","post_count":186},{"ticker":"AMZN","post_count":182},{"ticker":"AMD","post_count":170},{"ticker":"RGTI","post_count":166},{"ticker":"ETH.X","post_count":160},{"ticker":"IREN","post_count":158},{"ticker":"XRP.X","post_count":153}],"time_sensitivity":{"posts_with_timeframes_pct":22.57,"time_sensitive_pct":7.2,"avg_time_sensitivity":3.01,"timeframes":{"temporal_modifier":1557,"specific exp":343,"today":1058,"quarter":209,"this week":114,"specific day":553,"next week":472,"earnings":46,"long-term":97,"catalyst":69,"expiration":141,"swing":90,"after-hours":107,"tomorrow":97,"weeks":62,"months":45,"close/EOD":145,"pre-market":73,"short-term":72,"fed":9,"power hour":31,"opening":47,"countdown":6,"mid-day":8,"ex-div":1}},"conviction":{"high_conviction_pct":5.79,"avg_conviction_score":6.02,"indicators":{"shouting_conviction":5029,"emphatic":983,"high_conviction":365,"direct_challenge":4647,"disagreement":777,"questioning":245,"specific_prediction":63,"contrarian":35}},"content_style":{"prescriptive_pct":15.9,"discussion_pct":84.1}};
 
-        function initializeDashboard(data) {
-            renderOverviewStats(data.overview, data.user_breakdown);
-            renderConvictionSection(data.conviction);
-            renderTimeSensitivitySection(data.time_sensitivity);
-            renderContentStyleSection(data.content_style);
-            renderIntentSection(data.intent);
-            renderStrategySection(data.strategies);
-            renderInstrumentSection(data.instruments);
-            renderTimeDeviceSection(data.time_distribution, data.device_distribution);
-            renderTopPosts(data.top_posts);
-            renderTopUsersAndTickers(data.top_users, data.top_tickers);
-        }
+        // 1. Trading Strategy
+        const strategyData = data.strategies.post_distribution;
+        const strategyLabels = Object.keys(strategyData);
+        const strategyCounts = strategyLabels.map(k => strategyData[k].count);
+        const strategyColors = ['#667eea', '#764ba2', '#f093fb', '#4facfe', '#43e97b', '#fa709a'];
+        
+        new Chart(document.getElementById('strategyChart'), {
+            type: 'bar',
+            data: {
+                labels: strategyLabels,
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: strategyCounts,
+                    backgroundColor: strategyColors
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Trading Strategy Distribution (Posts)', font: { size: 16 } },
+                    legend: { display: false }
+                }
+            }
+        });
+        
+        new Chart(document.getElementById('strategyPieChart'), {
+            type: 'doughnut',
+            data: {
+                labels: strategyLabels,
+                datasets: [{
+                    data: strategyCounts,
+                    backgroundColor: strategyColors
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Strategy Distribution %', font: { size: 16 } }
+                }
+            }
+        });
 
-        function renderOverviewStats(overview, userBreakdown) {
-            const container = document.getElementById('overview-stats');
-            const stats = [
-                { label: 'Total Posts', value: overview.total_messages.toLocaleString() },
-                { label: 'Unique Users', value: overview.total_users.toLocaleString() },
-                { label: 'Tickers Discussed', value: overview.total_tickers.toLocaleString() },
-                { label: 'Avg Engagement', value: overview.avg_engagement.toFixed(1) },
-                { label: 'Posts/User', value: overview.avg_posts_per_user.toFixed(1) },
-                { label: 'Posts w/ Engagement', value: overview.posts_with_engagement_pct + '%' }
-            ];
-            
-            container.innerHTML = stats.map(stat => `
-                <div class="stat-card">
-                    <h3>${stat.value}</h3>
-                    <p>${stat.label}</p>
-                </div>
-            `).join('');
-        }
+        // 2. Instruments
+        const instrumentsPost = data.instruments.post_distribution;
+        const instrumentsUser = data.instruments.user_distribution;
+        
+        new Chart(document.getElementById('instrumentsPostChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(instrumentsPost),
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: Object.keys(instrumentsPost).map(k => instrumentsPost[k].count),
+                    backgroundColor: '#4facfe'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Instrument Preference (Posts)', font: { size: 16 } }
+                }
+            }
+        });
+        
+        new Chart(document.getElementById('instrumentsUserChart'), {
+            type: 'pie',
+            data: {
+                labels: Object.keys(instrumentsUser),
+                datasets: [{
+                    data: Object.keys(instrumentsUser).map(k => instrumentsUser[k].count),
+                    backgroundColor: ['#667eea', '#43e97b', '#fa709a', '#f093fb', '#4facfe']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Instrument Preference (Users)', font: { size: 16 } }
+                }
+            }
+        });
 
-        function renderConvictionSection(conviction) {
-            // Metrics
-            const metricsContainer = document.getElementById('conviction-metrics');
-            metricsContainer.innerHTML = `
-                <div class="indicator-card">
-                    <div class="value">${conviction.high_conviction_pct}%</div>
-                    <div class="label">High Conviction Posts</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${conviction.avg_conviction_score}/100</div>
-                    <div class="label">Avg Conviction Score</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${conviction.indicators.disagreement || 0}</div>
-                    <div class="label">Explicit Disagreement</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${conviction.indicators.direct_challenge || 0}</div>
-                    <div class="label">Direct Challenges</div>
-                </div>
+        // 3. Time of Posting
+        const marketPhase = data.time_distribution.market_phase;
+        
+        new Chart(document.getElementById('marketPhaseChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(marketPhase),
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: Object.keys(marketPhase).map(k => marketPhase[k].count),
+                    backgroundColor: ['#667eea', '#43e97b', '#f093fb', '#fa709a']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Posting by Market Phase', font: { size: 16 } }
+                }
+            }
+        });
+        
+        const hourly = data.time_distribution.hourly;
+        const hourlyLabels = Object.keys(hourly).map(k => hourly[k].et_hour);
+        const hourlyCounts = Object.keys(hourly).map(k => hourly[k].count);
+        
+        new Chart(document.getElementById('hourlyChart'), {
+            type: 'line',
+            data: {
+                labels: hourlyLabels,
+                datasets: [{
+                    label: 'Posts per Hour',
+                    data: hourlyCounts,
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Hourly Distribution (ET)', font: { size: 16 } }
+                },
+                scales: {
+                    x: { title: { display: true, text: 'Hour (ET)' } },
+                    y: { title: { display: true, text: 'Number of Posts' } }
+                }
+            }
+        });
+
+        // 4. Top Tickers Table
+        const tickersTable = document.getElementById('tickers-table');
+        const totalPosts = data.overview.total_messages;
+        data.top_tickers.forEach((ticker, i) => {
+            const row = tickersTable.insertRow();
+            row.innerHTML = `
+                <td><strong>${i + 1}</strong></td>
+                <td><strong>$${ticker.ticker}</strong></td>
+                <td>${ticker.post_count.toLocaleString()}</td>
+                <td>${(ticker.post_count / totalPosts * 100).toFixed(2)}%</td>
             `;
+        });
 
-            // Chart 1: Indicators
-            const ctx1 = document.getElementById('convictionIndicatorsChart');
-            const topIndicators = Object.entries(conviction.indicators)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 6);
-            
-            new Chart(ctx1, {
-                type: 'bar',
-                data: {
-                    labels: topIndicators.map(([k]) => k.replace(/_/g, ' ')),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: topIndicators.map(([, v]) => v),
-                        backgroundColor: 'rgba(102, 126, 234, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Top Conviction Indicators' }
-                    }
+        // 5. Time Sensitivity
+        const timeframes = data.time_sensitivity.timeframes;
+        const topTimeframes = Object.entries(timeframes)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        
+        new Chart(document.getElementById('timeframesChart'), {
+            type: 'bar',
+            data: {
+                labels: topTimeframes.map(([k]) => k),
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: topTimeframes.map(([, v]) => v),
+                    backgroundColor: '#43e97b'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: {
+                    title: { display: true, text: 'Top Timeframe Mentions', font: { size: 16 } }
                 }
-            });
-
-            // Chart 2: Distribution
-            const ctx2 = document.getElementById('convictionDistChart');
-            new Chart(ctx2, {
-                type: 'doughnut',
-                data: {
-                    labels: ['High Conviction', 'Low Conviction'],
-                    datasets: [{
-                        data: [conviction.high_conviction_pct, 100 - conviction.high_conviction_pct],
-                        backgroundColor: ['rgba(231, 76, 60, 0.8)', 'rgba(149, 165, 166, 0.8)']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Conviction Distribution' }
-                    }
+            }
+        });
+        
+        new Chart(document.getElementById('timeSensDistChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Time-Sensitive', 'With Timeframes', 'No Timeframes'],
+                datasets: [{
+                    data: [
+                        data.time_sensitivity.time_sensitive_pct,
+                        data.time_sensitivity.posts_with_timeframes_pct - data.time_sensitivity.time_sensitive_pct,
+                        100 - data.time_sensitivity.posts_with_timeframes_pct
+                    ],
+                    backgroundColor: ['#e74c3c', '#f39c12', '#95a5a6']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Time-Sensitivity Distribution', font: { size: 16 } }
                 }
-            });
+            }
+        });
 
-            // Examples
-            const examplesContainer = document.getElementById('conviction-examples');
-            examplesContainer.innerHTML = conviction.top_posts.slice(0, 5).map(post => `
-                <div class="post-example">
-                    <div class="post-header">
-                        <span class="post-username">@${post.username}</span>
-                        <span class="post-stats">Score: ${post.score}/100</span>
-                    </div>
-                    <div class="post-body">${post.body.substring(0, 300)}${post.body.length > 300 ? '...' : ''}</div>
-                    <div style="margin-top: 10px;">
-                        ${post.indicators.map(i => `<span class="badge badge-medium">${i}</span>`).join('')}
-                    </div>
-                    ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
-                </div>
-            `).join('');
-        }
-
-        function renderTimeSensitivitySection(timeSens) {
-            // Metrics
-            const metricsContainer = document.getElementById('time-metrics');
-            metricsContainer.innerHTML = `
-                <div class="indicator-card">
-                    <div class="value">${timeSens.posts_with_timeframes_pct}%</div>
-                    <div class="label">Posts with Timeframes</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${timeSens.time_sensitive_pct}%</div>
-                    <div class="label">Highly Time-Sensitive</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${timeSens.avg_time_sensitivity}/100</div>
-                    <div class="label">Avg Time-Sensitivity</div>
-                </div>
-                <div class="indicator-card">
-                    <div class="value">${timeSens.timeframes.today || 0}</div>
-                    <div class="label">"Today" Mentions</div>
-                </div>
-            `;
-
-            // Chart 1: Timeframes
-            const ctx1 = document.getElementById('timeframesChart');
-            const topTimeframes = Object.entries(timeSens.timeframes)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 8);
-            
-            new Chart(ctx1, {
-                type: 'bar',
-                data: {
-                    labels: topTimeframes.map(([k]) => k.replace(/_/g, ' ')),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: topTimeframes.map(([, v]) => v),
-                        backgroundColor: 'rgba(52, 152, 219, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    indexAxis: 'y',
-                    plugins: {
-                        title: { display: true, text: 'Most Common Timeframes' }
-                    }
+        // 6. Conviction & Debate
+        const convictionIndicators = data.conviction.indicators;
+        const topIndicators = Object.entries(convictionIndicators)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 6);
+        
+        new Chart(document.getElementById('convictionIndicatorsChart'), {
+            type: 'bar',
+            data: {
+                labels: topIndicators.map(([k]) => k.replace(/_/g, ' ')),
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: topIndicators.map(([, v]) => v),
+                    backgroundColor: '#f093fb'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Conviction Indicators', font: { size: 16 } }
                 }
-            });
-
-            // Chart 2: Distribution
-            const ctx2 = document.getElementById('timeSensitivityChart');
-            new Chart(ctx2, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Time-Sensitive', 'With Timeframes', 'No Timeframes'],
-                    datasets: [{
-                        data: [
-                            timeSens.time_sensitive_pct,
-                            timeSens.posts_with_timeframes_pct - timeSens.time_sensitive_pct,
-                            100 - timeSens.posts_with_timeframes_pct
-                        ],
-                        backgroundColor: [
-                            'rgba(231, 76, 60, 0.8)',
-                            'rgba(241, 196, 15, 0.8)',
-                            'rgba(149, 165, 166, 0.8)'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Time-Sensitivity Distribution' }
-                    }
+            }
+        });
+        
+        new Chart(document.getElementById('convictionDistChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['High Conviction', 'Low Conviction'],
+                datasets: [{
+                    data: [data.conviction.high_conviction_pct, 100 - data.conviction.high_conviction_pct],
+                    backgroundColor: ['#e74c3c', '#95a5a6']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Conviction Distribution', font: { size: 16 } }
                 }
-            });
-
-            // Examples
-            const examplesContainer = document.getElementById('time-examples');
-            examplesContainer.innerHTML = timeSens.top_posts.slice(0, 5).map(post => `
-                <div class="post-example">
-                    <div class="post-header">
-                        <span class="post-username">@${post.username}</span>
-                        <span class="post-stats">Score: ${post.score}/100</span>
-                    </div>
-                    <div class="post-body">${post.body.substring(0, 300)}${post.body.length > 300 ? '...' : ''}</div>
-                    <div style="margin-top: 10px;">
-                        ${post.timeframes.map(i => `<span class="badge badge-high">${i}</span>`).join('')}
-                    </div>
-                    ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
-                </div>
-            `).join('');
-        }
-
-        function renderContentStyleSection(contentStyle) {
-            // Chart
-            const ctx = document.getElementById('contentStyleChart');
-            new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: ['Discussion', 'Prescriptive'],
-                    datasets: [{
-                        data: [contentStyle.discussion_pct, contentStyle.prescriptive_pct],
-                        backgroundColor: ['rgba(46, 204, 113, 0.8)', 'rgba(230, 126, 34, 0.8)']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Prescriptive vs Discussion' }
-                    }
-                }
-            });
-
-            // Prescriptive users
-            const prescriptiveContainer = document.getElementById('prescriptive-users');
-            prescriptiveContainer.innerHTML = contentStyle.prescriptive_users.slice(0, 5).map(user => `
-                <div style="padding: 8px; border-bottom: 1px solid #ecf0f1;">
-                    <strong>@${user.username}</strong> - ${user.prescriptive_pct.toFixed(1)}% prescriptive
-                    <span class="badge badge-medium">${user.followers} followers</span>
-                </div>
-            `).join('');
-
-            // Discussion users
-            const discussionContainer = document.getElementById('discussion-users');
-            discussionContainer.innerHTML = contentStyle.discussion_users.slice(0, 5).map(user => `
-                <div style="padding: 8px; border-bottom: 1px solid #ecf0f1;">
-                    <strong>@${user.username}</strong> - ${user.discussion_pct.toFixed(1)}% discussion
-                    <span class="badge badge-low">${user.followers} followers</span>
-                </div>
-            `).join('');
-        }
-
-        function renderIntentSection(intent) {
-            // Chart
-            const ctx = document.getElementById('intentChart');
-            const sortedIntent = Object.entries(intent.distribution)
-                .sort((a, b) => b[1] - a[1]);
-            
-            new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: sortedIntent.map(([k]) => k),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: sortedIntent.map(([, v]) => v),
-                        backgroundColor: 'rgba(155, 89, 182, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Post Intent Distribution' }
-                    }
-                }
-            });
-
-            // Examples
-            const examplesContainer = document.getElementById('intent-examples');
-            const intentCategories = Object.keys(intent.examples);
-            examplesContainer.innerHTML = intentCategories.map(category => {
-                const examples = intent.examples[category] || [];
-                return `
-                    <div>
-                        <h4 style="color: #667eea; margin-bottom: 10px;">${category} (${intent.distribution[category] || 0} posts)</h4>
-                        ${examples.slice(0, 2).map(ex => `
-                            <div class="post-example" style="font-size: 0.9em; padding: 12px;">
-                                <strong>@${ex.username}:</strong> ${ex.body.substring(0, 150)}${ex.body.length > 150 ? '...' : ''}
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function renderStrategySection(strategies) {
-            // Chart 1: Posts
-            const ctx1 = document.getElementById('strategyPostsChart');
-            const sortedStrategies = Object.entries(strategies.post_distribution)
-                .sort((a, b) => b[1] - a[1]);
-            
-            new Chart(ctx1, {
-                type: 'bar',
-                data: {
-                    labels: sortedStrategies.map(([k]) => k),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: sortedStrategies.map(([, v]) => v),
-                        backgroundColor: 'rgba(52, 152, 219, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Strategy Distribution (Posts)' }
-                    }
-                }
-            });
-
-            // Chart 2: Users
-            const ctx2 = document.getElementById('strategyUsersChart');
-            const sortedUserStrategies = Object.entries(strategies.user_distribution)
-                .sort((a, b) => b[1] - a[1]);
-            
-            new Chart(ctx2, {
-                type: 'doughnut',
-                data: {
-                    labels: sortedUserStrategies.map(([k]) => k),
-                    datasets: [{
-                        data: sortedUserStrategies.map(([, v]) => v),
-                        backgroundColor: [
-                            'rgba(231, 76, 60, 0.8)',
-                            'rgba(241, 196, 15, 0.8)',
-                            'rgba(52, 152, 219, 0.8)',
-                            'rgba(46, 204, 113, 0.8)',
-                            'rgba(155, 89, 182, 0.8)',
-                            'rgba(52, 73, 94, 0.8)'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Strategy Distribution (Users)' }
-                    }
-                }
-            });
-
-            // Tables
-            const tablesContainer = document.getElementById('strategy-tables');
-            tablesContainer.innerHTML = Object.entries(strategies.top_traders).map(([strategy, users]) => `
-                <div style="margin-bottom: 30px;">
-                    <h4 style="color: #667eea; margin-bottom: 10px;">${strategy} Traders</h4>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>User</th>
-                                <th>Posts</th>
-                                <th>% ${strategy}</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${users.slice(0, 5).map(user => `
-                                <tr>
-                                    <td><strong>@${user.username}</strong></td>
-                                    <td>${user.post_count}</td>
-                                    <td>${user.pct.toFixed(1)}%</td>
-                                </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
-                </div>
-            `).join('');
-        }
-
-        function renderInstrumentSection(instruments) {
-            // Chart 1: Posts
-            const ctx1 = document.getElementById('instrumentPostsChart');
-            const sortedInstruments = Object.entries(instruments.post_distribution)
-                .sort((a, b) => b[1] - a[1]);
-            
-            new Chart(ctx1, {
-                type: 'bar',
-                data: {
-                    labels: sortedInstruments.map(([k]) => k),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: sortedInstruments.map(([, v]) => v),
-                        backgroundColor: 'rgba(46, 204, 113, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Instrument Preference (Posts)' }
-                    }
-                }
-            });
-
-            // Chart 2: Users
-            const ctx2 = document.getElementById('instrumentUsersChart');
-            const sortedUserInstruments = Object.entries(instruments.user_distribution)
-                .sort((a, b) => b[1] - a[1]);
-            
-            new Chart(ctx2, {
-                type: 'pie',
-                data: {
-                    labels: sortedUserInstruments.map(([k]) => k),
-                    datasets: [{
-                        data: sortedUserInstruments.map(([, v]) => v),
-                        backgroundColor: [
-                            'rgba(52, 152, 219, 0.8)',
-                            'rgba(231, 76, 60, 0.8)',
-                            'rgba(241, 196, 15, 0.8)',
-                            'rgba(155, 89, 182, 0.8)',
-                            'rgba(46, 204, 113, 0.8)'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Instrument Preference (Users)' }
-                    }
-                }
-            });
-
-            // Top users
-            const usersContainer = document.getElementById('instrument-users');
-            usersContainer.innerHTML = Object.entries(instruments.top_users).map(([instrument, users]) => `
-                <div style="margin-bottom: 25px;">
-                    <h4 style="color: #667eea; margin-bottom: 10px;">${instrument} Traders</h4>
-                    ${users.slice(0, 5).map(user => `
-                        <div style="padding: 8px; border-bottom: 1px solid #ecf0f1;">
-                            <strong>@${user.username}</strong> - ${user.posts} posts (${user.pct.toFixed(1)}% ${instrument})
-                        </div>
-                    `).join('')}
-                </div>
-            `).join('');
-        }
-
-        function renderTimeDeviceSection(timeDist, deviceDist) {
-            // Time distribution
-            const ctx1 = document.getElementById('timeDistChart');
-            new Chart(ctx1, {
-                type: 'bar',
-                data: {
-                    labels: Object.keys(timeDist.by_phase),
-                    datasets: [{
-                        label: 'Number of Posts',
-                        data: Object.values(timeDist.by_phase),
-                        backgroundColor: 'rgba(230, 126, 34, 0.8)'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Posting Time Distribution' }
-                    }
-                }
-            });
-
-            // Device distribution
-            const ctx2 = document.getElementById('deviceChart');
-            new Chart(ctx2, {
-                type: 'doughnut',
-                data: {
-                    labels: Object.keys(deviceDist),
-                    datasets: [{
-                        data: Object.values(deviceDist),
-                        backgroundColor: [
-                            'rgba(52, 152, 219, 0.8)',
-                            'rgba(46, 204, 113, 0.8)',
-                            'rgba(241, 196, 15, 0.8)',
-                            'rgba(149, 165, 166, 0.8)'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: { display: true, text: 'Device Distribution' }
-                    }
-                }
-            });
-        }
-
-        function renderTopPosts(posts) {
-            const container = document.getElementById('top-posts');
-            container.innerHTML = posts.slice(0, 10).map((post, i) => `
-                <div class="post-example">
-                    <div class="post-header">
-                        <span class="post-username">#${i + 1} @${post.username}</span>
-                        <span class="post-stats">${post.likes} ❤️ • ${post.replies} 💬 • ${post.engagement} total</span>
-                    </div>
-                    <div class="post-body">${post.body}</div>
-                    ${post.sentiment ? `<span class="badge badge-${post.sentiment === 'Bullish' ? 'high' : 'low'}">${post.sentiment}</span>` : ''}
-                    ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
-                </div>
-            `).join('');
-        }
-
-        function renderTopUsersAndTickers(users, tickers) {
-            // Users table
-            const usersTable = document.getElementById('top-users-table');
-            usersTable.innerHTML = `
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Username</th>
-                        <th>Posts</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${users.slice(0, 15).map((user, i) => `
-                        <tr>
-                            <td>${i + 1}</td>
-                            <td><strong>@${user.username}</strong></td>
-                            <td>${user.post_count}</td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            `;
-
-            // Tickers table
-            const tickersTable = document.getElementById('top-tickers-table');
-            tickersTable.innerHTML = `
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Ticker</th>
-                        <th>Posts</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${tickers.slice(0, 15).map((ticker, i) => `
-                        <tr>
-                            <td>${i + 1}</td>
-                            <td><strong>$${ticker.ticker}</strong></td>
-                            <td>${ticker.post_count}</td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            `;
-        }
+            }
+        });
     </script>
 </body>
 </html>
