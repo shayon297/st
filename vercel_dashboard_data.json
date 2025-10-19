@@ -1,0 +1,2728 @@
+{
+  "overview": {
+    "total_messages": 19477,
+    "total_users": 3360,
+    "total_tickers": 1936,
+    "avg_engagement": 1.43,
+    "total_likes": 27832,
+    "total_replies": 0,
+    "posts_with_engagement_pct": 51.8,
+    "avg_posts_per_user": 5.8
+  },
+  "user_breakdown": {
+    "total_dau": 320000,
+    "estimated_posters": 20701,
+    "estimated_engagers": 68590,
+    "estimated_viewers": 230709,
+    "poster_pct": 6.47,
+    "engager_pct": 21.43,
+    "viewer_pct": 72.1
+  },
+  "conviction": {
+    "high_conviction_pct": 5.79,
+    "avg_conviction_score": 6.02,
+    "indicators": {
+      "shouting_conviction": 5029,
+      "emphatic": 983,
+      "high_conviction": 365,
+      "direct_challenge": 4647,
+      "disagreement": 777,
+      "questioning": 245,
+      "specific_prediction": 63,
+      "contrarian": 35
+    },
+    "top_posts": [
+      {
+        "username": "2019Vtrader2025",
+        "body": "@irishman217 @REBELSUN @SexyStockSlayer quite it up Irish man, all excited cause you bought a stock at $1.80 in hopes that it will rise. It can either dump or rip up. Given the CEO\u2019s past history we\u2019re all most likely going to get screwed but there\u2019s always a chancethat the third time is the charm",
+        "score": 57,
+        "indicators": [
+          "direct_challenge",
+          "disagreement",
+          "high_conviction",
+          "specific_prediction"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/2019Vtrader2025/message/632811443"
+      },
+      {
+        "username": "jenbunn",
+        "body": "@cubie @simon58 @Zorrelak @judgeyoung2 @ribbey @EBE_day @TraderRapp @tonyctl @lukenight @twincam $SPOT came back!!! I watched that break!!! Had it posted, but kept moving my levels down- the next spot that was interesting was closer to 650\u2026. $SPOT",
+        "score": 54,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement",
+          "emphatic"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/jenbunn/message/632751037"
+      },
+      {
+        "username": "HIMAX_TSM_NVDA_CPO",
+        "body": "@normagain @EyesOfDevilz I didn\u2019t realize Rubin Ultra would be used for Open AI.  I suppose I could have put 2 and 2 together, since HIMX is known to be used for NVDA, but to get confirmation that Open AI would use Rubin Ultra is pretty big IMHO.  I am genuinely thinking that Kuo\u2019s 2028 EPS estimate for HIMX is too conservative.\n\nImagine $4 or $5 EPS in 2028.  What kind of multiple could we get on that???",
+        "score": 53,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "contrarian",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632711223"
+      },
+      {
+        "username": "jenbunn",
+        "body": "@cubie @ribbey @simon58 @Zorrelak @judgeyoung2 @EBE_day @TraderRapp @tonyctl @lukenight @twincam like $PONY for next week the 17.50p/20c same vol minutes later 30,000 vol it was just 12,000 or 19,000 I don\u2019t remember now, but 30,000 $PONT puts/calls 10/24 exp",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/jenbunn/message/632769054"
+      },
+      {
+        "username": "DinoMcnuggets",
+        "body": "@risingphoenix2024 @DTT10 @SoundsAwesome Looks like TLT will hit 91.4 EOD, and equities will be crashing into the weekend. Then we might have black Monday. Long Bond squeeze is about to happen. Long bonds are such a shorted equity, when it runs it&#39;s going to be painful for shorts, and it&#39;s also going to have severe negative impacts on the credit system. Think Yen crisis, but this time it is going to be centered around US bonds.",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/DinoMcnuggets/message/632772334"
+      },
+      {
+        "username": "BioRich",
+        "body": "$ALT @EggHeadeds No, very simply it means that they&#39;re dealing with delusional low quotients that fail to recognize simple concepts while pumping to recover their losses.   \n\nSimple question, how many times to people have to be reminded that there&#39;s no Fibrosis Improvement or MASH endpoint readouts at 48W? \n\n^^^This is why we have to speak to this group like children.",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement",
+          "questioning"
+        ],
+        "sentiment": "Bearish",
+        "likes": 0,
+        "url": "https://stocktwits.com/BioRich/message/632779622"
+      },
+      {
+        "username": "Olddrache",
+        "body": "@LeapOptionTrader @PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @Gagooza Was hoping for more.  Cant trade the flat here. Have position but not doing anything else until we see a move  \n AFRM",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Olddrache/message/632785123"
+      },
+      {
+        "username": "Olddrache",
+        "body": "@PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @LeapOptionTrader @Gagooza OPEN 6.9 starter, keep a stop loss on that if you try.  Can have some volatility out of no where",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Olddrache/message/632779401"
+      },
+      {
+        "username": "Toru4",
+        "body": "@IdcWhatever @ATLbagger @stampeeder14 I think today\u2019s drop was for sure the news. Tomorrow could rebound nicely to $2.50ish, or could drop to below $2 then rebound to $2 ish. Hopefully it\u2019s the first but as long as we close above $2 for the weekend, I\u2019ll be happy.",
+        "score": 49,
+        "indicators": [
+          "direct_challenge",
+          "disagreement",
+          "high_conviction"
+        ],
+        "sentiment": "Bullish",
+        "likes": 0,
+        "url": "https://stocktwits.com/Toru4/message/632683332"
+      },
+      {
+        "username": "Fosco_",
+        "body": "@Otus @speed717 @LarryYMB may be they just needed bunch of cash (hence my point), but my preferred and safer scenario si definitely Buy Back... &quot;Why go complex when you can go simple&quot;....  \nAnyway, we&#39;ll see soon enough what&#39;s happening with this trial",
+        "score": 49,
+        "indicators": [
+          "direct_challenge",
+          "disagreement",
+          "high_conviction"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Fosco_/message/632726952"
+      },
+      {
+        "username": "Stocktwits",
+        "body": "\ud83d\udea8 Chart of the Day by @johnkicklighter - No Fed Data To Go On, But Multiple Rate Cuts Are Getting Priced In \u26a0\ufe0f  $SPY  \n \nGet the hottest trade ideas and daily insights in your inbox with the Chart Art newsletter! https://chartart.stocktwits.com/p/chart-art-oct-16-2025 \n \nAlso featured: @gpaisa $TSLA, @peloswing $ISRG, @CycleTrade $BTC, @EingeLTrade, @Dr_Stoxx $MRVL",
+        "score": 49,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Stocktwits/message/632678579"
+      },
+      {
+        "username": "SeeingGreen420",
+        "body": "@Addairbob @HoodyHaz $1500 a share is like 130B too, what if we did 750B over a decade? My god fellas!! What\u2019s y\u2019all\u2019s take on the CMO leaving though? We all thought it was because sale coming but after they hired a new CMO what\u2019s y\u2019all\u2019s thoughts here? Crazy to see Scott leaving at this point in the process that\u2019s fo sure.",
+        "score": 46,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement",
+          "emphatic"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/SeeingGreen420/message/632726657"
+      },
+      {
+        "username": "PunkASnowflake",
+        "body": "$DJT Can someone from MAGAland explain to me how you can constantly give The Orange one a pass for everything or have an excuse for everything he does and says that&#39;s incorrect or just plain a lie? Example&#39;s would be gas is $1.98 or I&#39;m going to fix everything on DAY 1 &amp; stop the War in Ukraine, Obama isn&#39;t American (Neither is Ted Cruz, Nikki Haley, etc), McCain is a loser, In Springfield They&#39;re eating the dogs &amp; cats, I love the poorly educated, tariffs won&#39;t affect you or maybe a little but you&#39;ll be fine, It&#39;s everyone else&#39;s fault LOL, everything is a hoax, Democrats are evil, I&#39;m your retribution, I have concepts of a plan, Get that SOB off the field, You&#39;re a moron or low IQ etc..So this is your champion? Someone who talks like a fake mob boss dictator wannabe? That&#39;s the &quot;Messiah&quot; the good ole Christian in him speaking out? LOL! Face it, you guys got played 24/7. GOP can&#39;t say anything bad because &quot;Daddy&quot; will get you LOL! That&#39;s not strength when you have to be scurrred LOL!",
+        "score": 46,
+        "indicators": [
+          "emphatic",
+          "shouting_conviction",
+          "questioning",
+          "specific_prediction",
+          "disagreement"
+        ],
+        "sentiment": "Bearish",
+        "likes": 0,
+        "url": "https://stocktwits.com/PunkASnowflake/message/632818191"
+      },
+      {
+        "username": "StockNipsDaily",
+        "body": "$UVIX respectfully disagree. Pay to play. Certain times call for more risk. I believe we are living through one of those times. Best to not get too much total exposure to this at any one time, but these instruments are used by many who are rewarded \u2014 myself included \u2014 as hedges for periods longer than a day trade. The big risk of doing this can lead to big reward and a lot of peace of mind if you are staying long in your other investments while keeping a position in this. I certainly wouldn\u2019t add again until I see 9\u2019s and that would have to be sooner than later, since yes decay is a thing to be mindful of. But that\u2019s also because I was already adding in the 9\u2019s / low 10\u2019s like a mad man. Best of luck to all in these wild times! $SPY $SOXX $SOXS $VIX",
+        "score": 45,
+        "indicators": [
+          "shouting_conviction",
+          "disagreement",
+          "high_conviction"
+        ],
+        "sentiment": "Bearish",
+        "likes": 0,
+        "url": "https://stocktwits.com/StockNipsDaily/message/632777365"
+      },
+      {
+        "username": "ihuntbiggame",
+        "body": "@fwank It is no STORY LINE FRANK. We have been robbed, stolen and lied to. Every time CNBC brings Jamie Dimon on that is them telling EVERY AMERICAN we look the other way when our ADVERTISERS come on to knowingly LIE to our viewers. The big JOKE is when Congress watches them and they are all in on it. All members of Congress should have to take an EXAM to make sure they are fit to GOVERN. Why? We make all Architects, Engineers, Lawyers, Doctors, EMT, Contractors take a TEST to be ACCREDITED (spread into the ADULT INDUSTRY). We need a GOVERNING TEST so we all know where they stand, fit, track what they do or did while in office. They are currently simpletons led by GREED &amp; others. To the FBI, CIA AND ARMED FORCES didn&#39;t you have take a test &amp; are you NOT QUESTIONED periodically and REVIEWED. Do not PROTECT CORRUPTION, collude to destroy these TRAITORS who sit in CONGRES and have bastardized a CONSTITUTION. You are many they are only the few",
+        "score": 43,
+        "indicators": [
+          "shouting_conviction",
+          "direct_challenge",
+          "disagreement",
+          "high_conviction"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/ihuntbiggame/message/632716891"
+      }
+    ]
+  },
+  "time_sensitivity": {
+    "posts_with_timeframes_pct": 22.57,
+    "time_sensitive_pct": 7.2,
+    "avg_time_sensitivity": 3.01,
+    "timeframes": {
+      "temporal_modifier": 1557,
+      "specific exp": 343,
+      "today": 1058,
+      "quarter": 209,
+      "this week": 114,
+      "specific day": 553,
+      "next week": 472,
+      "earnings": 46,
+      "long-term": 97,
+      "catalyst": 69,
+      "expiration": 141,
+      "swing": 90,
+      "after-hours": 107,
+      "tomorrow": 97,
+      "weeks": 62,
+      "months": 45,
+      "close/EOD": 145,
+      "pre-market": 73,
+      "short-term": 72,
+      "fed": 9,
+      "power hour": 31,
+      "opening": 47,
+      "countdown": 6,
+      "mid-day": 8,
+      "ex-div": 1
+    },
+    "top_posts": [
+      {
+        "username": "TheCatalystCalendar",
+        "body": "That about describes my day \ud83d\udc47 \ud83d\ude02 couldn\u2019t actively manage my account today and got slammed! \n\nLuckily I only had a starter in $UAMY but it\u2019s still bearish AF on the technicals. Longterm I\u2019m fine. Short term, I don\u2019t think today\u2019s dip was it now that I have time to look at it. \n\n$TGB grabbed it after open so I\u2019m fine. I think there\u2019s going to be a government purchase of shares. Just a feeling in my belly \n\n$RKT I have calls that expire tomorrow \ud83d\ude02  \ud83e\udd2c \ud83e\udd26\ud83c\udffc OTM. \n\n$NAK I cannot tell you how much I love NAK longterm. I bought Jan 2028 $7 calls early today and I cannot believe how far they dropped in proportion to the commons by close, with such a far out exp. I\u2019ll be buying a lot more.   I still have Jan 2027 $5 calls up 698%. I was up 1000% so it\u2019s not as good as it sounds \ud83d\ude02 \n\nJust sharing this since I have been sharing my wins, I don\u2019t want anyone to think I\u2019m immune from red days. I\u2019m going to turn it into a win by learning.  I usually learn from losses. Don\u2019t learn much when I Win \ud83d\ude02",
+        "score": 77,
+        "timeframes": [
+          "temporal_modifier",
+          "tomorrow",
+          "specific exp",
+          "expiration",
+          "long-term",
+          "today"
+        ],
+        "sentiment": "Bullish",
+        "likes": 0,
+        "url": "https://stocktwits.com/TheCatalystCalendar/message/632675540"
+      },
+      {
+        "username": "AlbertaSwingTrader",
+        "body": "$RGTI Tomorrow will be a day of reckoning for this ticker.  Either the bulls will load up with cheap shares &amp; try to push this to new highs next week, or we&#39;ll see capitulation like we&#39;ve never seen before.  I&#39;m betting on the latter.  $35 by market close tomorrow.  Loading up on November-expiry puts, as always.",
+        "score": 64,
+        "timeframes": [
+          "temporal_modifier",
+          "tomorrow",
+          "next week",
+          "close/EOD",
+          "expiration"
+        ],
+        "sentiment": "Bearish",
+        "likes": 0,
+        "url": "https://stocktwits.com/AlbertaSwingTrader/message/632692148"
+      },
+      {
+        "username": "QuantInsider",
+        "body": "$TSLA action today had a big player making moves\n\nAt 3:02 PM, there was an $8M ask-side block in 10/17 $477.5 ITM puts\n\nThat&#39;s a serious near-term protection play\n\nThis could keep the weekly IV bid and add pressure into Friday\n\nIf you&#39;re trading directionally, keep it defined risk as we head into expiry\n\nOn the flip side, there&#39;s some aggressive upside for next week\n\nGolden sweeps in 10/24 $442.5 and $447.5 calls totaling about $5.9M were bought at the ask\n\nThese are fresh positions but wait for confirmation above the 440 to 447 zone before leaning long\n\nStay sharp out",
+        "score": 61,
+        "timeframes": [
+          "specific day",
+          "temporal_modifier",
+          "next week",
+          "expiration",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/QuantInsider/message/632676549"
+      },
+      {
+        "username": "DonCorleone77",
+        "body": "$PRAX $KZR $CSX $IBKR $WAFD  \n \nFeel free to follow me for pre-market and after-hours movers every day. \n \nAFTER-HOURS MOVERS: \n \nCurrently Higher After Earnings: \n \n-- CSX (CSX) up 2.3% \n-- F.N.B. (FNB) up 1.6% \n-- Cohen &amp; Steers (CNS) up 0.5% \n \nCurrently Also Higher: \n \n-- Kezar Life Sciences (KZR) up 46.3% after announcing it will explore strategic alternatives as it has been unable to align with FDA on potential registrational clinical trial of zetomipzomib \n-- Praxis Precision Medicines (PRAX) up 5.4% despite common stock offering on momentum following today&#39;s 184% spike \n \nCurrently Lower After Earnings: \n \n-- Glacier Bancorp (GBCI) down 3.3% \n-- WaFd (WAFD) down 2.8% \n-- Interactive Brokers Group (IBKR) down 2.6% \n-- Bank OZK (OZK) down 0.7%",
+        "score": 60,
+        "timeframes": [
+          "pre-market",
+          "after-hours",
+          "earnings",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/DonCorleone77/message/632678223"
+      },
+      {
+        "username": "SPY_Options_Levels",
+        "body": "In yesterday&#39;s letter, we emphasized watching critical SPX levels, and today&#39;s action validated our analysis perfectly. Overnight, $SPX lost key support at 6585 and dipped below 6540, but rebounded by the opening bell to reach 6620. This set the stage for a significant trading day, with the dip to our key 6603 support EXACTLY (low of day 6603.76) that triggered a massive 75 point run to high of day 6678.88, ultimately closing $SPY up 0.57% and $SPX up 0.53%.  $ES_F \n \nAs we look toward Monday, while the schedule seems light on the surface, unexpected developments, particularly from the White House, could disrupt the market dynamics. Traders should stay sharp, positioning themselves with the trend and considering 1-3 DTE strategies to manage risk and enhance returns. Join our community to navigate these volatile waters and trust in the levels for actionable insights.",
+        "score": 59,
+        "timeframes": [
+          "specific day",
+          "temporal_modifier",
+          "opening",
+          "close/EOD",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/SPY_Options_Levels/message/632820847"
+      },
+      {
+        "username": "FTV",
+        "body": "@TOTrader2025 @WhyAlwaysMe_ I love your analogy lol. It seems to me that the markets have become so incredibly important to him, far more than in his previous term.\nBut it may be more sinister than that, because the market is what\u2019s keeping the economy from going into a recession. If the stock market collapses, that\u2019s basically your initial trigger for the recession (and then you have the generational buying opportunity).\n\nAnyway, the moment the premarket opened, I slid in a tiny $UVIX -&gt; $SVIX exchange to continue my DCA on SVIX.  And some small nibbles on ETHU BITU.\n\nOptions expiration today\u2026 Though I think most of the real activity happened yesterday, so today should be a lot calmer.\n\nBut I would have sold at least half of my UVIX position between $16-$17 if I was given the opportunity which of course was frustrating that it all happened out of reach.\n\nI don\u2019t believe that that was the end of this selling, not at $SPY658, that\u2019s for sure.  But will have to wait till next week.",
+        "score": 59,
+        "timeframes": [
+          "pre-market",
+          "next week",
+          "expiration",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/FTV/message/632731724"
+      },
+      {
+        "username": "Uknowthe_thing",
+        "body": "$MSOS Monday and Tuesday back to 5.40 to sell more calls to expire Friday . Maybe we get a post from Kass or Tyson to help . Until a few weeks becomes today this is normal .",
+        "score": 59,
+        "timeframes": [
+          "specific day",
+          "weeks",
+          "temporal_modifier",
+          "expiration",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Uknowthe_thing/message/632822499"
+      },
+      {
+        "username": "UnsettledOnPurpose",
+        "body": "$HYLN Did we move down today because a lot of investors thought, &quot;Gee. I suddenly don&#39;t like the ridiculous opportunity here.&quot; -OR- Did the shorties just double-down (again)? \n \nIf I was a chart guy, I would say that we&#39;re definitely closing lower again Friday as the shorties try to push this under $2 for options expiry. That&#39;s fine. I&#39;m ready to buy more.",
+        "score": 59,
+        "timeframes": [
+          "specific day",
+          "expiration",
+          "today",
+          "close/EOD"
+        ],
+        "sentiment": "Bearish",
+        "likes": 0,
+        "url": "https://stocktwits.com/UnsettledOnPurpose/message/632679440"
+      },
+      {
+        "username": "ChessGM",
+        "body": "$GM &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $GM \nBearish (3.2) \nGeneral Motors (GM) Financial Analysis \nGeneral Motors currently faces significant challenges, as evidenced by a recent $1.X.6 billion impairment charge related to its electric vehicle (EV) strategy overhaul. \nThe charge includes $1.X.2 billion in non-cash impairments and $400 million in cash costs, reflecting the company&#39;s need to adjust to changing market conditions, such as the expiration of federal EV tax credits. \nDespite these setbacks, GM has seen a 20.7% stock increase over the past year and a 72.2% return over three years, suggesting resilience among investors. \nHowever, the company&#39;s recent dip of 2.3% over the last month signals ongoing volatility in the auto sector, especially concerning EV sales. \nOn the financial metrics front, GM&#39;s P/E ratio stands at a level that reflects cautious optimism but is not overly high compared to industry peers, indicating a balanced view of future growth. \nHowever, the company&#39;s EPS growth has been under pressure due to strategic realignments. \nRevenue forecasts for the upcoming quarters appear mixed, with analysts debating the impact of policy changes on GM&#39;s bottom line. \nComparatively, industry peers such as Ford and Stellantis have also faced challenges, although their responses to tariffs and tax credit changes have varied. \n \nUpcoming Earnings Report Overview \nGeneral Motors is set to release its Q3 earnings shortly, and the expectations are mixed. \nAnalysts anticipate a potential earnings beat, driven by strong EV sales prior to the expiration of the federal tax credit. \nHowever, there&#39;s also concern over a projected double-digit drop in earnings due to strategic shifts and the $1.X.6 billion charge. \nHistorically, GM has a track record of outperforming earnings estimates, which could play favorably in the upcoming report. \nThe potential impact of these earnings on GM&#39;s stock will depend on how well the company communicates its strategic pivots and long-term vision to investors. \n \nSector Performance \nThe automotive sector, to which GM belongs, is currently experiencing a turbulent period. \nThe sector has been affected by policy changes, including tariff impositions and tax credit expirations, which have created a challenging environment for U.S. \nautomakers. \nWhile there have been bright spots, such as record EV sales and strategic partnerships in emerging markets, the overall sentiment remains cautious. \nConsumer interest in EVs is high, but economic uncertainties and policy shifts continue to cloud the outlook. \nAs such, the sector&#39;s performance is expected to remain volatile in the near term, with a focus on how automakers navigate these macroeconomic challenges. \n \n- Funds were net buyers of $GM during the previous reporting quarter. \n \n- Funds with large holdings in $GM include: \n \n- Viking Global Investors LP, MV: $641MM. Fund Rank: 70% \nwww.vikingglobal.com \n- Canada Pension , MV: $118MM. Fund Rank: 78% \n \n- Donald Smith &amp; Co Inc, MV: $82MM. Fund Rank: 96% \n \n- Junto Capital Management LP, MV: $65MM. Fund Rank: 90% \nwww.juntocap.com \n- Patient Capital Management LLC, MV: $46MM. Fund Rank: 74% \n \n- Last 10 days performance: -4% \n- Last 30 days performance: -2% \n- Last 90 days performance: 9% \n \nSome of the latest news articles: \n - Title: GM joint venture pauses phase 2 of Canadian battery materials plant as EV outlook dims \nPublication Date: 10/16/2025 8:34:35 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/gm-joint-venture-pauses-phase-203435822.html?.tsrc=rss \n \n - Title: Sector Update: Consumer Stocks Decline Late Afternoon \nPublication Date: 10/16/2025 7:52:04 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/sector-consumer-stocks-decline-afternoon-195204895.html?.tsrc=rss \n \n - Title: Update: Market Chatter: General Motors, Vale Pause Battery Material Plans in Canada \nPublication Date: 10/16/2025 6:19:46 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/market-chatter-general-motors-vale-181946024.html?.tsrc=rss \n \n - Title: This 1 Unexpected Company Could be the Best Stock to Buy as Rare Earths Steal the Show \nPublication Date: 10/16/2025 6:07:19 PM, Source: yahoo \nURL: https://www.barchart.com/story/news/35504340/this-1-unexpected-company-could-be-the-best-stock-to-buy-as-rare-earths-steal-the-show?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+        "score": 55,
+        "timeframes": [
+          "specific day",
+          "temporal_modifier",
+          "quarter",
+          "expiration",
+          "long-term"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/ChessGM/message/632685078"
+      },
+      {
+        "username": "ChessGM",
+        "body": "$DHR &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $DHR \nBearish (3.0) \nFinancial Analysis: \nDanaher Corporation (NYSE:DHR) currently faces a mixed outlook, as reflected in its recent stock performance and analyst sentiments. \nThe company&#39;s shares have experienced a decline of 10.7% year-to-date and are down 24.0% over the past year. \nThis underperformance is juxtaposed with a modest 5.6% increase over the last five years, indicating potential stagnation for long-term investors. \nThe company&#39;s trailing P/E ratio stands at 39.47, with a forward P/E of 21.69, suggesting a premium valuation in comparison to its industry peers. \nAnalysts have recently downgraded the stock from a &quot;&quot;Buy&quot;&quot; to a &quot;&quot;Hold,&quot;&quot; with a reduced price target of $220 from $245, highlighting concerns over its elevated valuation. \nDespite the concerns, Danaher continues to demonstrate strength in certain sectors, such as bioprocessing and diagnostics. \nThe company has recently launched several innovative projects, including AI-powered digital pathology solutions and advancements in gene editing tools, which may bolster its growth prospects. \nHowever, headwinds persist, particularly in its life sciences segment due to weak demand, and challenges in the Chinese market. \nIn comparison to industry peers like Thermo Fisher Scientific and Agilent Technologies, Danaher remains competitive in innovation and strategic acquisitions. \nHowever, its high debt levels and recent legal investigations may pose risks to its financial stability and reputation. \n \nUpcoming Earnings Report: \nDanaher is set to announce its third-quarter results on October 21, 2025. \nAnalysts expect earnings growth to be mostly flat, a continuation of its fiscal second quarter performance, where it reported a revenue of $5.94 billion, surpassing Wall Street estimates. \nThe upcoming earnings call will be closely watched for insights into its financial performance and future expectations. \nHistorical performance indicates the company has managed to meet or exceed earnings expectations, but the current analyst consensus suggests a cautious outlook. \nAnalyst expectations are focused on the healthcare tools and life sciences business, where operational strength is anticipated. \nHowever, any deviation from these expectations could significantly impact the stock&#39;s performance. \n \nSector Performance: \nThe healthcare sector, to which Danaher belongs, has been underperforming relative to broader indices like the S&amp;P 500. \nOver the past six months, healthcare stocks have seen a collective gain of 1.4%, trailing behind the S&amp;P 500&#39;s 15.5% rise. \nThe sector faces ongoing challenges, including COVID-related inventory destocking and broader macroeconomic pressures. \nNonetheless, it remains a critical area for innovation, with long-term prospects driven by advancements in drug development and digital health solutions. \nDespite short-term headwinds, the sector&#39;s commitment to innovation positions it for potential recovery and growth in the future. \n \n- Funds were net buyers of $DHR during the previous reporting quarter. \n \n- Funds with large holdings in $DHR include: \n \n- Aristotle Capital Management LLC, MV: $814MM. Fund Rank: 72% \nwww.aristotlecap.com \n- Canada Pension , MV: $434MM. Fund Rank: 78% \n \n- Bluespruce Investment LP, MV: $418MM. Fund Rank: 88% \n \n- AKRE Capital Management LLC, MV: $351MM. Fund Rank: 58% \nwww.akrecapital.com \n- Adage Capital P, MV: $198MM. Fund Rank: 89% \nwww.adagecapital.com \n- Last 10 days performance: -4% \n- Last 30 days performance: 10% \n- Last 90 days performance: 6% \n \nSome of the latest news articles: \n - Title: Rothschild &amp; Co. Redburn Downgrades Danaher Corporation (DHR) to Hold, Reduces PT \nPublication Date: 10/16/2025 8:35:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/rothschild-co-redburn-downgrades-danaher-203500953.html?.tsrc=rss \n \n - Title: Wall Street&#39;s Insights Into Key Metrics Ahead of Danaher (DHR) Q3 Earnings \nPublication Date: 10/16/2025 1:15:05 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/wall-streets-insights-key-metrics-131505470.html?.tsrc=rss \n \n - Title: Medpace (MEDP) Earnings Expected to Grow: What to Know Ahead of Next Week&#39;s Release \nPublication Date: 10/15/2025 2:00:19 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/medpace-medp-earnings-expected-grow-140019170.html?.tsrc=rss \n \n - Title: Does Analyst Optimism Ahead of Q3 Results Signal Durable Momentum for Danaher (DHR)? \nPublication Date: 10/15/2025 4:22:28 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/does-analyst-optimism-ahead-q3-042228009.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+        "score": 55,
+        "timeframes": [
+          "specific day",
+          "temporal_modifier",
+          "short-term",
+          "next week",
+          "quarter",
+          "long-term"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/ChessGM/message/632684889"
+      },
+      {
+        "username": "QuantInsider",
+        "body": "$BE looking bullish with those call-heavy ask-side sweeps\n\nOver $20M in the last 5 days, aligning with a +30.6% price surge\n\nToday&#39;s dip of 2.33% might need some time to settle before jumping in long\n\nCheck out the 800-lot sweep in Nov 21 $165 calls, 50% OTM with a ~$440k premium\n\nThat\u2019s some aggressive positioning\n\nIf the tape firms up, this could really drive follow-through\n\nWaiting for stabilization seems smart here\n\nLet\u2019s see how it plays out",
+        "score": 55,
+        "timeframes": [
+          "temporal_modifier",
+          "specific exp",
+          "today",
+          "catalyst"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/QuantInsider/message/632799334"
+      },
+      {
+        "username": "akanon90",
+        "body": "@Kingsim my Dec 19 puts limit order did not trigger yesterday, and I saw the overnight price and started regretting it. Now I\u2019m glad, I can watch the price action at open and decide. $QQQ above 608 is definitely a short, it just needs time. Atleast 2 months to expiry.",
+        "score": 55,
+        "timeframes": [
+          "expiration",
+          "opening",
+          "specific exp"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/akanon90/message/632716240"
+      },
+      {
+        "username": "QuantInsider",
+        "body": "$QUBT getting hit hard\n\nTwo big put blocks at 10:29 ET, 0DTE $19 and Oct 24 $16.5\n\nThat lines up with a 14.5% drop over five days\n\nLooks like someone\u2019s betting on more downside\n\n19,998 Oct 24 $16.5 puts bought for about $1.40M\n\nThat\u2019s over 12 times open interest with IV around 134%\n\nThis kind of move usually pressures shares and keeps volatility high going into next week\n\nKeep an eye on this one",
+        "score": 52,
+        "timeframes": [
+          "next week",
+          "expiration",
+          "specific exp"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/QuantInsider/message/632769327"
+      },
+      {
+        "username": "MrMagician",
+        "body": "$SLS @Idfkytm it means is that someone sold a 2 buck strike that expires today. If $SLS closes at 2 or higher, the person who sold it has to either give the shares they already have (covered calls) OR buy the shares on the open market at current cost. The person who bought the calls will have paid a premium up front, and then they pay the seller the 2 bucks per share. The seller is now on the hook for paying the difference between the current share price and the premium plus 2 buck strike. There are 4,263,000 shares that will transfer hands at 2 buck strike end of day today, assuming it doesn&#39;t tank before then. Assuming ZERO of those shares have been purchased yet, then we will see 4.2M shares be assigned - meaning you must purchase them on the open market because you&#39;re now short 4.2M shares.",
+        "score": 52,
+        "timeframes": [
+          "temporal_modifier",
+          "expiration",
+          "today",
+          "close/EOD"
+        ],
+        "sentiment": "Bullish",
+        "likes": 0,
+        "url": "https://stocktwits.com/MrMagician/message/632794536"
+      },
+      {
+        "username": "Omegacy2",
+        "body": "Omegacy2 \n10:34 AM \n$NBIS 113.5s i add more after out 16.5-19.5 hod 20.5s. scalps  many +1-5. Bullish \n \nOmegacy2 \n3:48 AM \n$NBIS 116 i add more $SOXL 37.9s i cover some from shorted 41.69 in msg below i know friday market will drop as i predicted. i still have rbc nbis cash and rrsp from in 89-90 from few weeks ago for 150-200+.  \n  \nOmegacy2  \nYesterday 2:54 PM  \n$SPY 660 already dip last friday 670s to 648 as i pt 640s. pt now 660. 650s is do able by friday. semis  have hard time to keep it gain so does market that why i am scalping as much as i can with $NBIS $HPE today.  @Phil_Leotardo69 you have until oct end if any dip. Bullish",
+        "score": 51,
+        "timeframes": [
+          "specific day",
+          "weeks",
+          "temporal_modifier",
+          "this week",
+          "today"
+        ],
+        "sentiment": null,
+        "likes": 0,
+        "url": "https://stocktwits.com/Omegacy2/message/632758817"
+      }
+    ]
+  },
+  "content_style": {
+    "prescriptive_pct": 15.9,
+    "discussion_pct": 84.1,
+    "prescriptive_users": [
+      {
+        "username": "1ightningAlerts",
+        "total_posts": 171,
+        "avg_engagement_per_post": 0.04,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 10.0,
+        "prescriptive_pct": 100.0,
+        "discussion_pct": 0.0,
+        "non_equity_pct": 1.2,
+        "unique_tickers": 171,
+        "followers": 90,
+        "following": 2
+      },
+      {
+        "username": "MoneyGroupLLC",
+        "total_posts": 110,
+        "avg_engagement_per_post": 0.02,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 19.9,
+        "prescriptive_pct": 99.1,
+        "discussion_pct": 0.9,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 112,
+        "followers": 5876,
+        "following": 21
+      },
+      {
+        "username": "SuperGreenToday",
+        "total_posts": 45,
+        "avg_engagement_per_post": 0.04,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 0.2,
+        "prescriptive_pct": 100.0,
+        "discussion_pct": 0.0,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 45,
+        "followers": 451,
+        "following": 1
+      }
+    ],
+    "discussion_users": [
+      {
+        "username": "LiquidThetaLEAPS",
+        "total_posts": 130,
+        "avg_engagement_per_post": 0.05,
+        "avg_antagonism": 0.0,
+        "avg_urgency": 0.1,
+        "prescriptive_pct": 0.0,
+        "discussion_pct": 100.0,
+        "non_equity_pct": 2.3,
+        "unique_tickers": 130,
+        "followers": 981,
+        "following": 0
+      },
+      {
+        "username": "Masonato",
+        "total_posts": 95,
+        "avg_engagement_per_post": 0.06,
+        "avg_antagonism": 8.1,
+        "avg_urgency": 12.3,
+        "prescriptive_pct": 2.1,
+        "discussion_pct": 97.9,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 26,
+        "followers": 337,
+        "following": 9
+      },
+      {
+        "username": "topstockalerts",
+        "total_posts": 57,
+        "avg_engagement_per_post": 0.79,
+        "avg_antagonism": 0.7,
+        "avg_urgency": 2.4,
+        "prescriptive_pct": 19.3,
+        "discussion_pct": 80.7,
+        "non_equity_pct": 19.3,
+        "unique_tickers": 54,
+        "followers": 104546,
+        "following": 69
+      },
+      {
+        "username": "Paraboljoker",
+        "total_posts": 47,
+        "avg_engagement_per_post": 3.19,
+        "avg_antagonism": 2.5,
+        "avg_urgency": 4.3,
+        "prescriptive_pct": 6.4,
+        "discussion_pct": 93.6,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 38,
+        "followers": 13555,
+        "following": 133
+      },
+      {
+        "username": "TalkMarkets",
+        "total_posts": 46,
+        "avg_engagement_per_post": 0.15,
+        "avg_antagonism": 0.2,
+        "avg_urgency": 0.4,
+        "prescriptive_pct": 2.2,
+        "discussion_pct": 97.8,
+        "non_equity_pct": 41.3,
+        "unique_tickers": 57,
+        "followers": 31579,
+        "following": 343
+      },
+      {
+        "username": "SpartanVI",
+        "total_posts": 46,
+        "avg_engagement_per_post": 2.13,
+        "avg_antagonism": 0.7,
+        "avg_urgency": 1.0,
+        "prescriptive_pct": 2.2,
+        "discussion_pct": 97.8,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 36,
+        "followers": 3005,
+        "following": 74
+      },
+      {
+        "username": "StockVentures",
+        "total_posts": 44,
+        "avg_engagement_per_post": 0.55,
+        "avg_antagonism": 3.2,
+        "avg_urgency": 5.0,
+        "prescriptive_pct": 11.4,
+        "discussion_pct": 88.6,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 32,
+        "followers": -1,
+        "following": 0
+      },
+      {
+        "username": "Bazzzigar",
+        "total_posts": 44,
+        "avg_engagement_per_post": 1.0,
+        "avg_antagonism": 5.7,
+        "avg_urgency": 8.6,
+        "prescriptive_pct": 2.3,
+        "discussion_pct": 97.7,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 30,
+        "followers": 686,
+        "following": 25
+      },
+      {
+        "username": "TheVulcanDevilWhale",
+        "total_posts": 40,
+        "avg_engagement_per_post": 0.65,
+        "avg_antagonism": 6.5,
+        "avg_urgency": 9.8,
+        "prescriptive_pct": 10.0,
+        "discussion_pct": 90.0,
+        "non_equity_pct": 0.0,
+        "unique_tickers": 12,
+        "followers": 863,
+        "following": 127
+      },
+      {
+        "username": "StocktwitsNews",
+        "total_posts": 40,
+        "avg_engagement_per_post": 2.52,
+        "avg_antagonism": 0.3,
+        "avg_urgency": 0.9,
+        "prescriptive_pct": 7.5,
+        "discussion_pct": 92.5,
+        "non_equity_pct": 15.0,
+        "unique_tickers": 76,
+        "followers": 82758,
+        "following": 24
+      }
+    ]
+  },
+  "intent": {
+    "distribution": {
+      "OBSERVATIONAL": {
+        "count": 8176,
+        "percentage": 41.98,
+        "description": "Passive watching, info sharing, light commentary, ticker mentions"
+      },
+      "SOCIAL": {
+        "count": 4303,
+        "percentage": 22.09,
+        "description": "Asking questions, debating, responding, engaging in discussion"
+      },
+      "DIRECTIONAL": {
+        "count": 3026,
+        "percentage": 15.54,
+        "description": "Making price calls, predictions, bullish/bearish signals"
+      },
+      "ACTIVE_TRADING": {
+        "count": 1944,
+        "percentage": 9.98,
+        "description": "Executing trades, sharing positions, time-sensitive alerts, options"
+      },
+      "ANALYTICAL": {
+        "count": 1330,
+        "percentage": 6.83,
+        "description": "Technical analysis, thesis sharing, research, earnings discussion"
+      },
+      "REACTIVE": {
+        "count": 698,
+        "percentage": 3.58,
+        "description": "Emotional reactions - celebration, frustration, warnings, excitement"
+      }
+    },
+    "examples": {
+      "OBSERVATIONAL": [
+        {
+          "username": "StockVentures",
+          "body": "$AVGO 400 soon",
+          "url": "https://stocktwits.com/StockVentures/message/632820067",
+          "engagement": 0
+        },
+        {
+          "username": "dennismccain",
+          "body": "More reasons to like Broadcom \u2014 $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/",
+          "url": "https://stocktwits.com/dennismccain/message/632819844",
+          "engagement": 0
+        },
+        {
+          "username": "HIMAX_TSM_NVDA_CPO",
+          "body": "The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics",
+          "url": "https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429",
+          "engagement": 0
+        },
+        {
+          "username": "Basocos_Ball_Cards",
+          "body": "$AVGO cute",
+          "url": "https://stocktwits.com/Basocos_Ball_Cards/message/632794509",
+          "engagement": 0
+        },
+        {
+          "username": "Powertrader22",
+          "body": "$AVGO looks like robo advisors changed their minds \ud83d\udc4cnow go positive \ud83d\udc02",
+          "url": "https://stocktwits.com/Powertrader22/message/632793008",
+          "engagement": 0
+        },
+        {
+          "username": "b1ngbong",
+          "body": "$AVGO 340 monday morning",
+          "url": "https://stocktwits.com/b1ngbong/message/632789076",
+          "engagement": 0
+        },
+        {
+          "username": "magical_pomelo_316546",
+          "body": "$AVGO",
+          "url": "https://stocktwits.com/magical_pomelo_316546/message/632786194",
+          "engagement": 0
+        },
+        {
+          "username": "InvestingYoungDotCA",
+          "body": "$AMD $AVGO $NVDA $SMH",
+          "url": "https://stocktwits.com/InvestingYoungDotCA/message/632780509",
+          "engagement": 0
+        },
+        {
+          "username": "Carlos7144",
+          "body": "$PATH $AVGO 2 Growth Stocks to Invest $1.X,000 in Right Now https://share.google/hIZqD5jA8izZOsgd3",
+          "url": "https://stocktwits.com/Carlos7144/message/632776270",
+          "engagement": 0
+        },
+        {
+          "username": "magical_pomelo_316546",
+          "body": "$AVGO",
+          "url": "https://stocktwits.com/magical_pomelo_316546/message/632767699",
+          "engagement": 0
+        }
+      ],
+      "SOCIAL": [
+        {
+          "username": "TalkMarkets",
+          "body": "#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154",
+          "url": "https://stocktwits.com/TalkMarkets/message/632811543",
+          "engagement": 0
+        },
+        {
+          "username": "Scottradshaw23",
+          "body": "$AVGO Great things take time. Be proud of each small step forward. They\u2019re building the foundation of your success story. \n@Scottradshaw23",
+          "url": "https://stocktwits.com/Scottradshaw23/message/632764739",
+          "engagement": 0
+        },
+        {
+          "username": "ReverseSplitking",
+          "body": "$SPCE No wine before the ass rape? See you guys Monday enjoy your weekend",
+          "url": "https://stocktwits.com/ReverseSplitking/message/632794035",
+          "engagement": 0
+        },
+        {
+          "username": "Serenity_Bay",
+          "body": "$SPCE still early but looking like a good call by @fudd0118.",
+          "url": "https://stocktwits.com/Serenity_Bay/message/632751317",
+          "engagement": 0
+        },
+        {
+          "username": "King_of_Bio",
+          "body": "$MCD Are they going back to using real beef anytime soon?",
+          "url": "https://stocktwits.com/King_of_Bio/message/632785650",
+          "engagement": 0
+        },
+        {
+          "username": "LudwigVanBeethoven",
+          "body": "$BTC.X $SPY can we now nominate Mr Vladimir Putin for the Nobel Peace Price for real? Having avoided WW3 by sticking to his almost passive procedure while being attacked via poor Ukraine by almost all",
+          "url": "https://stocktwits.com/LudwigVanBeethoven/message/632821440",
+          "engagement": 0
+        },
+        {
+          "username": "King_Li0n",
+          "body": "$CANDYBAGS.X \ud83c\udf6c sweetest play on the market right now \ud83d\ude80 \n \nhttps://phantom.com/tokens/solana/HfqExokfkHeB72aDnCoqNyqNXrmNcE1MCVN6GbUbBAGS?referralId=cc28zatso8o \n \n$SOL.X $BTC.X",
+          "url": "https://stocktwits.com/King_Li0n/message/632820625",
+          "engagement": 0
+        },
+        {
+          "username": "nomadicnoah953",
+          "body": "$BTC.X $DOGE.X $ETH.X $XRP.X all  it would take is one of 3 things to happen to complete wipe out bitcoin to zero\u2026severe energy crisis making mining completely unprofitable, a depression like 2008, or",
+          "url": "https://stocktwits.com/nomadicnoah953/message/632819667",
+          "engagement": 0
+        },
+        {
+          "username": "LifeStyle_Of_The_Meek",
+          "body": "$SOL.X   So let\u2019s compare the last three months of $BTC.X  and  $SOL.X \n\nWhat happened to Bitcoin in the last 3 months?",
+          "url": "https://stocktwits.com/LifeStyle_Of_The_Meek/message/632819565",
+          "engagement": 0
+        },
+        {
+          "username": "King_Li0n",
+          "body": "$FIRECOIN.X \ud83d\udd25 is not a trend \u2014 it\u2019s momentum unleashed \ud83d\udca8 \n \nhttps://phantom.com/tokens/solana/BV3PUxYhLs1X859A8ev7QaGnQLESnqY7kTaak3Aepump?referralId=gkvmne69sd \n \n$SOL.X $BTC.X",
+          "url": "https://stocktwits.com/King_Li0n/message/632819563",
+          "engagement": 0
+        }
+      ],
+      "ACTIVE_TRADING": [
+        {
+          "username": "MoneyGroupLLC",
+          "body": "Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts",
+          "url": "https://stocktwits.com/MoneyGroupLLC/message/632807407",
+          "engagement": 0
+        },
+        {
+          "username": "drbob512",
+          "body": "$TLN $AVGO $TSM i know i&#39;m a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO &amp; TSM &amp; today&#39",
+          "url": "https://stocktwits.com/drbob512/message/632801601",
+          "engagement": 0
+        },
+        {
+          "username": "2moontrader",
+          "body": "$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM &lt; 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the",
+          "url": "https://stocktwits.com/2moontrader/message/632792296",
+          "engagement": 0
+        },
+        {
+          "username": "macroaxis",
+          "body": "$AVGO - Implied Volatility Drops to 0.96: Potential Opportunity in Broadcom https://www.macroaxis.com/stock-options/AVGO/Broadcom?utm_source=dlvr.it&amp;utm_medium=stocktwits",
+          "url": "https://stocktwits.com/macroaxis/message/632773367",
+          "engagement": 0
+        },
+        {
+          "username": "1ightningAlerts",
+          "body": "1ightning\u00ae Options Trade Alert (Actionable) | Buy $SPCE Oct 31 $5 Call | Enter: $0.39 Exit: $0.47 | Profit: 21.01% ROI | https://1ightning.com/scalps",
+          "url": "https://stocktwits.com/1ightningAlerts/message/632813042",
+          "engagement": 0
+        },
+        {
+          "username": "Sauce_no_magic",
+          "body": "$SPCE fuck my 2028 calls huh Branson?\ud83d\ude12",
+          "url": "https://stocktwits.com/Sauce_no_magic/message/632770860",
+          "engagement": 0
+        },
+        {
+          "username": "InnerSpace",
+          "body": "$SPCE Bought more on this market drop. Nothing to do with the stock. Back up on Monday",
+          "url": "https://stocktwits.com/InnerSpace/message/632749298",
+          "engagement": 0
+        },
+        {
+          "username": "Justanengineer",
+          "body": "$SPCE Not advice... so glad I loaded up 1/2027 calls under .60",
+          "url": "https://stocktwits.com/Justanengineer/message/632748882",
+          "engagement": 0
+        },
+        {
+          "username": "_TheFinalFrontier",
+          "body": "$SPCE Been holding for quite some time, but haven&#39;t added in a while. Still a lot of quick profit taking here, but slowly that bottom is moving up, and I am throwing in orders for anything below $",
+          "url": "https://stocktwits.com/_TheFinalFrontier/message/632728242",
+          "engagement": 0
+        },
+        {
+          "username": "Cryptowizard123",
+          "body": "$SPCE got in today at 4.06",
+          "url": "https://stocktwits.com/Cryptowizard123/message/632715309",
+          "engagement": 0
+        }
+      ],
+      "DIRECTIONAL": [
+        {
+          "username": "Tammybluntz",
+          "body": "Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming",
+          "url": "https://stocktwits.com/Tammybluntz/message/632790836",
+          "engagement": 0
+        },
+        {
+          "username": "Basocos_Ball_Cards",
+          "body": "$AVGO easiest dip buy in the game",
+          "url": "https://stocktwits.com/Basocos_Ball_Cards/message/632759475",
+          "engagement": 0
+        },
+        {
+          "username": "Professor",
+          "body": "$AVGO Back to 21EMA once again.  \n \nIf it doesnt bounce. It will be in the same boat as $NVDA &amp; Bearish.",
+          "url": "https://stocktwits.com/Professor/message/632758624",
+          "engagement": 0
+        },
+        {
+          "username": "Badhop1",
+          "body": "$SPCE BUYING MORE SPCE , BUYING MORE DEFT, BUYING MORE MAPS, BUYING MORE GDRX, LOVEN THE SALE. LOVE WHEN MARKET GOES DOWN AND THE ALREADY UNDERVALUED STOCKS THEN NEVER RAN UP WITH THE MARKET GO DOWN F",
+          "url": "https://stocktwits.com/Badhop1/message/632803849",
+          "engagement": 0
+        },
+        {
+          "username": "JH2500",
+          "body": "AERO-SPACE STOCKS:  Four excellent plays know in Sector: $VWAV, $ORKS, $SPCE $ $MNTS. \nMost likely to rip quickly drom here is  \n$MNTS @ $1. 30s: Low Float SpaceX-like play .Fully funded now on Warran",
+          "url": "https://stocktwits.com/JH2500/message/632784346",
+          "engagement": 0
+        },
+        {
+          "username": "hi_tech_low_life",
+          "body": "Space Stock Tracker: AST Hits New Highs, Rocket Lab Bullish Coverage \n$SPCE $ASTS $RKLB $JPM $BKSY  \nhttps://www.benzinga.com/trading-ideas/movers/25/10/48279373/space-stock-tracker-ast-hits-new-highs",
+          "url": "https://stocktwits.com/hi_tech_low_life/message/632763929",
+          "engagement": 0
+        },
+        {
+          "username": "WallStreetBuyDip",
+          "body": "$LUNR and $SPCE are two of the other space stocks I\u2019ve traded.\n\nI think it\u2019s clear why I only buy when H% is low for a reversal trade.",
+          "url": "https://stocktwits.com/WallStreetBuyDip/message/632730178",
+          "engagement": 0
+        },
+        {
+          "username": "_TheFinalFrontier",
+          "body": "$SPCE Also encouraging to see short interest going down. Less room and confidence from shorts may reduce a big squeeze potential, but it means the floor is rising for longer term investors at these le",
+          "url": "https://stocktwits.com/_TheFinalFrontier/message/632729240",
+          "engagement": 0
+        },
+        {
+          "username": "DropStock",
+          "body": "$SPCE so from 5 to 3 like a rocketship crash",
+          "url": "https://stocktwits.com/DropStock/message/632698290",
+          "engagement": 0
+        },
+        {
+          "username": "darknessplayboy",
+          "body": "$HAL it\u2019s going to the moon",
+          "url": "https://stocktwits.com/darknessplayboy/message/632758191",
+          "engagement": 0
+        }
+      ],
+      "ANALYTICAL": [
+        {
+          "username": "bradtlc",
+          "body": "$AVGO 6 month chart looking beautiful.",
+          "url": "https://stocktwits.com/bradtlc/message/632785786",
+          "engagement": 0
+        },
+        {
+          "username": "jbcash",
+          "body": "$SPCE should be back to 2\u2019s before earnings, what a joke",
+          "url": "https://stocktwits.com/jbcash/message/632742149",
+          "engagement": 0
+        },
+        {
+          "username": "RamGuy_949322",
+          "body": "$HAL looking for earnings beat",
+          "url": "https://stocktwits.com/RamGuy_949322/message/632729631",
+          "engagement": 0
+        },
+        {
+          "username": "Vmousaei1",
+          "body": "$MCD anybody sees this past 310 after earnings?",
+          "url": "https://stocktwits.com/Vmousaei1/message/632791580",
+          "engagement": 0
+        },
+        {
+          "username": "LifeStyle_Of_The_Meek",
+          "body": "$SOL.X  \n\nLet\u2019s Compare $BTC.X  $DJT  and $SOL.X \n\nLast 3 months chart\u2026..\n\nDJT seems to be following BTC\u2019s lead\ud83e\udd23",
+          "url": "https://stocktwits.com/LifeStyle_Of_The_Meek/message/632820950",
+          "engagement": 0
+        },
+        {
+          "username": "Loliwinezkid",
+          "body": "$BTC.X to be realistic as possible as I can, the most I believe it would go is actually around 32,678-32,544, 26k could cause this to retest the weekly POC which is 9k",
+          "url": "https://stocktwits.com/Loliwinezkid/message/632819775",
+          "engagement": 0
+        },
+        {
+          "username": "Kingbagholder69",
+          "body": "$BTC.X resistance already broke. Downward trend in tact",
+          "url": "https://stocktwits.com/Kingbagholder69/message/632819416",
+          "engagement": 0
+        },
+        {
+          "username": "Chingus1",
+          "body": "$CMCSA now for the earnings run",
+          "url": "https://stocktwits.com/Chingus1/message/632740887",
+          "engagement": 0
+        },
+        {
+          "username": "jenbunn",
+          "body": "@ribbey @EBE_day @tonyctl @cubie @simon58 @Zorrelak @judgeyoung2 @TraderRapp @lukenight @twincam $AMD $IBKR $ORCL upgrades \n$ASTS $CMCSA downgrade",
+          "url": "https://stocktwits.com/jenbunn/message/632722254",
+          "engagement": 0
+        },
+        {
+          "username": "sister",
+          "body": "$UVXY coiled spring for that 53.21 from April . . . overshoots that level this time.  $SQQQ $SOXS",
+          "url": "https://stocktwits.com/sister/message/632795338",
+          "engagement": 0
+        }
+      ],
+      "REACTIVE": [
+        {
+          "username": "CR0SHIT",
+          "body": "$AVGO  \n\n$3.4TN in option expirations today, should see some crazy swings.",
+          "url": "https://stocktwits.com/CR0SHIT/message/632763344",
+          "engagement": 0
+        },
+        {
+          "username": "papaputsncalls",
+          "body": "$BTC.X trash",
+          "url": "https://stocktwits.com/papaputsncalls/message/632820994",
+          "engagement": 0
+        },
+        {
+          "username": "papaputsncalls",
+          "body": "$BTC.X bitcoin is trash",
+          "url": "https://stocktwits.com/papaputsncalls/message/632820984",
+          "engagement": 0
+        },
+        {
+          "username": "RainGater",
+          "body": "$SOXS  @kt0808 Wow, let&#39;s see who is clueless, shall we? \n \nThis is how compounded return works... lol \n \nPS: Enjoy the free education.  :) \n \n$SPY $QQQ $SQQQ $NVDA",
+          "url": "https://stocktwits.com/RainGater/message/632765088",
+          "engagement": 0
+        },
+        {
+          "username": "Hyelifecapital",
+          "body": "$SQQQ who the fck still buying stocks for this price , just killing calls",
+          "url": "https://stocktwits.com/Hyelifecapital/message/632765051",
+          "engagement": 0
+        },
+        {
+          "username": "Kneel_to_your_KING",
+          "body": "$NVDA $PLTR $QQQ $SPY stupid prizes award??? \ud83d\ude06\ud83e\udef5\ud83c\udffb\ud83e\udd21",
+          "url": "https://stocktwits.com/Kneel_to_your_KING/message/632820536",
+          "engagement": 0
+        },
+        {
+          "username": "MdcRaven13",
+          "body": "$NVDA ok Donnie. Say something stupid and give me 175 Monday lol",
+          "url": "https://stocktwits.com/MdcRaven13/message/632818469",
+          "engagement": 0
+        },
+        {
+          "username": "FeedMillManager",
+          "body": "$SHOP Friday = Shit on Retail Day...",
+          "url": "https://stocktwits.com/FeedMillManager/message/632732417",
+          "engagement": 0
+        },
+        {
+          "username": "techvested",
+          "body": "\u200b$XLF $BAC $WFC $SPX $SPY  \nAll year, stating the obvious before the crisis shows up.  \n \nRegional bank crisis was predictable. See my Jul 2nd warning (below) about financials.  \n \nStill not priced in",
+          "url": "https://stocktwits.com/techvested/message/632759956",
+          "engagement": 0
+        },
+        {
+          "username": "Jack90",
+          "body": "$TSLA   $F $GM $TM.     TRICOLOR auto lender &amp; First Brands bankruptcy, make many car companies pain next",
+          "url": "https://stocktwits.com/Jack90/message/632748538",
+          "engagement": 0
+        }
+      ]
+    }
+  },
+  "strategies": {
+    "post_distribution": {
+      "DIRECTIONAL": {
+        "count": 6555,
+        "percentage": 33.66,
+        "description": "Price predictions, directional calls, sentiment without execution",
+        "timeframe": "Varies",
+        "twitch": "LOW-MEDIUM",
+        "skew": "Low"
+      },
+      "PASSIVE": {
+        "count": 5964,
+        "percentage": 30.62,
+        "description": "Observing, asking questions, minimal opinion",
+        "timeframe": "N/A",
+        "twitch": "NONE",
+        "skew": "None"
+      },
+      "POSITION": {
+        "count": 4564,
+        "percentage": 23.43,
+        "description": "Longer-term positions, news/catalyst driven, technical analysis",
+        "timeframe": "Weeks to months",
+        "twitch": "MEDIUM",
+        "skew": "Low"
+      },
+      "SWING": {
+        "count": 1157,
+        "percentage": 5.94,
+        "description": "Multi-day momentum, breakouts, short-term plays (days to weeks)",
+        "timeframe": "Days to weeks",
+        "twitch": "HIGH",
+        "skew": "Medium"
+      },
+      "OPTIONS": {
+        "count": 1050,
+        "percentage": 5.39,
+        "description": "Options, leverage, volatility trading (any timeframe)",
+        "timeframe": "Varies",
+        "twitch": "HIGH",
+        "skew": "ULTRA HIGH"
+      },
+      "DAY_TRADING": {
+        "count": 187,
+        "percentage": 0.96,
+        "description": "Intraday & ultra-short term (scalping, 0DTE, same-day)",
+        "timeframe": "Minutes to hours",
+        "twitch": "ULTRA HIGH",
+        "skew": "Medium"
+      }
+    },
+    "user_distribution": {
+      "27": 1,
+      "199": 1,
+      "85": 1,
+      "816": 1,
+      "1354": 1,
+      "879": 1
+    },
+    "top_traders": {
+      "DAY_TRADING": [
+        {
+          "username": "Profitrip",
+          "posts": 22,
+          "strategy_posts": 8
+        },
+        {
+          "username": "basstid",
+          "posts": 8,
+          "strategy_posts": 3
+        },
+        {
+          "username": "FTV",
+          "posts": 6,
+          "strategy_posts": 2
+        },
+        {
+          "username": "JodieBurton",
+          "posts": 6,
+          "strategy_posts": 6
+        },
+        {
+          "username": "Omegacy2",
+          "posts": 6,
+          "strategy_posts": 2
+        },
+        {
+          "username": "Lucky_People",
+          "posts": 2,
+          "strategy_posts": 1
+        },
+        {
+          "username": "forzafang",
+          "posts": 2,
+          "strategy_posts": 1
+        },
+        {
+          "username": "nevermind88",
+          "posts": 2,
+          "strategy_posts": 1
+        },
+        {
+          "username": "FPL",
+          "posts": 2,
+          "strategy_posts": 2
+        },
+        {
+          "username": "Bitcoin20K",
+          "posts": 2,
+          "strategy_posts": 1
+        }
+      ],
+      "SWING": [
+        {
+          "username": "Nova_Trades",
+          "posts": 30,
+          "strategy_posts": 15
+        },
+        {
+          "username": "MrStocks785",
+          "posts": 30,
+          "strategy_posts": 14
+        },
+        {
+          "username": "AcrossMarkets",
+          "posts": 29,
+          "strategy_posts": 12
+        },
+        {
+          "username": "stockandsex",
+          "posts": 23,
+          "strategy_posts": 7
+        },
+        {
+          "username": "smartkarma",
+          "posts": 21,
+          "strategy_posts": 8
+        },
+        {
+          "username": "af1348",
+          "posts": 17,
+          "strategy_posts": 7
+        },
+        {
+          "username": "SmallCapSniper",
+          "posts": 15,
+          "strategy_posts": 6
+        },
+        {
+          "username": "CatchingHotgems",
+          "posts": 14,
+          "strategy_posts": 14
+        },
+        {
+          "username": "4321el1234",
+          "posts": 12,
+          "strategy_posts": 8
+        },
+        {
+          "username": "AlphaEdge777",
+          "posts": 12,
+          "strategy_posts": 10
+        }
+      ],
+      "OPTIONS": [
+        {
+          "username": "1ightningAlerts",
+          "posts": 171,
+          "strategy_posts": 171
+        },
+        {
+          "username": "LiquidThetaLEAPS",
+          "posts": 130,
+          "strategy_posts": 130
+        },
+        {
+          "username": "MoneyGroupLLC",
+          "posts": 110,
+          "strategy_posts": 109
+        },
+        {
+          "username": "SuperGreenToday",
+          "posts": 45,
+          "strategy_posts": 44
+        },
+        {
+          "username": "ChessGM",
+          "posts": 35,
+          "strategy_posts": 21
+        },
+        {
+          "username": "_www_larval_com_",
+          "posts": 30,
+          "strategy_posts": 28
+        },
+        {
+          "username": "DavisClarke",
+          "posts": 30,
+          "strategy_posts": 11
+        },
+        {
+          "username": "QuantInsider",
+          "posts": 16,
+          "strategy_posts": 13
+        },
+        {
+          "username": "ripster47",
+          "posts": 14,
+          "strategy_posts": 6
+        },
+        {
+          "username": "The_Titan_Traders",
+          "posts": 13,
+          "strategy_posts": 4
+        }
+      ],
+      "POSITION": [
+        {
+          "username": "JarvisFlow",
+          "posts": 104,
+          "strategy_posts": 104
+        },
+        {
+          "username": "ZacksResearch",
+          "posts": 94,
+          "strategy_posts": 49
+        },
+        {
+          "username": "WallStreetBuyDip",
+          "posts": 44,
+          "strategy_posts": 22
+        },
+        {
+          "username": "StocktwitsNews",
+          "posts": 40,
+          "strategy_posts": 38
+        },
+        {
+          "username": "dbr_island",
+          "posts": 40,
+          "strategy_posts": 34
+        },
+        {
+          "username": "Etrading",
+          "posts": 36,
+          "strategy_posts": 16
+        },
+        {
+          "username": "ElliottwaveForecast",
+          "posts": 33,
+          "strategy_posts": 16
+        },
+        {
+          "username": "DinoMcnuggets",
+          "posts": 33,
+          "strategy_posts": 13
+        },
+        {
+          "username": "DonCorleone77",
+          "posts": 31,
+          "strategy_posts": 10
+        },
+        {
+          "username": "JDKING",
+          "posts": 31,
+          "strategy_posts": 10
+        }
+      ],
+      "DIRECTIONAL": [
+        {
+          "username": "topstockalerts",
+          "posts": 57,
+          "strategy_posts": 23
+        },
+        {
+          "username": "Paraboljoker",
+          "posts": 47,
+          "strategy_posts": 28
+        },
+        {
+          "username": "TalkMarkets",
+          "posts": 46,
+          "strategy_posts": 29
+        },
+        {
+          "username": "SpartanVI",
+          "posts": 46,
+          "strategy_posts": 24
+        },
+        {
+          "username": "Greenhorn192419301946",
+          "posts": 35,
+          "strategy_posts": 14
+        },
+        {
+          "username": "CowBoE",
+          "posts": 34,
+          "strategy_posts": 18
+        },
+        {
+          "username": "OpenOutcrier",
+          "posts": 34,
+          "strategy_posts": 22
+        },
+        {
+          "username": "inspector_gadget86",
+          "posts": 34,
+          "strategy_posts": 23
+        },
+        {
+          "username": "SmartTrade99",
+          "posts": 34,
+          "strategy_posts": 31
+        },
+        {
+          "username": "cubie",
+          "posts": 33,
+          "strategy_posts": 17
+        }
+      ],
+      "PASSIVE": [
+        {
+          "username": "Masonato",
+          "posts": 95,
+          "strategy_posts": 78
+        },
+        {
+          "username": "StockVentures",
+          "posts": 44,
+          "strategy_posts": 29
+        },
+        {
+          "username": "Bazzzigar",
+          "posts": 44,
+          "strategy_posts": 39
+        },
+        {
+          "username": "TheVulcanDevilWhale",
+          "posts": 40,
+          "strategy_posts": 34
+        },
+        {
+          "username": "Kornie7",
+          "posts": 40,
+          "strategy_posts": 17
+        },
+        {
+          "username": "JFDI",
+          "posts": 36,
+          "strategy_posts": 22
+        },
+        {
+          "username": "EpiCRise98",
+          "posts": 35,
+          "strategy_posts": 19
+        },
+        {
+          "username": "SonGoku",
+          "posts": 35,
+          "strategy_posts": 18
+        },
+        {
+          "username": "603stockgoat",
+          "posts": 34,
+          "strategy_posts": 15
+        },
+        {
+          "username": "AStrokeOfLuck",
+          "posts": 33,
+          "strategy_posts": 27
+        }
+      ]
+    },
+    "examples": {
+      "PASSIVE": [
+        {
+          "username": "StockVentures",
+          "body": "$AVGO 400 soon",
+          "url": "https://stocktwits.com/StockVentures/message/632820067"
+        },
+        {
+          "username": "Basocos_Ball_Cards",
+          "body": "$AVGO cute",
+          "url": "https://stocktwits.com/Basocos_Ball_Cards/message/632794509"
+        },
+        {
+          "username": "b1ngbong",
+          "body": "$AVGO 340 monday morning",
+          "url": "https://stocktwits.com/b1ngbong/message/632789076"
+        },
+        {
+          "username": "magical_pomelo_316546",
+          "body": "$AVGO",
+          "url": "https://stocktwits.com/magical_pomelo_316546/message/632786194"
+        },
+        {
+          "username": "InvestingYoungDotCA",
+          "body": "$AMD $AVGO $NVDA $SMH",
+          "url": "https://stocktwits.com/InvestingYoungDotCA/message/632780509"
+        }
+      ],
+      "DIRECTIONAL": [
+        {
+          "username": "dennismccain",
+          "body": "More reasons to like Broadcom \u2014 $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/",
+          "url": "https://stocktwits.com/dennismccain/message/632819844"
+        },
+        {
+          "username": "HIMAX_TSM_NVDA_CPO",
+          "body": "The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics",
+          "url": "https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429"
+        },
+        {
+          "username": "Powertrader22",
+          "body": "$AVGO looks like robo advisors changed their minds \ud83d\udc4cnow go positive \ud83d\udc02",
+          "url": "https://stocktwits.com/Powertrader22/message/632793008"
+        },
+        {
+          "username": "Carlos7144",
+          "body": "$PATH $AVGO 2 Growth Stocks to Invest $1.X,000 in Right Now https://share.google/hIZqD5jA8izZOsgd3",
+          "url": "https://stocktwits.com/Carlos7144/message/632776270"
+        },
+        {
+          "username": "Scottradshaw23",
+          "body": "$AVGO Great things take time. Be proud of each small step forward. They\u2019re building the foundation of your success story. \n@Scottradshaw23",
+          "url": "https://stocktwits.com/Scottradshaw23/message/632764739"
+        }
+      ],
+      "OPTIONS": [
+        {
+          "username": "TalkMarkets",
+          "body": "#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154",
+          "url": "https://stocktwits.com/TalkMarkets/message/632811543"
+        },
+        {
+          "username": "MoneyGroupLLC",
+          "body": "Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts",
+          "url": "https://stocktwits.com/MoneyGroupLLC/message/632807407"
+        },
+        {
+          "username": "macroaxis",
+          "body": "$AVGO - Implied Volatility Drops to 0.96: Potential Opportunity in Broadcom https://www.macroaxis.com/stock-options/AVGO/Broadcom?utm_source=dlvr.it&amp;utm_medium=stocktwits",
+          "url": "https://stocktwits.com/macroaxis/message/632773367"
+        },
+        {
+          "username": "Buzzdaq",
+          "body": "$AVGO btc Oct17 360c @ .08 (16.50) \n(cover, done for day...)",
+          "url": "https://stocktwits.com/Buzzdaq/message/632743893"
+        },
+        {
+          "username": "1ightningAlerts",
+          "body": "1ightning\u00ae Options Trade Alert (Actionable) | Buy $SPCE Oct 31 $5 Call | Enter: $0.39 Exit: $0.47 | Profit: 21.01% ROI | https://1ightning.com/scalps",
+          "url": "https://stocktwits.com/1ightningAlerts/message/632813042"
+        }
+      ],
+      "POSITION": [
+        {
+          "username": "drbob512",
+          "body": "$TLN $AVGO $TSM i know i&#39;m a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO &amp; TSM &amp; today&#39",
+          "url": "https://stocktwits.com/drbob512/message/632801601"
+        },
+        {
+          "username": "2moontrader",
+          "body": "$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM &lt; 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the",
+          "url": "https://stocktwits.com/2moontrader/message/632792296"
+        },
+        {
+          "username": "Tammybluntz",
+          "body": "Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming",
+          "url": "https://stocktwits.com/Tammybluntz/message/632790836"
+        },
+        {
+          "username": "bradtlc",
+          "body": "$AVGO 6 month chart looking beautiful.",
+          "url": "https://stocktwits.com/bradtlc/message/632785786"
+        },
+        {
+          "username": "Basocos_Ball_Cards",
+          "body": "$AVGO easiest dip buy in the game",
+          "url": "https://stocktwits.com/Basocos_Ball_Cards/message/632759475"
+        }
+      ],
+      "SWING": [
+        {
+          "username": "Badhop1",
+          "body": "$SPCE THIS SHOULDNFLY OVER 5 NEXT WEEK. FINAL SHAKE OUT. BUYING MORE...",
+          "url": "https://stocktwits.com/Badhop1/message/632812305"
+        },
+        {
+          "username": "JH2500",
+          "body": "AERO-SPACE STOCKS:  Four excellent plays know in Sector: $VWAV, $ORKS, $SPCE $ $MNTS. \nMost likely to rip quickly drom here is  \n$MNTS @ $1. 30s: Low Float SpaceX-like play .Fully funded now on Warran",
+          "url": "https://stocktwits.com/JH2500/message/632784346"
+        },
+        {
+          "username": "Wallaby_Trantor",
+          "body": "$SPCE Can&#39;t really afford it, but time to grab a few more...  Ben a crap market week (for me) not much to cheer about.  Hopefully next week there is less BS about tariffs!!",
+          "url": "https://stocktwits.com/Wallaby_Trantor/message/632775715"
+        },
+        {
+          "username": "_TheFinalFrontier",
+          "body": "$SPCE Also encouraging to see short interest going down. Less room and confidence from shorts may reduce a big squeeze potential, but it means the floor is rising for longer term investors at these le",
+          "url": "https://stocktwits.com/_TheFinalFrontier/message/632729240"
+        },
+        {
+          "username": "darknessplayboy",
+          "body": "$HAL it\u2019s going to the moon",
+          "url": "https://stocktwits.com/darknessplayboy/message/632758191"
+        }
+      ],
+      "DAY_TRADING": [
+        {
+          "username": "FTV",
+          "body": "@officialbananas I did not expect a 25% move up on $GDXD in one day today.  So I sold about half of my position in that ETF and $JDST as well. \nThis gives me an excuse to re-buy these ETFs again if th",
+          "url": "https://stocktwits.com/FTV/message/632777735"
+        },
+        {
+          "username": "HOODisthefuture",
+          "body": "$DDOG what in the world. That was a bear trap eod then??",
+          "url": "https://stocktwits.com/HOODisthefuture/message/632729033"
+        },
+        {
+          "username": "frankjohnson123",
+          "body": "$GDX wow look at that volume candle at the end of day....",
+          "url": "https://stocktwits.com/frankjohnson123/message/632819495"
+        },
+        {
+          "username": "Lucky_People",
+          "body": "$ORCL someone on here posted earlier today that based on some pretty terrible technical analysis the stock would turn green by end of day.",
+          "url": "https://stocktwits.com/Lucky_People/message/632811433"
+        },
+        {
+          "username": "forzafang",
+          "body": "$META added this morning.  No reason for META to trade like the step child of the group.  Look back and you\u2019ll see these are the times to accumulate",
+          "url": "https://stocktwits.com/forzafang/message/632788884"
+        }
+      ]
+    }
+  },
+  "instruments": {
+    "post_distribution": {
+      "STOCKS": {
+        "count": 15672,
+        "percentage": 80.46,
+        "description": "Individual stocks/equities"
+      },
+      "INDEXES": {
+        "count": 1601,
+        "percentage": 8.22,
+        "description": "Index funds/ETFs (SPY, QQQ, etc.)"
+      },
+      "CRYPTO": {
+        "count": 1143,
+        "percentage": 5.87,
+        "description": "Cryptocurrencies"
+      },
+      "OPTIONS": {
+        "count": 716,
+        "percentage": 3.68,
+        "description": "Options contracts (calls/puts)"
+      },
+      "LEVERAGED_ETFS": {
+        "count": 345,
+        "percentage": 1.77,
+        "description": "Leveraged/inverse ETFs (2x, 3x, inverse)"
+      }
+    },
+    "user_distribution": {
+      "OPTIONS": {
+        "count": 45,
+        "percentage": 1.34
+      },
+      "CRYPTO": {
+        "count": 143,
+        "percentage": 4.26
+      },
+      "LEVERAGED_ETFS": {
+        "count": 73,
+        "percentage": 2.17
+      },
+      "INDEXES": {
+        "count": 146,
+        "percentage": 4.35
+      },
+      "STOCKS": {
+        "count": 2953,
+        "percentage": 87.89
+      }
+    },
+    "top_users": {
+      "OPTIONS": [
+        {
+          "username": "1ightningAlerts",
+          "total_posts": 171,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "OPTIONS": 171
+          }
+        },
+        {
+          "username": "LiquidThetaLEAPS",
+          "total_posts": 130,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "OPTIONS": 130
+          }
+        },
+        {
+          "username": "MoneyGroupLLC",
+          "total_posts": 110,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 99.1,
+          "instrument_breakdown": {
+            "OPTIONS": 109,
+            "INDEXES": 1
+          }
+        },
+        {
+          "username": "SuperGreenToday",
+          "total_posts": 45,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 97.8,
+          "instrument_breakdown": {
+            "OPTIONS": 44,
+            "STOCKS": 1
+          }
+        },
+        {
+          "username": "QuantInsider",
+          "total_posts": 16,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 68.8,
+          "instrument_breakdown": {
+            "STOCKS": 5,
+            "OPTIONS": 11
+          }
+        },
+        {
+          "username": "Iam4our",
+          "total_posts": 6,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 50.0,
+          "instrument_breakdown": {
+            "OPTIONS": 3,
+            "STOCKS": 3
+          }
+        },
+        {
+          "username": "RockyTSTH",
+          "total_posts": 4,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "OPTIONS": 4
+          }
+        },
+        {
+          "username": "Blackballoon91",
+          "total_posts": 4,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 50.0,
+          "instrument_breakdown": {
+            "OPTIONS": 2,
+            "STOCKS": 2
+          }
+        },
+        {
+          "username": "KnuckleSandwich",
+          "total_posts": 4,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 50.0,
+          "instrument_breakdown": {
+            "OPTIONS": 2,
+            "STOCKS": 2
+          }
+        },
+        {
+          "username": "Buzzdaq",
+          "total_posts": 3,
+          "primary_instrument": "OPTIONS",
+          "primary_percentage": 66.7,
+          "instrument_breakdown": {
+            "OPTIONS": 2,
+            "STOCKS": 1
+          }
+        }
+      ],
+      "CRYPTO": [
+        {
+          "username": "Intelligence1st",
+          "total_posts": 31,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 80.6,
+          "instrument_breakdown": {
+            "STOCKS": 6,
+            "CRYPTO": 25
+          }
+        },
+        {
+          "username": "TMStrader",
+          "total_posts": 31,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 58.1,
+          "instrument_breakdown": {
+            "STOCKS": 13,
+            "CRYPTO": 18
+          }
+        },
+        {
+          "username": "al300z",
+          "total_posts": 31,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 54.8,
+          "instrument_breakdown": {
+            "INDEXES": 4,
+            "STOCKS": 10,
+            "CRYPTO": 17
+          }
+        },
+        {
+          "username": "tmoore711__",
+          "total_posts": 30,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 50.0,
+          "instrument_breakdown": {
+            "CRYPTO": 15,
+            "INDEXES": 7,
+            "STOCKS": 8
+          }
+        },
+        {
+          "username": "King_Li0n",
+          "total_posts": 30,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 96.7,
+          "instrument_breakdown": {
+            "CRYPTO": 29,
+            "STOCKS": 1
+          }
+        },
+        {
+          "username": "_StockDoc_",
+          "total_posts": 30,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 40.0,
+          "instrument_breakdown": {
+            "INDEXES": 11,
+            "STOCKS": 7,
+            "CRYPTO": 12
+          }
+        },
+        {
+          "username": "DomLuminous",
+          "total_posts": 21,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 71.4,
+          "instrument_breakdown": {
+            "CRYPTO": 15,
+            "STOCKS": 5,
+            "INDEXES": 1
+          }
+        },
+        {
+          "username": "Monall1",
+          "total_posts": 17,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 94.1,
+          "instrument_breakdown": {
+            "CRYPTO": 16,
+            "STOCKS": 1
+          }
+        },
+        {
+          "username": "350IQ_Individual",
+          "total_posts": 16,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 93.8,
+          "instrument_breakdown": {
+            "CRYPTO": 15,
+            "INDEXES": 1
+          }
+        },
+        {
+          "username": "Pajeet_from_Wallstreet",
+          "total_posts": 14,
+          "primary_instrument": "CRYPTO",
+          "primary_percentage": 50.0,
+          "instrument_breakdown": {
+            "CRYPTO": 7,
+            "STOCKS": 7
+          }
+        }
+      ],
+      "LEVERAGED_ETFS": [
+        {
+          "username": "jjsurf8311",
+          "total_posts": 21,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 21
+          }
+        },
+        {
+          "username": "PutsOnMyself",
+          "total_posts": 17,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 82.4,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 14,
+            "STOCKS": 2,
+            "CRYPTO": 1
+          }
+        },
+        {
+          "username": "sister",
+          "total_posts": 15,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 60.0,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 9,
+            "STOCKS": 6
+          }
+        },
+        {
+          "username": "FatDuck3",
+          "total_posts": 15,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 53.3,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 8,
+            "STOCKS": 7
+          }
+        },
+        {
+          "username": "TheSqueezeKingdom",
+          "total_posts": 14,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 57.1,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 8,
+            "STOCKS": 6
+          }
+        },
+        {
+          "username": "Options77777",
+          "total_posts": 9,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 66.7,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 6,
+            "STOCKS": 3
+          }
+        },
+        {
+          "username": "ehenriquez",
+          "total_posts": 8,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 87.5,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 7,
+            "STOCKS": 1
+          }
+        },
+        {
+          "username": "straylion89",
+          "total_posts": 7,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 85.7,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 6,
+            "OPTIONS": 1
+          }
+        },
+        {
+          "username": "VqNismo",
+          "total_posts": 6,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 66.7,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 4,
+            "STOCKS": 2
+          }
+        },
+        {
+          "username": "Hyelifecapital",
+          "total_posts": 6,
+          "primary_instrument": "LEVERAGED_ETFS",
+          "primary_percentage": 66.7,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 4,
+            "STOCKS": 2
+          }
+        }
+      ],
+      "INDEXES": [
+        {
+          "username": "Longs_Onlyx",
+          "total_posts": 33,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 75.8,
+          "instrument_breakdown": {
+            "STOCKS": 7,
+            "INDEXES": 25,
+            "CRYPTO": 1
+          }
+        },
+        {
+          "username": "Droppingin_",
+          "total_posts": 31,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 74.2,
+          "instrument_breakdown": {
+            "INDEXES": 23,
+            "STOCKS": 7,
+            "CRYPTO": 1
+          }
+        },
+        {
+          "username": "HankHedgeHogFund",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 60.0,
+          "instrument_breakdown": {
+            "STOCKS": 8,
+            "INDEXES": 18,
+            "CRYPTO": 3,
+            "OPTIONS": 1
+          }
+        },
+        {
+          "username": "momobull",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 56.7,
+          "instrument_breakdown": {
+            "CRYPTO": 3,
+            "STOCKS": 10,
+            "INDEXES": 17
+          }
+        },
+        {
+          "username": "Tony_da_SHATNER_Stacker",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 70.0,
+          "instrument_breakdown": {
+            "STOCKS": 9,
+            "INDEXES": 21
+          }
+        },
+        {
+          "username": "KnownsUnknown",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 70.0,
+          "instrument_breakdown": {
+            "INDEXES": 21,
+            "STOCKS": 9
+          }
+        },
+        {
+          "username": "JeromesInkSupplier",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 83.3,
+          "instrument_breakdown": {
+            "INDEXES": 25,
+            "STOCKS": 4,
+            "OPTIONS": 1
+          }
+        },
+        {
+          "username": "USAStockmarket",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 70.0,
+          "instrument_breakdown": {
+            "CRYPTO": 7,
+            "INDEXES": 21,
+            "STOCKS": 2
+          }
+        },
+        {
+          "username": "TradeWithJB",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 53.3,
+          "instrument_breakdown": {
+            "INDEXES": 16,
+            "STOCKS": 11,
+            "OPTIONS": 3
+          }
+        },
+        {
+          "username": "Dworkaholic",
+          "total_posts": 30,
+          "primary_instrument": "INDEXES",
+          "primary_percentage": 53.3,
+          "instrument_breakdown": {
+            "LEVERAGED_ETFS": 4,
+            "STOCKS": 10,
+            "INDEXES": 16
+          }
+        }
+      ],
+      "STOCKS": [
+        {
+          "username": "JarvisFlow",
+          "total_posts": 104,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "STOCKS": 104
+          }
+        },
+        {
+          "username": "Masonato",
+          "total_posts": 95,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 98.9,
+          "instrument_breakdown": {
+            "STOCKS": 94,
+            "CRYPTO": 1
+          }
+        },
+        {
+          "username": "ZacksResearch",
+          "total_posts": 94,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "STOCKS": 94
+          }
+        },
+        {
+          "username": "topstockalerts",
+          "total_posts": 57,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 73.7,
+          "instrument_breakdown": {
+            "STOCKS": 42,
+            "INDEXES": 7,
+            "LEVERAGED_ETFS": 5,
+            "CRYPTO": 3
+          }
+        },
+        {
+          "username": "Paraboljoker",
+          "total_posts": 47,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 89.4,
+          "instrument_breakdown": {
+            "CRYPTO": 2,
+            "STOCKS": 42,
+            "INDEXES": 3
+          }
+        },
+        {
+          "username": "TalkMarkets",
+          "total_posts": 46,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 60.9,
+          "instrument_breakdown": {
+            "INDEXES": 12,
+            "STOCKS": 28,
+            "CRYPTO": 6
+          }
+        },
+        {
+          "username": "SpartanVI",
+          "total_posts": 46,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 100.0,
+          "instrument_breakdown": {
+            "STOCKS": 46
+          }
+        },
+        {
+          "username": "StockVentures",
+          "total_posts": 44,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 88.6,
+          "instrument_breakdown": {
+            "STOCKS": 39,
+            "CRYPTO": 3,
+            "INDEXES": 2
+          }
+        },
+        {
+          "username": "WallStreetBuyDip",
+          "total_posts": 44,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 56.8,
+          "instrument_breakdown": {
+            "STOCKS": 25,
+            "LEVERAGED_ETFS": 4,
+            "INDEXES": 15
+          }
+        },
+        {
+          "username": "Bazzzigar",
+          "total_posts": 44,
+          "primary_instrument": "STOCKS",
+          "primary_percentage": 97.7,
+          "instrument_breakdown": {
+            "STOCKS": 43,
+            "LEVERAGED_ETFS": 1
+          }
+        }
+      ]
+    }
+  },
+  "non_equity": {
+    "commodities": 868,
+    "other": 418,
+    "fx": 94,
+    "macro": 86,
+    "sports": 67
+  },
+  "time_distribution": {
+    "market_phase": {
+      "After-Hours": {
+        "count": 4839,
+        "percentage": 24.84
+      },
+      "Market Hours": {
+        "count": 9845,
+        "percentage": 50.55
+      },
+      "Pre-Market": {
+        "count": 2815,
+        "percentage": 14.45
+      },
+      "Overnight": {
+        "count": 1978,
+        "percentage": 10.16
+      }
+    },
+    "hourly": {
+      "00:00": {
+        "count": 350,
+        "et_hour": "20:00",
+        "percentage": 1.8
+      },
+      "01:00": {
+        "count": 383,
+        "et_hour": "21:00",
+        "percentage": 1.97
+      },
+      "02:00": {
+        "count": 294,
+        "et_hour": "22:00",
+        "percentage": 1.51
+      },
+      "03:00": {
+        "count": 267,
+        "et_hour": "23:00",
+        "percentage": 1.37
+      },
+      "04:00": {
+        "count": 186,
+        "et_hour": "00:00",
+        "percentage": 0.95
+      },
+      "05:00": {
+        "count": 140,
+        "et_hour": "01:00",
+        "percentage": 0.72
+      },
+      "06:00": {
+        "count": 151,
+        "et_hour": "02:00",
+        "percentage": 0.78
+      },
+      "07:00": {
+        "count": 207,
+        "et_hour": "03:00",
+        "percentage": 1.06
+      },
+      "08:00": {
+        "count": 219,
+        "et_hour": "04:00",
+        "percentage": 1.12
+      },
+      "09:00": {
+        "count": 243,
+        "et_hour": "05:00",
+        "percentage": 1.25
+      },
+      "10:00": {
+        "count": 329,
+        "et_hour": "06:00",
+        "percentage": 1.69
+      },
+      "11:00": {
+        "count": 656,
+        "et_hour": "07:00",
+        "percentage": 3.37
+      },
+      "12:00": {
+        "count": 854,
+        "et_hour": "08:00",
+        "percentage": 4.38
+      },
+      "13:00": {
+        "count": 1240,
+        "et_hour": "09:00",
+        "percentage": 6.37
+      },
+      "14:00": {
+        "count": 1503,
+        "et_hour": "10:00",
+        "percentage": 7.72
+      },
+      "15:00": {
+        "count": 1602,
+        "et_hour": "11:00",
+        "percentage": 8.23
+      },
+      "16:00": {
+        "count": 1402,
+        "et_hour": "12:00",
+        "percentage": 7.2
+      },
+      "17:00": {
+        "count": 1341,
+        "et_hour": "13:00",
+        "percentage": 6.89
+      },
+      "18:00": {
+        "count": 1441,
+        "et_hour": "14:00",
+        "percentage": 7.4
+      },
+      "19:00": {
+        "count": 1830,
+        "et_hour": "15:00",
+        "percentage": 9.4
+      },
+      "20:00": {
+        "count": 1577,
+        "et_hour": "16:00",
+        "percentage": 8.1
+      },
+      "21:00": {
+        "count": 1181,
+        "et_hour": "17:00",
+        "percentage": 6.06
+      },
+      "22:00": {
+        "count": 1085,
+        "et_hour": "18:00",
+        "percentage": 5.57
+      },
+      "23:00": {
+        "count": 996,
+        "et_hour": "19:00",
+        "percentage": 5.11
+      }
+    }
+  },
+  "device_distribution": {
+    "Desktop": {
+      "count": 7094,
+      "percentage": 36.42
+    },
+    "iOS": {
+      "count": 8929,
+      "percentage": 45.84
+    },
+    "Android": {
+      "count": 3228,
+      "percentage": 16.57
+    },
+    "Bot": {
+      "count": 66,
+      "percentage": 0.34
+    },
+    "Other": {
+      "count": 160,
+      "percentage": 0.82
+    }
+  },
+  "top_posts": [
+    {
+      "username": "StockVentures",
+      "body": "$AVGO 400 soon",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/StockVentures/message/632820067",
+      "created_at": "2025-10-17T23:06:34Z"
+    },
+    {
+      "username": "dennismccain",
+      "body": "More reasons to like Broadcom \u2014 $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/dennismccain/message/632819844",
+      "created_at": "2025-10-17T23:03:09Z"
+    },
+    {
+      "username": "TalkMarkets",
+      "body": "#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/TalkMarkets/message/632811543",
+      "created_at": "2025-10-17T21:11:32Z"
+    },
+    {
+      "username": "HIMAX_TSM_NVDA_CPO",
+      "body": "The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics/",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429",
+      "created_at": "2025-10-17T20:41:26Z"
+    },
+    {
+      "username": "MoneyGroupLLC",
+      "body": "Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/MoneyGroupLLC/message/632807407",
+      "created_at": "2025-10-17T20:32:13Z"
+    },
+    {
+      "username": "drbob512",
+      "body": "$TLN $AVGO $TSM i know i&#39;m a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO &amp; TSM &amp; today&#39;s dip gave me an opportunity. Younger daughter gave me the recomm for Talen Energy so i did dd on it &amp; have wanted a nuclear stock for a while now &amp; TLN is presently a good bus. model with revenues now unlike some others.",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/drbob512/message/632801601",
+      "created_at": "2025-10-17T19:53:53Z"
+    },
+    {
+      "username": "Basocos_Ball_Cards",
+      "body": "$AVGO cute",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/Basocos_Ball_Cards/message/632794509",
+      "created_at": "2025-10-17T19:12:37Z"
+    },
+    {
+      "username": "Powertrader22",
+      "body": "$AVGO looks like robo advisors changed their minds \ud83d\udc4cnow go positive \ud83d\udc02",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/Powertrader22/message/632793008",
+      "created_at": "2025-10-17T19:03:43Z"
+    },
+    {
+      "username": "2moontrader",
+      "body": "$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM &lt; 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the biggest x86 CPU/APU maker now). $AMD is about to go parabolic and the MMs know this, that\u2019s why they\u2019re trying to bring it down as much as they can before the Q3 earnings pump. MMs are definitely losing their power over this stock post-OpenAI. Not even $NVDA $AVGO $INTC can keep up with this growth that $AMD is about to experience. Enjoy the ride boys!!!! \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/2moontrader/message/632792296",
+      "created_at": "2025-10-17T18:59:25Z"
+    },
+    {
+      "username": "Tammybluntz",
+      "body": "Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/Tammybluntz/message/632790836",
+      "created_at": "2025-10-17T18:50:59Z"
+    },
+    {
+      "username": "b1ngbong",
+      "body": "$AVGO 340 monday morning",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bearish",
+      "url": "https://stocktwits.com/b1ngbong/message/632789076",
+      "created_at": "2025-10-17T18:39:53Z"
+    },
+    {
+      "username": "magical_pomelo_316546",
+      "body": "$AVGO",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/magical_pomelo_316546/message/632786194",
+      "created_at": "2025-10-17T18:22:24Z"
+    },
+    {
+      "username": "bradtlc",
+      "body": "$AVGO 6 month chart looking beautiful.",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/bradtlc/message/632785786",
+      "created_at": "2025-10-17T18:19:56Z"
+    },
+    {
+      "username": "InvestingYoungDotCA",
+      "body": "$AMD $AVGO $NVDA $SMH",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/InvestingYoungDotCA/message/632780509",
+      "created_at": "2025-10-17T17:46:48Z"
+    },
+    {
+      "username": "Carlos7144",
+      "body": "$PATH $AVGO 2 Growth Stocks to Invest $1.X,000 in Right Now https://share.google/hIZqD5jA8izZOsgd3",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/Carlos7144/message/632776270",
+      "created_at": "2025-10-17T17:19:39Z"
+    },
+    {
+      "username": "macroaxis",
+      "body": "$AVGO - Implied Volatility Drops to 0.96: Potential Opportunity in Broadcom https://www.macroaxis.com/stock-options/AVGO/Broadcom?utm_source=dlvr.it&amp;utm_medium=stocktwits",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/macroaxis/message/632773367",
+      "created_at": "2025-10-17T17:02:06Z"
+    },
+    {
+      "username": "magical_pomelo_316546",
+      "body": "$AVGO",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/magical_pomelo_316546/message/632767699",
+      "created_at": "2025-10-17T16:30:32Z"
+    },
+    {
+      "username": "magical_pomelo_316546",
+      "body": "$AVGO",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/magical_pomelo_316546/message/632766685",
+      "created_at": "2025-10-17T16:24:52Z"
+    },
+    {
+      "username": "Scottradshaw23",
+      "body": "$AVGO Great things take time. Be proud of each small step forward. They\u2019re building the foundation of your success story. \n@Scottradshaw23",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": "Bullish",
+      "url": "https://stocktwits.com/Scottradshaw23/message/632764739",
+      "created_at": "2025-10-17T16:14:06Z"
+    },
+    {
+      "username": "CR0SHIT",
+      "body": "$AVGO  \n\n$3.4TN in option expirations today, should see some crazy swings.",
+      "likes": 0,
+      "replies": 0,
+      "engagement": 0,
+      "sentiment": null,
+      "url": "https://stocktwits.com/CR0SHIT/message/632763344",
+      "created_at": "2025-10-17T16:06:31Z"
+    }
+  ],
+  "top_users": [
+    {
+      "username": "1ightningAlerts",
+      "post_count": 171
+    },
+    {
+      "username": "LiquidThetaLEAPS",
+      "post_count": 130
+    },
+    {
+      "username": "MoneyGroupLLC",
+      "post_count": 110
+    },
+    {
+      "username": "JarvisFlow",
+      "post_count": 104
+    },
+    {
+      "username": "Masonato",
+      "post_count": 95
+    },
+    {
+      "username": "ZacksResearch",
+      "post_count": 94
+    },
+    {
+      "username": "topstockalerts",
+      "post_count": 57
+    },
+    {
+      "username": "Paraboljoker",
+      "post_count": 47
+    },
+    {
+      "username": "TalkMarkets",
+      "post_count": 46
+    },
+    {
+      "username": "SpartanVI",
+      "post_count": 46
+    },
+    {
+      "username": "SuperGreenToday",
+      "post_count": 45
+    },
+    {
+      "username": "StockVentures",
+      "post_count": 44
+    },
+    {
+      "username": "WallStreetBuyDip",
+      "post_count": 44
+    },
+    {
+      "username": "Bazzzigar",
+      "post_count": 44
+    },
+    {
+      "username": "TheVulcanDevilWhale",
+      "post_count": 40
+    },
+    {
+      "username": "StocktwitsNews",
+      "post_count": 40
+    },
+    {
+      "username": "dbr_island",
+      "post_count": 40
+    },
+    {
+      "username": "Kornie7",
+      "post_count": 40
+    },
+    {
+      "username": "JFDI",
+      "post_count": 36
+    },
+    {
+      "username": "Etrading",
+      "post_count": 36
+    }
+  ],
+  "top_tickers": [
+    {
+      "ticker": "SPY",
+      "post_count": 1418
+    },
+    {
+      "ticker": "QQQ",
+      "post_count": 675
+    },
+    {
+      "ticker": "BTC.X",
+      "post_count": 574
+    },
+    {
+      "ticker": "TSLA",
+      "post_count": 383
+    },
+    {
+      "ticker": "NVDA",
+      "post_count": 316
+    },
+    {
+      "ticker": "GLD",
+      "post_count": 311
+    },
+    {
+      "ticker": "SUGP",
+      "post_count": 283
+    },
+    {
+      "ticker": "DJT",
+      "post_count": 276
+    },
+    {
+      "ticker": "BYND",
+      "post_count": 245
+    },
+    {
+      "ticker": "ORCL",
+      "post_count": 204
+    },
+    {
+      "ticker": "RANI",
+      "post_count": 201
+    },
+    {
+      "ticker": "BITF",
+      "post_count": 197
+    },
+    {
+      "ticker": "HIMS",
+      "post_count": 197
+    },
+    {
+      "ticker": "INTC",
+      "post_count": 186
+    },
+    {
+      "ticker": "AMZN",
+      "post_count": 182
+    },
+    {
+      "ticker": "AMD",
+      "post_count": 170
+    },
+    {
+      "ticker": "RGTI",
+      "post_count": 166
+    },
+    {
+      "ticker": "ETH.X",
+      "post_count": 160
+    },
+    {
+      "ticker": "IREN",
+      "post_count": 158
+    },
+    {
+      "ticker": "XRP.X",
+      "post_count": 153
+    }
+  ]
+}

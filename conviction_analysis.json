@@ -1,0 +1,672 @@
+{
+  "summary": {
+    "total_messages": 19477,
+    "high_conviction_posts": 1128,
+    "high_conviction_pct": 5.79,
+    "avg_conviction_score": 6.02
+  },
+  "indicator_frequency": {
+    "shouting_conviction": 5029,
+    "emphatic": 983,
+    "high_conviction": 365,
+    "direct_challenge": 4647,
+    "disagreement": 777,
+    "questioning": 245,
+    "specific_prediction": 63,
+    "contrarian": 35
+  },
+  "top_conviction_posts": [
+    {
+      "username": "2019Vtrader2025",
+      "body": "@irishman217 @REBELSUN @SexyStockSlayer quite it up Irish man, all excited cause you bought a stock at $1.80 in hopes that it will rise. It can either dump or rip up. Given the CEO\u2019s past history we\u2019re all most likely going to get screwed but there\u2019s always a chancethat the third time is the charm",
+      "score": 57,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction",
+        "specific_prediction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/2019Vtrader2025/message/632811443"
+    },
+    {
+      "username": "jenbunn",
+      "body": "@cubie @simon58 @Zorrelak @judgeyoung2 @ribbey @EBE_day @TraderRapp @tonyctl @lukenight @twincam $SPOT came back!!! I watched that break!!! Had it posted, but kept moving my levels down- the next spot that was interesting was closer to 650\u2026. $SPOT",
+      "score": 54,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/jenbunn/message/632751037"
+    },
+    {
+      "username": "HIMAX_TSM_NVDA_CPO",
+      "body": "@normagain @EyesOfDevilz I didn\u2019t realize Rubin Ultra would be used for Open AI.  I suppose I could have put 2 and 2 together, since HIMX is known to be used for NVDA, but to get confirmation that Open AI would use Rubin Ultra is pretty big IMHO.  I am genuinely thinking that Kuo\u2019s 2028 EPS estimate for HIMX is too conservative.\n\nImagine $4 or $5 EPS in 2028.  What kind of multiple could we get on that???",
+      "score": 53,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "contrarian",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632711223"
+    },
+    {
+      "username": "jenbunn",
+      "body": "@cubie @ribbey @simon58 @Zorrelak @judgeyoung2 @EBE_day @TraderRapp @tonyctl @lukenight @twincam like $PONY for next week the 17.50p/20c same vol minutes later 30,000 vol it was just 12,000 or 19,000 I don\u2019t remember now, but 30,000 $PONT puts/calls 10/24 exp",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/jenbunn/message/632769054"
+    },
+    {
+      "username": "DinoMcnuggets",
+      "body": "@risingphoenix2024 @DTT10 @SoundsAwesome Looks like TLT will hit 91.4 EOD, and equities will be crashing into the weekend. Then we might have black Monday. Long Bond squeeze is about to happen. Long bonds are such a shorted equity, when it runs it&#39;s going to be painful for shorts, and it&#39;s also going to have severe negative impacts on the credit system. Think Yen crisis, but this time it is going to be centered around US bonds.",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DinoMcnuggets/message/632772334"
+    },
+    {
+      "username": "BioRich",
+      "body": "$ALT @EggHeadeds No, very simply it means that they&#39;re dealing with delusional low quotients that fail to recognize simple concepts while pumping to recover their losses.   \n\nSimple question, how many times to people have to be reminded that there&#39;s no Fibrosis Improvement or MASH endpoint readouts at 48W? \n\n^^^This is why we have to speak to this group like children.",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "questioning"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/BioRich/message/632779622"
+    },
+    {
+      "username": "Olddrache",
+      "body": "@LeapOptionTrader @PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @Gagooza Was hoping for more.  Cant trade the flat here. Have position but not doing anything else until we see a move  \n AFRM",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Olddrache/message/632785123"
+    },
+    {
+      "username": "Olddrache",
+      "body": "@PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @LeapOptionTrader @Gagooza OPEN 6.9 starter, keep a stop loss on that if you try.  Can have some volatility out of no where",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Olddrache/message/632779401"
+    },
+    {
+      "username": "Toru4",
+      "body": "@IdcWhatever @ATLbagger @stampeeder14 I think today\u2019s drop was for sure the news. Tomorrow could rebound nicely to $2.50ish, or could drop to below $2 then rebound to $2 ish. Hopefully it\u2019s the first but as long as we close above $2 for the weekend, I\u2019ll be happy.",
+      "score": 49,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Toru4/message/632683332"
+    },
+    {
+      "username": "Fosco_",
+      "body": "@Otus @speed717 @LarryYMB may be they just needed bunch of cash (hence my point), but my preferred and safer scenario si definitely Buy Back... &quot;Why go complex when you can go simple&quot;....  \nAnyway, we&#39;ll see soon enough what&#39;s happening with this trial",
+      "score": 49,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Fosco_/message/632726952"
+    },
+    {
+      "username": "Stocktwits",
+      "body": "\ud83d\udea8 Chart of the Day by @johnkicklighter - No Fed Data To Go On, But Multiple Rate Cuts Are Getting Priced In \u26a0\ufe0f  $SPY  \n \nGet the hottest trade ideas and daily insights in your inbox with the Chart Art newsletter! https://chartart.stocktwits.com/p/chart-art-oct-16-2025 \n \nAlso featured: @gpaisa $TSLA, @peloswing $ISRG, @CycleTrade $BTC, @EingeLTrade, @Dr_Stoxx $MRVL",
+      "score": 49,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Stocktwits/message/632678579"
+    },
+    {
+      "username": "SeeingGreen420",
+      "body": "@Addairbob @HoodyHaz $1500 a share is like 130B too, what if we did 750B over a decade? My god fellas!! What\u2019s y\u2019all\u2019s take on the CMO leaving though? We all thought it was because sale coming but after they hired a new CMO what\u2019s y\u2019all\u2019s thoughts here? Crazy to see Scott leaving at this point in the process that\u2019s fo sure.",
+      "score": 46,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SeeingGreen420/message/632726657"
+    },
+    {
+      "username": "PunkASnowflake",
+      "body": "$DJT Can someone from MAGAland explain to me how you can constantly give The Orange one a pass for everything or have an excuse for everything he does and says that&#39;s incorrect or just plain a lie? Example&#39;s would be gas is $1.98 or I&#39;m going to fix everything on DAY 1 &amp; stop the War in Ukraine, Obama isn&#39;t American (Neither is Ted Cruz, Nikki Haley, etc), McCain is a loser, In Springfield They&#39;re eating the dogs &amp; cats, I love the poorly educated, tariffs won&#39;t affect you or maybe a little but you&#39;ll be fine, It&#39;s everyone else&#39;s fault LOL, everything is a hoax, Democrats are evil, I&#39;m your retribution, I have concepts of a plan, Get that SOB off the field, You&#39;re a moron or low IQ etc..So this is your champion? Someone who talks like a fake mob boss dictator wannabe? That&#39;s the &quot;Messiah&quot; the good ole Christian in him speaking out? LOL! Face it, you guys got played 24/7. GOP can&#39;t say anything bad because &quot;Daddy&quot; will get you LOL! That&#39;s not strength when you have to be scurrred LOL!",
+      "score": 46,
+      "indicators": [
+        "emphatic",
+        "shouting_conviction",
+        "questioning",
+        "specific_prediction",
+        "disagreement"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/PunkASnowflake/message/632818191"
+    },
+    {
+      "username": "StockNipsDaily",
+      "body": "$UVIX respectfully disagree. Pay to play. Certain times call for more risk. I believe we are living through one of those times. Best to not get too much total exposure to this at any one time, but these instruments are used by many who are rewarded \u2014 myself included \u2014 as hedges for periods longer than a day trade. The big risk of doing this can lead to big reward and a lot of peace of mind if you are staying long in your other investments while keeping a position in this. I certainly wouldn\u2019t add again until I see 9\u2019s and that would have to be sooner than later, since yes decay is a thing to be mindful of. But that\u2019s also because I was already adding in the 9\u2019s / low 10\u2019s like a mad man. Best of luck to all in these wild times! $SPY $SOXX $SOXS $VIX",
+      "score": 45,
+      "indicators": [
+        "shouting_conviction",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/StockNipsDaily/message/632777365"
+    },
+    {
+      "username": "ihuntbiggame",
+      "body": "@fwank It is no STORY LINE FRANK. We have been robbed, stolen and lied to. Every time CNBC brings Jamie Dimon on that is them telling EVERY AMERICAN we look the other way when our ADVERTISERS come on to knowingly LIE to our viewers. The big JOKE is when Congress watches them and they are all in on it. All members of Congress should have to take an EXAM to make sure they are fit to GOVERN. Why? We make all Architects, Engineers, Lawyers, Doctors, EMT, Contractors take a TEST to be ACCREDITED (spread into the ADULT INDUSTRY). We need a GOVERNING TEST so we all know where they stand, fit, track what they do or did while in office. They are currently simpletons led by GREED &amp; others. To the FBI, CIA AND ARMED FORCES didn&#39;t you have take a test &amp; are you NOT QUESTIONED periodically and REVIEWED. Do not PROTECT CORRUPTION, collude to destroy these TRAITORS who sit in CONGRES and have bastardized a CONSTITUTION. You are many they are only the few",
+      "score": 43,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ihuntbiggame/message/632716891"
+    },
+    {
+      "username": "basstid",
+      "body": "@wireless_cowboy was testing against WeBull at the same time. Wanted the real world test. I know paper fills can be just a snapshot of the bid/ask. On $RANI  this morning, clicking at the same time, I got filled .03 cents cheaper on IBKR during a spike. Was for only a few shares but that\u2019s what I wanted to see. At my usual non margin buying power I play with that\u2019s $150 of otherwise missed gains.\n\nI do like to use WeBull paper as a watchlist that tracks price though when I\u2019m not confident enough to buy something. Definitely cleaned up a lot of my bad habits and FOMO through various paper accounts.",
+      "score": 43,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/basstid/message/632820548"
+    },
+    {
+      "username": "StonkLogic",
+      "body": "@DJtheDegen @DuckiesMom @Pat88 pleas can you tell me where you read CEO of $WTI is going to jail??? when did this happen??? ARE YOU SURE? \n \nI have to sell immediately . Don&#39;t want to lose any more in this shitty company that is scamming everyone",
+      "score": 42,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/StonkLogic/message/632782912"
+    },
+    {
+      "username": "Maxxxtreme",
+      "body": "@cloud_walker710 @drumfish No that&#39;s a Cardano native token (CNT). You can swap $ADA.X here on this decentralized exchange (DEX) to get $COCK \nhttps://minswap.org/swap?cB=49e423161ef818adc475c783571cb479d5f15ad52a01a240eacc0d3b&amp;tB=434f434b\n\nIf you need help on wallet setup just reach out to me in DM.",
+      "score": 41,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Maxxxtreme/message/632772100"
+    },
+    {
+      "username": "StockNipsDaily",
+      "body": "@DavisClarke sounding awfully certain about that. Seems like something that is very easy to manipulate by MM\u2019s in order to get the markets to go where they want. Things can change on a dime, no? This bull market is stretched AF, no?",
+      "score": 41,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/StockNipsDaily/message/632742904"
+    },
+    {
+      "username": "TheToaster",
+      "body": "@Rookie69 @JustAGoodOleBoy22 He also preps JACOB22 for a regular breach while JACOB22 does exactly what he says to do and grabs the balls lol.  Im not gay but when JACOB22 boasts about skills like that....i mean ya kinda wonder!",
+      "score": 41,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/TheToaster/message/632761571"
+    },
+    {
+      "username": "MaverikIT",
+      "body": "@holdingbags   $HIMS $HIMZ   -  over dose of &#39;b- pills&#39; or taking wrong doses of memopause  \ud83e\udd23\ud83e\udd23\ud83e\udd23 @Wigglyick",
+      "score": 41,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/MaverikIT/message/632792123"
+    },
+    {
+      "username": "rsmracks",
+      "body": "@junior2305 @MMaker1 \n\nJunior. There\u2019s my 2027 date I\u2019ve called for. \n\nKoolaid drinkers until mid 2026. \n\n2027 arrives and people simply say, WTF has happened. \n\nLet\u2019s say my timelines are wrong. \n\nI personally don\u2019t care, at some point, I\u2019m going to be protecting my capital. \n\nWhile I\u2019m currently rebalancing my portfolio, at some point next year I will start hedging. \n\nThe hedge will be shorting certain tickers. \n\nThere\u2019s also a possibility that I sell the majority of my positions and simply sit on the sidelines like Buffett? Simply pay the capital gains and be content. \nI\u2019m up 200+% this year. \n\nHe\u2019s been sitting on a huge cash position for years now. It\u2019s lasting longer than he thought it would, but we\u2019re getting closer. \n\nHe will be able to buy any company he wants when The Big Ugly occurs. \nHell, he could buy 2-5 companies.",
+      "score": 41,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/rsmracks/message/632686460"
+    },
+    {
+      "username": "GOD_OF_TRADE",
+      "body": "@Here4themoney1 @Frenchy4166 Central banks are too small compared to entire governments. China produces 17000 tons of gold, It&#39;s central Bank adds around 100 tons a year, Not nearly enough to move the needle. Just a fraction of it&#39;s own production. Again, Price of gold has absolutely no business being more than twice the cost of it&#39;s production. Not only gold. No commodity has any business being price twice of it&#39;s cost to produce",
+      "score": 41,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/GOD_OF_TRADE/message/632780268"
+    },
+    {
+      "username": "GettnFibbywIT",
+      "body": "@FeedMillManager @FractionalShareWhale @RichardFordemteets @johnkicklighter  Really?  That bar graph ONLY shows the debt accumulation under each administration (do the research for yourself regarding that so called &quot;fantasy&quot;).  And yes, what party controls the House/Senate influences Congressional spend and the passage of legislation.  But re-focusing and going back to my original siloed comment - a short dated debt issued 2024 problem- coming home to roost and the challenges of dealing with that - regardless of who was going to be in office.  Good luck out there everyone!",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/GettnFibbywIT/message/632746661"
+    },
+    {
+      "username": "GettnFibbywIT",
+      "body": "@FractionalShareWhale @FeedMillManager @RichardFordemteets @johnkicklighter The Treasury Department is solely responsible for issuing debt\u2014bills, notes, and bonds\u2014via auctions. The Fed does not issue debt. Janet Yellen and her team decided on the maturity mix (e.g., short-term vs long-term), auction schedule, and volume based on funding needs and market conditions. In 2024, Treasury dramatically increased short-term issuance, especially Treasury Bills (T-Bills).  The short term issuance increased rollover risk and front-loaded interest rate exposure which blunted the Fed\u2019s tightening efforts  because short-term debt issuance lowered long-term yields\u2014similar to a stealth rate cut. But the Fed\u2019s actions (or constraints) shaped how that debt was absorbed and priced.  And yes, a President can indirectly influence QE via other means and narrative pressures in which decisions are made.  But to be clear, this is not a one side vs the other regarding increasing and cumulative U.S debt.",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/GettnFibbywIT/message/632727688"
+    },
+    {
+      "username": "jenbunn",
+      "body": "@ribbey @EBE_day @Zorrelak @cubie @simon58 @judgeyoung2 @TraderRapp @tonyctl @lukenight @twincam we should have jumped on that, but you got it earlier\u2026 \ud83d\udc4f\ud83c\udffb \ud83d\udc4d $HIMS",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/jenbunn/message/632800892"
+    },
+    {
+      "username": "jenbunn",
+      "body": "@EBE_day @ribbey @Zorrelak @cubie @simon58 @judgeyoung2 @TraderRapp @tonyctl @lukenight @twincam when you called it $EBE my alert went of for the $50BREAK!!!! And I was watching this other shit!!! Oh boy!!!! \ud83d\ude2c",
+      "score": 39,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/jenbunn/message/632800540"
+    },
+    {
+      "username": "DinoMcnuggets",
+      "body": "@risingphoenix2024 @DTT10 @SoundsAwesome Handing out cash will probably happen. But it will be after a financial crisis. That&#39;s likely when we will see inflation spike up again, and the 10Y will hit 6%. Which is what I am predicting.",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DinoMcnuggets/message/632810364"
+    },
+    {
+      "username": "DinoMcnuggets",
+      "body": "@risingphoenix2024 @DTT10 @SoundsAwesome Well, I am not 100% sure. We could be going into deflation. But, we may also be entering a recession with rising inflation. Where labor risks are so high, that they outweigh inflation, hence pushing bond yields down. This would be a scenario like the 2007 crisis.",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DinoMcnuggets/message/632766096"
+    },
+    {
+      "username": "King_of_Bio",
+      "body": "@chuckld @Islandborn77 @TD281 True, time will tell. But I&#39;ve never seen a company shift into crypto and do well. It&#39;s normally a desperate attempt to keep the lights on.",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/King_of_Bio/message/632799189"
+    },
+    {
+      "username": "Wiley3300k",
+      "body": "@WolfTrader007 @Rayyleee @GordonGekko888 there is no point arguing with @Rayyleee its been a while since I&#39;ve seen such an ignoramus on here. Literal bullshit from this brand new pro-deal account \ud83d\ude02",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Wiley3300k/message/632738943"
+    },
+    {
+      "username": "DJtheDegen",
+      "body": "@Pat88 @DuckiesMom @StonkLogic no evidence needed .... its on the SEC website... call them or email, they&#39;ll confirm it to you .... 100s of fraud cases have been registered against CEO and CFO of WT Offshore",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DJtheDegen/message/632795647"
+    },
+    {
+      "username": "DJtheDegen",
+      "body": "@Pat88 @DuckiesMom @StonkLogic STFU idiot... go find a job ..... Tracy won&#39;t support you forever!!! $WTI fraud is being prosecuted by SEC , he&#39;s headed to jail .... maybe you can pick up his soap for him there???",
+      "score": 39,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "emphatic"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/DJtheDegen/message/632792983"
+    },
+    {
+      "username": "locgreen",
+      "body": "@jumbojetli @UrQuattro @hyun716166 I had a large position in $PLTR that was deep underwater for a long time. Both Alex Karp and Shyam Sundar articulated their vision and business very well, but could not fight the shorts and the SBC narrative. It took the AI boom and Trump/USA first thing to kick in before they got traction. \n\nWhen Enovix gets traction, either due to their superior architecture or a giant PO or whatever else, it will not need that much articulation from individuals.",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/locgreen/message/632691399"
+    },
+    {
+      "username": "Toru4",
+      "body": "@IdcWhatever @ATLbagger @stampeeder14 I feel like people are gonna sell cause it\u2019s not good needs, even tho it\u2019s not bad, if it ain\u2019t good people are gonna pull out. But a nice recovery will follow",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Toru4/message/632683068"
+    },
+    {
+      "username": "backforthecash",
+      "body": "@Wiley3300k @transition_state I see two institutions but where do you get four?",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/backforthecash/message/632816128"
+    },
+    {
+      "username": "backforthecash",
+      "body": "@Wiley3300k @transition_state where are you getting this information about other institutions that are voting no? I can\u2019t find any credible articles which state this although multiple people on Stocktwits seem to reference it",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/backforthecash/message/632816008"
+    },
+    {
+      "username": "Legitimate",
+      "body": "@FeedMillManager @RichardFordemteets @johnkicklighter I see total Ai spend contributing to about 40% of the gdp, so not a super hot economy outside of the Ai mania. Not cool either, but nothing near 4% if we include normalized gdp as a reference",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Legitimate/message/632736910"
+    },
+    {
+      "username": "TraderRapp",
+      "body": "@judgeyoung2 @ribbey @jenbunn @cubie @simon58 @Zorrelak @EBE_day @tonyctl @lukenight @twincam correct Judge. No one cares about their heart diseases. Only if they look thin enough in their open casket. $NVO. \n\nSorry, That was kinda morbid medical humor. Obesity approval coming\u2026",
+      "score": 39,
+      "indicators": [
+        "direct_challenge",
+        "disagreement"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/TraderRapp/message/632821875"
+    },
+    {
+      "username": "Janalea101",
+      "body": "@Cash4freedom No problem , I follow many of the same wizards you do and see your posts quit often... \nProbably seeing some choppy times for awhile but LT everything will be awesome as the new administration is PRO business and once the 18T+ gets going in new investments and these companies get to write it off in ONE YEAR things will go much much higher in 2026-27 just from policy and much less regulation ... \nGood times are coming , just don&#39;t let these stupid daily games affect your decisions...  It&#39;s hard to do so I&#39;m prolly walking away for a little while ... \nJust keep buying the lows and we will see another 3 years to this Bull Cycle !!!!",
+      "score": 38,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Janalea101/message/632681422"
+    },
+    {
+      "username": "transition_state",
+      "body": "@Wiley3300k that is interesting. Neither of the two is such a star company, however CRWV has opted for a strategy (many disagree with including myself) to spend first and earn later. They have tremendous support from hyperscalers and NVDA. Barring external geopolitical / economic factors, CRWV will fix the situation by increasing revenues and postponing debt repayment. CORZ has none of these characteristics, its weakest spot is that it is still a hybrid bitcoin mining / hosting company, and it too has a heavy debt that is several times larger than revenues. (and revenues decreased in 2025!) I am not an analyst! It is just my opinion. I do not own any security of any bitcoin miners, I don&#39;t see the point in that. And I don&#39;t work at CRWV lol, I wish haha. Have a great weekend! :-)  PS: I don&#39;t own any stock of CRWV, options only, hence not only I don&#39;t work there but I don&#39;t vote either see?  It&#39;s just my opinion",
+      "score": 38,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/transition_state/message/632818704"
+    },
+    {
+      "username": "DJtheDegen",
+      "body": "@Impatient_Investor you got that right buddy!!! $KOS is 100% filing ch. 11 in 12-18 months..... no other way to get around that mountain of debt ..... \n \nHorribly run, missed GTA deadlines for years, screwing its investors with massive dilution .... worst part is that its in bed with Tulllow and BP!!! .... look at $BP stock, dead for 15 yrs since Deepwater Horizon .... Inglis was fired from BP, he was VP Upstream when DW happened.... but managed to grab 15 M in severance pay... another 5M from Petrofrac ... he doesn&#39;t give a shit about Kosmos stock , debt, investors or what have you.....",
+      "score": 38,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/DJtheDegen/message/632775526"
+    },
+    {
+      "username": "DJtheDegen",
+      "body": "@Globalbasis lets hope for your and our sake things turn around ..... but this is no $TELL , a &quot;Total&quot; and utter fraud according to me .... that I even traded it and got out.... lucky stars nothing else!!! \n \n$NFE is the victim of US politics with Puerto rico .... they did make many execution mistakes, but none that they can&#39;t overcome ..... net-net, not valid to compare it to Tellurian",
+      "score": 38,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DJtheDegen/message/632774085"
+    },
+    {
+      "username": "Playthegame06",
+      "body": "@sldprt @alexpitti @Daquanladariusblackman2 Why are you Bitchin\u2019 at Alex???  How much is he charging you for his research??\u2026\u2026\nEXACTLY!!!!",
+      "score": 37,
+      "indicators": [
+        "direct_challenge",
+        "emphatic",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Playthegame06/message/632736913"
+    },
+    {
+      "username": "FTV",
+      "body": "@TOTrader2025 @WhyAlwaysMe_ I love your analogy lol. It seems to me that the markets have become so incredibly important to him, far more than in his previous term.\nBut it may be more sinister than that, because the market is what\u2019s keeping the economy from going into a recession. If the stock market collapses, that\u2019s basically your initial trigger for the recession (and then you have the generational buying opportunity).\n\nAnyway, the moment the premarket opened, I slid in a tiny $UVIX -&gt; $SVIX exchange to continue my DCA on SVIX.  And some small nibbles on ETHU BITU.\n\nOptions expiration today\u2026 Though I think most of the real activity happened yesterday, so today should be a lot calmer.\n\nBut I would have sold at least half of my UVIX position between $16-$17 if I was given the opportunity which of course was frustrating that it all happened out of reach.\n\nI don\u2019t believe that that was the end of this selling, not at $SPY658, that\u2019s for sure.  But will have to wait till next week.",
+      "score": 36,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/FTV/message/632731724"
+    },
+    {
+      "username": "rsmracks",
+      "body": "@MMaker1 @junior2305 \n\nMMaker,\nIt\u2019s what we\u2019ve spoke about 25 times. \n\nThis next fallout will wash out trillions. \nThere won\u2019t be any bailouts. \n\nIt\u2019s the global reset and it\u2019s coming. \n\nThe Great Recession resulted in a total loss of wealth of approximately $13 to $19.2 trillion for U.S. households, combining losses in real estate and stock market investments. Other estimates show the total cost to the U.S. economy, including lost output and jobs, could be over $20 trillion\n\nThe Big Ugly will be worse. \n\nDebt loads are absolutely historical. \n\nThe more I think about it. \n\nI might just sell it all. \ud83e\udd23",
+      "score": 36,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "high_conviction"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/rsmracks/message/632686786"
+    },
+    {
+      "username": "MissionImpossibl",
+      "body": "@kromagcuz @llamapaca tards buying overpriced \ud83d\udca9!! Gl",
+      "score": 36,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/MissionImpossibl/message/632736429"
+    },
+    {
+      "username": "koditrump",
+      "body": "@SqueezeShorty @Kingbagholder69 Thank you!! It\u2019s a real no brainer \ud83e\udd2d",
+      "score": 36,
+      "indicators": [
+        "direct_challenge",
+        "disagreement",
+        "emphatic"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/koditrump/message/632806385"
+    },
+    {
+      "username": "BuddhaLove",
+      "body": "@slakjaw @a1511 Heard that. I dont day trade more swing trade. I agree things have been feeling diff just too risky to have the kind of cash I had in risky miners. $TTD is a safe bet in My Eye. Look into $BROS too. Been loading hard (For Me).",
+      "score": 36,
+      "indicators": [
+        "shouting_conviction",
+        "direct_challenge",
+        "high_conviction"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/BuddhaLove/message/632803423"
+    },
+    {
+      "username": "Lifeinlight",
+      "body": "$SERV fasten your sitbelts ladies ans gentlemen,  our stock is going opposite direction to where it is supposed to go, we believe its delusional schizophrenic at this moment, the reason for hallucinations as well as irs delusion is currently unknown,  hntil we find out why everyone is going to the right direction and why your train is heading to the wrong one, just fasten your belt and stay tuned, we will get back to you as soon as we found out. Fir now enjoy your ride. We are not bullish or bearish at thus point.",
+      "score": 35,
+      "indicators": [
+        "contrarian",
+        "disagreement",
+        "questioning"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Lifeinlight/message/632799123"
+    }
+  ]
+}

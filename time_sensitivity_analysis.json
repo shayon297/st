@@ -1,0 +1,1360 @@
+{
+  "summary": {
+    "total_messages": 19477,
+    "posts_with_timeframes": 4395,
+    "posts_with_timeframes_pct": 22.57,
+    "time_sensitive_posts": 1403,
+    "time_sensitive_pct": 7.2,
+    "avg_time_sensitivity": 3.01
+  },
+  "timeframe_frequency": {
+    "temporal_modifier": 1557,
+    "specific exp": 343,
+    "today": 1058,
+    "quarter": 209,
+    "this week": 114,
+    "specific day": 553,
+    "next week": 472,
+    "earnings": 46,
+    "long-term": 97,
+    "catalyst": 69,
+    "expiration": 141,
+    "swing": 90,
+    "after-hours": 107,
+    "tomorrow": 97,
+    "weeks": 62,
+    "months": 45,
+    "close/EOD": 145,
+    "pre-market": 73,
+    "short-term": 72,
+    "fed": 9,
+    "power hour": 31,
+    "opening": 47,
+    "countdown": 6,
+    "mid-day": 8,
+    "ex-div": 1
+  },
+  "top_time_sensitive_posts": [
+    {
+      "username": "TheCatalystCalendar",
+      "body": "That about describes my day \ud83d\udc47 \ud83d\ude02 couldn\u2019t actively manage my account today and got slammed! \n\nLuckily I only had a starter in $UAMY but it\u2019s still bearish AF on the technicals. Longterm I\u2019m fine. Short term, I don\u2019t think today\u2019s dip was it now that I have time to look at it. \n\n$TGB grabbed it after open so I\u2019m fine. I think there\u2019s going to be a government purchase of shares. Just a feeling in my belly \n\n$RKT I have calls that expire tomorrow \ud83d\ude02  \ud83e\udd2c \ud83e\udd26\ud83c\udffc OTM. \n\n$NAK I cannot tell you how much I love NAK longterm. I bought Jan 2028 $7 calls early today and I cannot believe how far they dropped in proportion to the commons by close, with such a far out exp. I\u2019ll be buying a lot more.   I still have Jan 2027 $5 calls up 698%. I was up 1000% so it\u2019s not as good as it sounds \ud83d\ude02 \n\nJust sharing this since I have been sharing my wins, I don\u2019t want anyone to think I\u2019m immune from red days. I\u2019m going to turn it into a win by learning.  I usually learn from losses. Don\u2019t learn much when I Win \ud83d\ude02",
+      "score": 77,
+      "timeframes": [
+        "temporal_modifier",
+        "tomorrow",
+        "specific exp",
+        "expiration",
+        "long-term",
+        "today"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/TheCatalystCalendar/message/632675540"
+    },
+    {
+      "username": "AlbertaSwingTrader",
+      "body": "$RGTI Tomorrow will be a day of reckoning for this ticker.  Either the bulls will load up with cheap shares &amp; try to push this to new highs next week, or we&#39;ll see capitulation like we&#39;ve never seen before.  I&#39;m betting on the latter.  $35 by market close tomorrow.  Loading up on November-expiry puts, as always.",
+      "score": 64,
+      "timeframes": [
+        "temporal_modifier",
+        "tomorrow",
+        "next week",
+        "close/EOD",
+        "expiration"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/AlbertaSwingTrader/message/632692148"
+    },
+    {
+      "username": "QuantInsider",
+      "body": "$TSLA action today had a big player making moves\n\nAt 3:02 PM, there was an $8M ask-side block in 10/17 $477.5 ITM puts\n\nThat&#39;s a serious near-term protection play\n\nThis could keep the weekly IV bid and add pressure into Friday\n\nIf you&#39;re trading directionally, keep it defined risk as we head into expiry\n\nOn the flip side, there&#39;s some aggressive upside for next week\n\nGolden sweeps in 10/24 $442.5 and $447.5 calls totaling about $5.9M were bought at the ask\n\nThese are fresh positions but wait for confirmation above the 440 to 447 zone before leaning long\n\nStay sharp out",
+      "score": 61,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "next week",
+        "expiration",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/QuantInsider/message/632676549"
+    },
+    {
+      "username": "DonCorleone77",
+      "body": "$PRAX $KZR $CSX $IBKR $WAFD  \n \nFeel free to follow me for pre-market and after-hours movers every day. \n \nAFTER-HOURS MOVERS: \n \nCurrently Higher After Earnings: \n \n-- CSX (CSX) up 2.3% \n-- F.N.B. (FNB) up 1.6% \n-- Cohen &amp; Steers (CNS) up 0.5% \n \nCurrently Also Higher: \n \n-- Kezar Life Sciences (KZR) up 46.3% after announcing it will explore strategic alternatives as it has been unable to align with FDA on potential registrational clinical trial of zetomipzomib \n-- Praxis Precision Medicines (PRAX) up 5.4% despite common stock offering on momentum following today&#39;s 184% spike \n \nCurrently Lower After Earnings: \n \n-- Glacier Bancorp (GBCI) down 3.3% \n-- WaFd (WAFD) down 2.8% \n-- Interactive Brokers Group (IBKR) down 2.6% \n-- Bank OZK (OZK) down 0.7%",
+      "score": 60,
+      "timeframes": [
+        "pre-market",
+        "after-hours",
+        "earnings",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DonCorleone77/message/632678223"
+    },
+    {
+      "username": "SPY_Options_Levels",
+      "body": "In yesterday&#39;s letter, we emphasized watching critical SPX levels, and today&#39;s action validated our analysis perfectly. Overnight, $SPX lost key support at 6585 and dipped below 6540, but rebounded by the opening bell to reach 6620. This set the stage for a significant trading day, with the dip to our key 6603 support EXACTLY (low of day 6603.76) that triggered a massive 75 point run to high of day 6678.88, ultimately closing $SPY up 0.57% and $SPX up 0.53%.  $ES_F \n \nAs we look toward Monday, while the schedule seems light on the surface, unexpected developments, particularly from the White House, could disrupt the market dynamics. Traders should stay sharp, positioning themselves with the trend and considering 1-3 DTE strategies to manage risk and enhance returns. Join our community to navigate these volatile waters and trust in the levels for actionable insights.",
+      "score": 59,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "opening",
+        "close/EOD",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SPY_Options_Levels/message/632820847"
+    },
+    {
+      "username": "FTV",
+      "body": "@TOTrader2025 @WhyAlwaysMe_ I love your analogy lol. It seems to me that the markets have become so incredibly important to him, far more than in his previous term.\nBut it may be more sinister than that, because the market is what\u2019s keeping the economy from going into a recession. If the stock market collapses, that\u2019s basically your initial trigger for the recession (and then you have the generational buying opportunity).\n\nAnyway, the moment the premarket opened, I slid in a tiny $UVIX -&gt; $SVIX exchange to continue my DCA on SVIX.  And some small nibbles on ETHU BITU.\n\nOptions expiration today\u2026 Though I think most of the real activity happened yesterday, so today should be a lot calmer.\n\nBut I would have sold at least half of my UVIX position between $16-$17 if I was given the opportunity which of course was frustrating that it all happened out of reach.\n\nI don\u2019t believe that that was the end of this selling, not at $SPY658, that\u2019s for sure.  But will have to wait till next week.",
+      "score": 59,
+      "timeframes": [
+        "pre-market",
+        "next week",
+        "expiration",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/FTV/message/632731724"
+    },
+    {
+      "username": "Uknowthe_thing",
+      "body": "$MSOS Monday and Tuesday back to 5.40 to sell more calls to expire Friday . Maybe we get a post from Kass or Tyson to help . Until a few weeks becomes today this is normal .",
+      "score": 59,
+      "timeframes": [
+        "specific day",
+        "weeks",
+        "temporal_modifier",
+        "expiration",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Uknowthe_thing/message/632822499"
+    },
+    {
+      "username": "UnsettledOnPurpose",
+      "body": "$HYLN Did we move down today because a lot of investors thought, &quot;Gee. I suddenly don&#39;t like the ridiculous opportunity here.&quot; -OR- Did the shorties just double-down (again)? \n \nIf I was a chart guy, I would say that we&#39;re definitely closing lower again Friday as the shorties try to push this under $2 for options expiry. That&#39;s fine. I&#39;m ready to buy more.",
+      "score": 59,
+      "timeframes": [
+        "specific day",
+        "expiration",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/UnsettledOnPurpose/message/632679440"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$GM &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $GM \nBearish (3.2) \nGeneral Motors (GM) Financial Analysis \nGeneral Motors currently faces significant challenges, as evidenced by a recent $1.X.6 billion impairment charge related to its electric vehicle (EV) strategy overhaul. \nThe charge includes $1.X.2 billion in non-cash impairments and $400 million in cash costs, reflecting the company&#39;s need to adjust to changing market conditions, such as the expiration of federal EV tax credits. \nDespite these setbacks, GM has seen a 20.7% stock increase over the past year and a 72.2% return over three years, suggesting resilience among investors. \nHowever, the company&#39;s recent dip of 2.3% over the last month signals ongoing volatility in the auto sector, especially concerning EV sales. \nOn the financial metrics front, GM&#39;s P/E ratio stands at a level that reflects cautious optimism but is not overly high compared to industry peers, indicating a balanced view of future growth. \nHowever, the company&#39;s EPS growth has been under pressure due to strategic realignments. \nRevenue forecasts for the upcoming quarters appear mixed, with analysts debating the impact of policy changes on GM&#39;s bottom line. \nComparatively, industry peers such as Ford and Stellantis have also faced challenges, although their responses to tariffs and tax credit changes have varied. \n \nUpcoming Earnings Report Overview \nGeneral Motors is set to release its Q3 earnings shortly, and the expectations are mixed. \nAnalysts anticipate a potential earnings beat, driven by strong EV sales prior to the expiration of the federal tax credit. \nHowever, there&#39;s also concern over a projected double-digit drop in earnings due to strategic shifts and the $1.X.6 billion charge. \nHistorically, GM has a track record of outperforming earnings estimates, which could play favorably in the upcoming report. \nThe potential impact of these earnings on GM&#39;s stock will depend on how well the company communicates its strategic pivots and long-term vision to investors. \n \nSector Performance \nThe automotive sector, to which GM belongs, is currently experiencing a turbulent period. \nThe sector has been affected by policy changes, including tariff impositions and tax credit expirations, which have created a challenging environment for U.S. \nautomakers. \nWhile there have been bright spots, such as record EV sales and strategic partnerships in emerging markets, the overall sentiment remains cautious. \nConsumer interest in EVs is high, but economic uncertainties and policy shifts continue to cloud the outlook. \nAs such, the sector&#39;s performance is expected to remain volatile in the near term, with a focus on how automakers navigate these macroeconomic challenges. \n \n- Funds were net buyers of $GM during the previous reporting quarter. \n \n- Funds with large holdings in $GM include: \n \n- Viking Global Investors LP, MV: $641MM. Fund Rank: 70% \nwww.vikingglobal.com \n- Canada Pension , MV: $118MM. Fund Rank: 78% \n \n- Donald Smith &amp; Co Inc, MV: $82MM. Fund Rank: 96% \n \n- Junto Capital Management LP, MV: $65MM. Fund Rank: 90% \nwww.juntocap.com \n- Patient Capital Management LLC, MV: $46MM. Fund Rank: 74% \n \n- Last 10 days performance: -4% \n- Last 30 days performance: -2% \n- Last 90 days performance: 9% \n \nSome of the latest news articles: \n - Title: GM joint venture pauses phase 2 of Canadian battery materials plant as EV outlook dims \nPublication Date: 10/16/2025 8:34:35 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/gm-joint-venture-pauses-phase-203435822.html?.tsrc=rss \n \n - Title: Sector Update: Consumer Stocks Decline Late Afternoon \nPublication Date: 10/16/2025 7:52:04 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/sector-consumer-stocks-decline-afternoon-195204895.html?.tsrc=rss \n \n - Title: Update: Market Chatter: General Motors, Vale Pause Battery Material Plans in Canada \nPublication Date: 10/16/2025 6:19:46 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/market-chatter-general-motors-vale-181946024.html?.tsrc=rss \n \n - Title: This 1 Unexpected Company Could be the Best Stock to Buy as Rare Earths Steal the Show \nPublication Date: 10/16/2025 6:07:19 PM, Source: yahoo \nURL: https://www.barchart.com/story/news/35504340/this-1-unexpected-company-could-be-the-best-stock-to-buy-as-rare-earths-steal-the-show?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 55,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "quarter",
+        "expiration",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632685078"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$DHR &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $DHR \nBearish (3.0) \nFinancial Analysis: \nDanaher Corporation (NYSE:DHR) currently faces a mixed outlook, as reflected in its recent stock performance and analyst sentiments. \nThe company&#39;s shares have experienced a decline of 10.7% year-to-date and are down 24.0% over the past year. \nThis underperformance is juxtaposed with a modest 5.6% increase over the last five years, indicating potential stagnation for long-term investors. \nThe company&#39;s trailing P/E ratio stands at 39.47, with a forward P/E of 21.69, suggesting a premium valuation in comparison to its industry peers. \nAnalysts have recently downgraded the stock from a &quot;&quot;Buy&quot;&quot; to a &quot;&quot;Hold,&quot;&quot; with a reduced price target of $220 from $245, highlighting concerns over its elevated valuation. \nDespite the concerns, Danaher continues to demonstrate strength in certain sectors, such as bioprocessing and diagnostics. \nThe company has recently launched several innovative projects, including AI-powered digital pathology solutions and advancements in gene editing tools, which may bolster its growth prospects. \nHowever, headwinds persist, particularly in its life sciences segment due to weak demand, and challenges in the Chinese market. \nIn comparison to industry peers like Thermo Fisher Scientific and Agilent Technologies, Danaher remains competitive in innovation and strategic acquisitions. \nHowever, its high debt levels and recent legal investigations may pose risks to its financial stability and reputation. \n \nUpcoming Earnings Report: \nDanaher is set to announce its third-quarter results on October 21, 2025. \nAnalysts expect earnings growth to be mostly flat, a continuation of its fiscal second quarter performance, where it reported a revenue of $5.94 billion, surpassing Wall Street estimates. \nThe upcoming earnings call will be closely watched for insights into its financial performance and future expectations. \nHistorical performance indicates the company has managed to meet or exceed earnings expectations, but the current analyst consensus suggests a cautious outlook. \nAnalyst expectations are focused on the healthcare tools and life sciences business, where operational strength is anticipated. \nHowever, any deviation from these expectations could significantly impact the stock&#39;s performance. \n \nSector Performance: \nThe healthcare sector, to which Danaher belongs, has been underperforming relative to broader indices like the S&amp;P 500. \nOver the past six months, healthcare stocks have seen a collective gain of 1.4%, trailing behind the S&amp;P 500&#39;s 15.5% rise. \nThe sector faces ongoing challenges, including COVID-related inventory destocking and broader macroeconomic pressures. \nNonetheless, it remains a critical area for innovation, with long-term prospects driven by advancements in drug development and digital health solutions. \nDespite short-term headwinds, the sector&#39;s commitment to innovation positions it for potential recovery and growth in the future. \n \n- Funds were net buyers of $DHR during the previous reporting quarter. \n \n- Funds with large holdings in $DHR include: \n \n- Aristotle Capital Management LLC, MV: $814MM. Fund Rank: 72% \nwww.aristotlecap.com \n- Canada Pension , MV: $434MM. Fund Rank: 78% \n \n- Bluespruce Investment LP, MV: $418MM. Fund Rank: 88% \n \n- AKRE Capital Management LLC, MV: $351MM. Fund Rank: 58% \nwww.akrecapital.com \n- Adage Capital P, MV: $198MM. Fund Rank: 89% \nwww.adagecapital.com \n- Last 10 days performance: -4% \n- Last 30 days performance: 10% \n- Last 90 days performance: 6% \n \nSome of the latest news articles: \n - Title: Rothschild &amp; Co. Redburn Downgrades Danaher Corporation (DHR) to Hold, Reduces PT \nPublication Date: 10/16/2025 8:35:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/rothschild-co-redburn-downgrades-danaher-203500953.html?.tsrc=rss \n \n - Title: Wall Street&#39;s Insights Into Key Metrics Ahead of Danaher (DHR) Q3 Earnings \nPublication Date: 10/16/2025 1:15:05 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/wall-streets-insights-key-metrics-131505470.html?.tsrc=rss \n \n - Title: Medpace (MEDP) Earnings Expected to Grow: What to Know Ahead of Next Week&#39;s Release \nPublication Date: 10/15/2025 2:00:19 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/medpace-medp-earnings-expected-grow-140019170.html?.tsrc=rss \n \n - Title: Does Analyst Optimism Ahead of Q3 Results Signal Durable Momentum for Danaher (DHR)? \nPublication Date: 10/15/2025 4:22:28 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/does-analyst-optimism-ahead-q3-042228009.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 55,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "short-term",
+        "next week",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632684889"
+    },
+    {
+      "username": "QuantInsider",
+      "body": "$BE looking bullish with those call-heavy ask-side sweeps\n\nOver $20M in the last 5 days, aligning with a +30.6% price surge\n\nToday&#39;s dip of 2.33% might need some time to settle before jumping in long\n\nCheck out the 800-lot sweep in Nov 21 $165 calls, 50% OTM with a ~$440k premium\n\nThat\u2019s some aggressive positioning\n\nIf the tape firms up, this could really drive follow-through\n\nWaiting for stabilization seems smart here\n\nLet\u2019s see how it plays out",
+      "score": 55,
+      "timeframes": [
+        "temporal_modifier",
+        "specific exp",
+        "today",
+        "catalyst"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/QuantInsider/message/632799334"
+    },
+    {
+      "username": "akanon90",
+      "body": "@Kingsim my Dec 19 puts limit order did not trigger yesterday, and I saw the overnight price and started regretting it. Now I\u2019m glad, I can watch the price action at open and decide. $QQQ above 608 is definitely a short, it just needs time. Atleast 2 months to expiry.",
+      "score": 55,
+      "timeframes": [
+        "expiration",
+        "opening",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/akanon90/message/632716240"
+    },
+    {
+      "username": "QuantInsider",
+      "body": "$QUBT getting hit hard\n\nTwo big put blocks at 10:29 ET, 0DTE $19 and Oct 24 $16.5\n\nThat lines up with a 14.5% drop over five days\n\nLooks like someone\u2019s betting on more downside\n\n19,998 Oct 24 $16.5 puts bought for about $1.40M\n\nThat\u2019s over 12 times open interest with IV around 134%\n\nThis kind of move usually pressures shares and keeps volatility high going into next week\n\nKeep an eye on this one",
+      "score": 52,
+      "timeframes": [
+        "next week",
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/QuantInsider/message/632769327"
+    },
+    {
+      "username": "MrMagician",
+      "body": "$SLS @Idfkytm it means is that someone sold a 2 buck strike that expires today. If $SLS closes at 2 or higher, the person who sold it has to either give the shares they already have (covered calls) OR buy the shares on the open market at current cost. The person who bought the calls will have paid a premium up front, and then they pay the seller the 2 bucks per share. The seller is now on the hook for paying the difference between the current share price and the premium plus 2 buck strike. There are 4,263,000 shares that will transfer hands at 2 buck strike end of day today, assuming it doesn&#39;t tank before then. Assuming ZERO of those shares have been purchased yet, then we will see 4.2M shares be assigned - meaning you must purchase them on the open market because you&#39;re now short 4.2M shares.",
+      "score": 52,
+      "timeframes": [
+        "temporal_modifier",
+        "expiration",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/MrMagician/message/632794536"
+    },
+    {
+      "username": "Omegacy2",
+      "body": "Omegacy2 \n10:34 AM \n$NBIS 113.5s i add more after out 16.5-19.5 hod 20.5s. scalps  many +1-5. Bullish \n \nOmegacy2 \n3:48 AM \n$NBIS 116 i add more $SOXL 37.9s i cover some from shorted 41.69 in msg below i know friday market will drop as i predicted. i still have rbc nbis cash and rrsp from in 89-90 from few weeks ago for 150-200+.  \n  \nOmegacy2  \nYesterday 2:54 PM  \n$SPY 660 already dip last friday 670s to 648 as i pt 640s. pt now 660. 650s is do able by friday. semis  have hard time to keep it gain so does market that why i am scalping as much as i can with $NBIS $HPE today.  @Phil_Leotardo69 you have until oct end if any dip. Bullish",
+      "score": 51,
+      "timeframes": [
+        "specific day",
+        "weeks",
+        "temporal_modifier",
+        "this week",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Omegacy2/message/632758817"
+    },
+    {
+      "username": "dennismccain",
+      "body": "$APLD   The Puts I sold earlier this week are now looking like they\u2019ll be assigned today at the close. To offset this, I\u2019m buying shares on the open market to dollar cost average and bring down my cost basis. I\u2019ll also be selling Calls on those assigned shares on Monday and using the money to buy even more shares on the open market. When you have confidence in your analysis and management, you don\u2019t panic. You continue to execute your strategy.",
+      "score": 51,
+      "timeframes": [
+        "specific day",
+        "this week",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/dennismccain/message/632771477"
+    },
+    {
+      "username": "Omegacy2",
+      "body": "$NBIS 116 i add more $SOXL 37.9s i cover some from shorted 41.69 in msg below i know friday market will drop as i predicted. i still have rbc nbis cash and rrsp from in 89-90 from few weeks ago for 150-200+. \n \nOmegacy2 \nYesterday 2:54 PM \n$SPY 660 already dip last friday 670s to 648 as i pt 640s. pt now 660. 650s is do able by friday. semis  have hard time to keep it gain so does market that why i am scalping as much as i can with $NBIS $HPE today.  @Phil_Leotardo69 you have until oct end if any dip.",
+      "score": 51,
+      "timeframes": [
+        "specific day",
+        "weeks",
+        "temporal_modifier",
+        "this week",
+        "today"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Omegacy2/message/632696929"
+    },
+    {
+      "username": "EarlyBirdPicks",
+      "body": "$CELH Tons of open interest on the $65 calls today, so you knew the big boys weren&#39;t going to let this close above $65. Extremely high probability of this gapping up Monday morning at the open. No meaningful open interest for options next week. I think $70+ is a distinct possibility. \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "score": 51,
+      "timeframes": [
+        "specific day",
+        "next week",
+        "opening",
+        "today"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/EarlyBirdPicks/message/632816550"
+    },
+    {
+      "username": "TheVixShorter",
+      "body": "@BigPumps It seems like that but there will be a huge sell off at the end of the day because nobody wants to hold over the weekend, same as last friday. \n \nI got out of all the $38 sold puts I had which expire today at $.12 so at least I got out of all of those. \n \nLooking to get out of SOXL because this will be back in the $20 &#39;  s before you know it.",
+      "score": 49,
+      "timeframes": [
+        "specific day",
+        "expiration",
+        "temporal_modifier",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/TheVixShorter/message/632764598"
+    },
+    {
+      "username": "chivo12",
+      "body": "$RGNX \nCould be an interesting weekend as it appears that interim ALTITUDE eye data to be shared late this afternoon.  \nI don\u2019t recall any interim data being shared from this study since a presentation at the same annual meeting Friday Nov 3, 2023 when rgnx also issued a PR after the market closed and a con call the following Monday morning. \n\nIn my opinion, if there is ever to be a parabolic change in the value of this company, it will be driven by this indication/delivery.  \nhttps://ir.regenxbio.com/news-releases/news-release-details/regenxbio-announces-presentation-american-academy-ophthalmology",
+      "score": 49,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "specific exp",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/chivo12/message/632717373"
+    },
+    {
+      "username": "DonCorleone77",
+      "body": "$BITF $BTC $ETH $LLY $AXP  \n \nFeel free to follow me for pre-market and after-hours movers every day. \n \nPRE-MARKET MOVERS: \n \nCurrently Higher After Earnings: \n \n-- American Express (AXP) up 2.1% \n-- CSX (CSX) up 2.1% \n-- Fifth Third (FITB) up 2.4% \n-- Huntington Banchsares (HBAN) up 1.2% \n-- Truist Financial (TFC) up 2.3% \n \nCurrentyl Lower After Earnings: \n \n- State Street (STT) down 3.5% \n \nCurrently Also Lower: \n \n-- Eli Lilly (LLY) down 4.1% after President Donald Trump said the price of Ozempic could come down based on negotiations with the federal government \n-- AST SpaceMobile (ASTS) down 5.8% after being double downgraded to Underweight at Barclays \n-- Micron (MU) down 1.2% after Reuters reported that the company plans to stop supplying its server chips to data centers in China \n-- Bitfarms (BITF) down 8.1% after upsizing convertible senior notes offering to $500M from $300M  \n-- Cryptocurrency-linked stocks like Ethereum and Solana decline as Bitcoin liquidations continue",
+      "score": 48,
+      "timeframes": [
+        "pre-market",
+        "after-hours",
+        "earnings"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/DonCorleone77/message/632726196"
+    },
+    {
+      "username": "stockwatcherking",
+      "body": "$SPY $QQQ Market is indecisive. All these inside day candles. It\u2019s a coin flip from here. Not playing any index level options aside from tail risk hedging. \n\nSPY is forming either a H&amp;S or possibly a diamond top pattern. Most likely the volatility will be crushed next week as price moves inside the right part of this wedge. With smaller and smaller intraday moves. \n\nIf they do plan on rugging it lower, it\u2019s not likely to happen when VIX is elevated. It\u2019s more likely to happen suddenly when VIX is below 17. \n\nAnd course she could just be consolidating for the next leg higher. As long as $650 continues to hold, don\u2019t commit any heavy capital to downside hedging. Just focus on tail risk. You are better off waiting for the VIX to settle down next week. \n\nI think after the No Kings rally, they may be more inclined to open the government. That\u2019s a positive catalyst. Delayed CPI data is also finally coming out on Friday. \n\nMarket probably won\u2019t pick a hard direction until after Friday.",
+      "score": 47,
+      "timeframes": [
+        "specific day",
+        "next week",
+        "temporal_modifier",
+        "catalyst"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/stockwatcherking/message/632814539"
+    },
+    {
+      "username": "SunAndStorm",
+      "body": "10/17/25 1:47 pm ET Opportunity Range\u2122 Positions  \n \nThe lowest prices in the short term ranges are in small caps and gold today, but at the moment neither of those are breaching their predicted range lows... \n \n                   Position  Change   Price  \n$SPX           49%    0.23%  6,632  \n$XLK          50%   -0.44%  283.89  \n$SPMO  41%   -0.12%   120.08  \n$RUT             14%   -1.14%  2,438  \n$IWP     31%   -0.57%  140.51  \n$TNX     44%    2.50     4.001  \n$GLD     16%   -2.32%  387.27  \n$BTC.X     29%   -1.67%  106,393  \n \nOpportunity Ranges\u2122 are short term predicted trading ranges that can change daily.     \n   \nA range position near or nearing 100% indicates &quot;overbought&quot; and one near or nearing 0% indicates &quot;oversold.&quot; Overshoots above or below the ranges indicate pressured buying/selling, respectively...     \nTNX change is in basis points and price change is in %. Index prices may be delayed.   \n   \n#Bitcoin is quoted for the time stated. If it&#39;s afterhours, the other prices are closing prices.",
+      "score": 47,
+      "timeframes": [
+        "temporal_modifier",
+        "after-hours",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SunAndStorm/message/632781504"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$NDAQ &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $NDAQ \nBullish (7.8) \nFinancial Analysis: \nNasdaq, Inc. \n(NDAQ) is currently showcasing a robust financial outlook with its strategic ventures and technological advancements. \nThe company\u2019s P/E ratio stands at an impressive level compared to its peers, indicating a strong earning potential relative to its share price. \nThe recent enhancements to Nasdaq&#39;s surveillance platform, embedding AI capabilities, have positioned it well for future growth, especially in regulatory tech and financial crime prevention. \nRevenue forecasts are optimistic, with Nasdaq expected to outpace industry averages due to its diversified portfolio and expansion into digital assets and defense bonds. \nThe EPS growth is anticipated to be in double digits, reflecting strong operational performance and strategic investments, such as the recent $50 million investment in Gemini. \nThis move not only strengthens its position in the crypto space but also aligns with its long-term growth strategy. \nCompared to industry peers like CME Group and ICE, Nasdaq demonstrates a competitive edge with its innovative approach and strategic partnerships, particularly with AWS in cloud services. \n \nUpcoming Earnings Report: \nNasdaq is poised to announce its third-quarter 2025 financial results on October 21. \nAnalysts are anticipating a strong performance with potential earnings growth in the low double digits. \nHistorically, Nasdaq has demonstrated consistent revenue and EPS growth, often surpassing analyst estimates. \nThe consensus among analysts suggests a likely earnings beat, driven by robust index services, increased trading volumes, and strategic investments in technology. \nThe anticipated solid earnings report could have a positive impact on the stock, reinforcing its bullish trend. \nInvestors are closely watching the earnings announcement, which is expected to provide further insights into Nasdaq\u2019s operational efficiency and growth trajectory. \n \nSector Performance: \nThe financial sector, particularly the exchanges and data segment to which Nasdaq belongs, has shown resilience and growth despite market volatility. \nRecent advancements in digital assets and tokenization are reshaping the landscape, with Nasdaq at the forefront. \nThe sector has benefited from increased trading activities and a focus on technological integration, enhancing operational efficiencies and expanding service offerings. \nWith financial stocks generally rising, Nasdaq&#39;s innovative strategies and market position suggest continued sector outperformance, positioning it as a leader in embracing financial technology advancements. \n \n- Funds were net buyers of $NDAQ during the previous reporting quarter. \n \n- Funds with large holdings in $NDAQ include: \n \n- Farallon Capital Management LLC, MV: $365MM. Fund Rank: 70% \nwww.faralloncapital.com \n- Select Equity Group LP, MV: $110MM. New position. Fund Rank: 68% \nwww.selectequity.com \n- Shapiro Capital Management LLC, MV: $69MM. Fund Rank: 56% \nwww.shapirocapital.com \n- Adage Capital P, MV: $52MM. Fund Rank: 89% \nwww.adagecapital.com \n- Eventide Asset Management, MV: $49MM. Fund Rank: 58% \n \n- Last 10 days performance: 2% \n- Last 30 days performance: -3% \n- Last 90 days performance: 0% \n \nSome of the latest news articles: \n - Title: Exploring Analyst Estimates for Nasdaq (NDAQ) Q3 Earnings, Beyond Revenue and EPS \nPublication Date: 10/16/2025 1:15:05 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/exploring-analyst-estimates-nasdaq-ndaq-131505362.html?.tsrc=rss \n \n - Title: Nasdaq Embeds Innovative AI Capabilities Within its Surveillance Platform \nPublication Date: 10/16/2025 7:00:00 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/nasdaq-embeds-innovative-ai-capabilities-070000052.html?.tsrc=rss \n \n - Title: Earnings Preview: CME Group (CME) Q3 Earnings Expected to Decline \nPublication Date: 10/15/2025 2:00:09 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/earnings-preview-cme-group-cme-140009507.html?.tsrc=rss \n \n - Title: Nasdaq (NDAQ) Earnings Expected to Grow: What to Know Ahead of Next Week&#39;s Release \nPublication Date: 10/14/2025 2:00:02 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/nasdaq-ndaq-earnings-expected-grow-140002735.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 47,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "next week",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632685046"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$RTX &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $RTX \nBullish (7.6) \n \n--- \n \nRTX Corporation has shown significant positive momentum in recent trading sessions, driven by its solid financial performance and strategic advancements in both the defense and aerospace sectors. \nThe company&#39;s forward Price-to-Earnings (P/E) ratio is competitive within the industry, with an expected earnings per share (EPS) growth rate that suggests robust future profitability. \nRTX&#39;s recent $1.X.7 billion radar deal and a series of missile production contracts have bolstered its defense segment, contributing to a strong backlog that supports revenue forecasts. \nThe company&#39;s revenue growth is further supported by its aerospace segment, with the Pratt &amp; Whitney division receiving type certification for new engines slated to enter service in 2026. \nComparing RTX to industry peers reveals a stronger defense contract pipeline and innovation in electronic warfare and radar systems, which positions the company favorably against competitors such as Lockheed Martin and Northrop Grumman. \nThe company&#39;s strategic focus on digital transformation and innovation ensures it remains at the forefront of aerospace and defense technology, enhancing its long-term growth prospects. \n--- \n \nRTX is set to release its third-quarter earnings on October 21, 2025. \nAnalysts are anticipating a single-digit dip in profit, though the company is expected to exceed earnings estimates based on its strong historical performance. \nRTX has consistently delivered earnings surprises, suggesting that the upcoming report may continue this trend. \nKey metrics to watch include the impact of increased jet engine demand and the effect of tariffs on earnings. \nAnalyst consensus remains optimistic, with expectations of robust segment sales and potential margin expansion. \nThe earnings report will likely influence investor sentiment and could result in stock volatility depending on the outcomes relative to expectations. \n--- \n \nThe aerospace and defense sector, to which RTX belongs, has experienced steady growth driven by increased government defense spending and rising commercial aerospace demand. \nThe sector&#39;s performance has been buoyed by strategic contracts and technological innovations, with major players like RTX, Lockheed Martin, and Boeing leading the charge. \nDespite some headwinds such as cybersecurity threats and potential supply chain disruptions, the sector&#39;s outlook remains positive, supported by a robust pipeline of government contracts and the ongoing modernization of military capabilities globally. \nThe sector&#39;s resilience, coupled with a focus on innovation, positions it well for continued growth in the coming years. \n \n- Funds were net sellers of $RTX during the previous reporting quarter. \n \n- Funds with large holdings in $RTX include: \n \n- Adage Capital P, MV: $165MM. Fund Rank: 89% \nwww.adagecapital.com \n- Appaloosa LP, MV: $85MM. New position. Fund Rank: 88% \nwww.amlp.com \n- Alyeska Investments, MV: $28MM. Fund Rank: 79% \n \n- Arnhold LLC, MV: $23MM. Fund Rank: 81% \nhttps://arnholdllc.com/ \n- Aljian Capital , MV: $5MM. Fund Rank: 90% \n \n- Last 10 days performance: -6% \n- Last 30 days performance: -1% \n- Last 90 days performance: 4% \n \nSome of the latest news articles: \n - Title: Why RTX Stock Edged Past the Market Today \nPublication Date: 10/16/2025 9:22:20 PM, Source: yahoo \nURL: https://www.fool.com/investing/2025/10/16/why-rtx-stock-edged-past-the-market-today/?.tsrc=rss \n \n - Title: Type certification for RTX&#39;s Pratt &amp; Whitney GTF Advantage\u2122 engine validated by EASA \nPublication Date: 10/16/2025 2:00:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/type-certification-rtxs-pratt-whitney-140000563.html?.tsrc=rss \n \n - Title: Can Honeywell Sustain Aerospace Momentum With Robust Market Demand? \nPublication Date: 10/16/2025 1:45:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/honeywell-sustain-aerospace-momentum-robust-134500507.html?.tsrc=rss \n \n - Title: Unveiling RTX (RTX) Q3 Outlook: Wall Street Estimates for Key Metrics \nPublication Date: 10/16/2025 1:15:02 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/unveiling-rtx-rtx-q3-outlook-131502386.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 47,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "quarter",
+        "long-term",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632684871"
+    },
+    {
+      "username": "ChylothoraxCat",
+      "body": "@Etrading I think it had a chance to run but silver looked weak overnight and then a Trump tweet at 7am took the fear trade out a little bit. I should have dumped my calls at open for break even and reversed short. Did okay on the upside this week but got bit TWICE- first by IWM reversal at ATH and now this one. I really thought they were both gonna run with these binary type events.  Ah well",
+      "score": 47,
+      "timeframes": [
+        "temporal_modifier",
+        "after-hours",
+        "opening",
+        "this week"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChylothoraxCat/message/632747817"
+    },
+    {
+      "username": "Starlight12",
+      "body": "$INTC CLOSING AT LEAST 37.50 TODAY WILL BE A NICE WAY TO ENTER WEEKEMD AND SET UP FOR ER WEEK.",
+      "score": 45,
+      "timeframes": [
+        "earnings",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Starlight12/message/632734886"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$PM &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $PM \nBullish (7.3) \n \n--- \nPhilip Morris International (PM) Financial Analysis \nPhilip Morris International is showing strong momentum as it continues to pivot towards smoke-free products, a strategy that appears to be paying off. \nThe company has recently announced a robust 8.9% increase in its dividend, reflecting confidence in its financial health and future prospects. \nThis brings the annualized payout to $5.88 per share, underscoring its commitment to returning value to shareholders. \nThe company&#39;s P/E ratio remains competitive within the industry, although it&#39;s crucial to note that comparisons with peers like Altria show a slightly lower valuation, which could suggest an undervaluation relative to its growth potential in smoke-free products. \nThe company&#39;s earnings per share (EPS) growth has been significant, driven by its strategic investments in smoke-free technologies and regulatory engagements aimed at solidifying its position in the market. \nRecent reports highlight Philip Morris&#39; efforts to expand its U.S. \nmanufacturing facilities for smoke-free alternatives, an investment that aligns with its long-term strategy to phase out traditional cigarettes. \nThe company&#39;s revenue forecasts remain optimistic, supported by strong demand for innovative products like IQOS. \nCompared to its industry peers, Philip Morris is well-positioned to capitalize on the industry&#39;s shift towards reduced-risk products, a move that is gaining traction amidst increasing regulatory pressures on traditional tobacco products. \nAltria, for instance, is also experiencing growth in its smoke-free segment, but Philip Morris&#39; global scale and diversified product offerings provide it with a competitive edge. \n \nUpcoming Earnings Report Summary \nPhilip Morris is set to release its third-quarter earnings on October 21, 2025. \nAnalysts are anticipating a double-digit growth in earnings, reflecting the company&#39;s successful transition towards smoke-free products and strategic cost management. \nHistorically, Philip Morris has demonstrated resilience in its earnings performance, consistently meeting or exceeding analyst expectations. \nThe upcoming report is expected to shed light on the company&#39;s recent investments in smoke-free technology and its impact on revenue growth. \nAnalysts&#39; consensus estimates suggest that Philip Morris will continue to outperform in its key markets, driven by strong demand for its innovative products. \nThe potential impact on the stock will largely depend on the company&#39;s ability to sustain its growth trajectory amidst industry challenges, such as regulatory changes and competitive pressures. \n \nSector Performance \nThe tobacco sector, to which Philip Morris belongs, has been navigating a period of transformation as companies shift towards smoke-free alternatives amidst declining cigarette sales. \nThe sector has shown mixed performance, with some companies like Altria experiencing growth in niche segments such as nicotine pouches. \nOverall, the sector&#39;s performance remains robust, supported by strategic pivots and innovations aimed at mitigating the impact of regulatory constraints and changing consumer preferences. \nPhilip Morris stands out with its comprehensive approach to smoke-free products, positioning it favorably for future growth within the sector. \n \n- Funds were net buyers of $PM during the previous reporting quarter. \n \n- Funds with large holdings in $PM include: \n \n- Fayez Sarofim &amp; Co, MV: $1.X,945MM. Fund Rank: 68% \nwww.sarofim.com \n- Canada Pension , MV: $335MM. Fund Rank: 78% \n \n- Adage Capital P, MV: $260MM. Fund Rank: 89% \nwww.adagecapital.com \n- Coatue Management LLC, MV: $236MM. Fund Rank: 90% \nwww.coatue.com \n- D1 Capital Partners LP, MV: $223MM. Fund Rank: 77% \n \n- Last 10 days performance: 3% \n- Last 30 days performance: -2% \n- Last 90 days performance: -11% \n \nSome of the latest news articles: \n - Title: Philip Morris (PM) Q3 Earnings on the Horizon: Analysts&#39; Insights on Key Performance Measures \nPublication Date: 10/16/2025 1:15:02 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/philip-morris-pm-q3-earnings-131502267.html?.tsrc=rss \n \n - Title: 2 Safe-and-Steady Stocks to Consider Right Now and 1 We Brush Off \nPublication Date: 10/16/2025 4:33:22 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/2-safe-steady-stocks-consider-043322597.html?.tsrc=rss \n \n - Title: Altria Rises 12% in 3 Months: Should You Buy, Sell or Hold the Stock? \nPublication Date: 10/15/2025 5:08:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/altria-rises-12-3-months-170800262.html?.tsrc=rss \n \n - Title: CIBC launches additional U.S. Canadian Depositary Receipts (&quot;&quot;CDRs&quot;&quot;) \nPublication Date: 10/15/2025 11:00:00 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/cibc-launches-additional-u-canadian-110000348.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 45,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "months",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632684737"
+    },
+    {
+      "username": "PittsburghTrader",
+      "body": "$WULF I know that the last 3 days of price action disappointing as this looked like was going to blow right through $16 at BOW, but in spite of W/R/F price action, technically stock still looks bullish bouncing off ST momentum rising 20d\u2026 maybe rally resumes next week after get past today\u2019s huge options expiration",
+      "score": 44,
+      "timeframes": [
+        "next week",
+        "expiration",
+        "today"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/PittsburghTrader/message/632755158"
+    },
+    {
+      "username": "TMStrader",
+      "body": "$UNEC \n\nBTC\n\nIt\u2019s better that the bulls correct this 4th wave n the AH, cause we don\u2019t know if they can or will hang it into Monday AH 4-8 am (?).  If they hang it  on Monday in the AH, we can relax, but if they hang it into the reg hrs, it could be painful.\n\nIt\u2019s better the pain for bulls comes soon in this AH.\n\nOr \n\nTake it up now, for tonight and Saturday to F1 or F2 and on Sunday, a dump into Monday, we can pick up but the date is 20th-2nd (therefore the bleed could be to the 22nd.  From the 28th-Nov 11th potentially low which could be the test of 118-120 (?).",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "after-hours",
+        "temporal_modifier",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/TMStrader/message/632811255"
+    },
+    {
+      "username": "TMStrader",
+      "body": "$UNEC \n\nBTC\n\nAlso, if time is not letting, we may move during the weekend into F1-F2, and falling prices to 100 by Monday.\n\nIf we buy the 103.07-102.1 today in AH (?), I think to risk holding into the weekend cause the fall is near enough to be acceptable and we get to ride it back up, recouping our rewards, imo.\n\nDecide what you plan to do and how you will play it.\n\nMonday is a joker\u2019s hand as always but I\u2019m not worried if I can get the 102\u2019s\u2026I can accept the hit for Monday if red at 100/98.",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "after-hours",
+        "temporal_modifier",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/TMStrader/message/632767457"
+    },
+    {
+      "username": "Laynester",
+      "body": "$HYMC $BBVA $F $ENB $BP  \n \n--all above and below are up since close yesterday based by price / quantity / performance. \n \nMKT CONTENTION: MATERIALS VS ENERGY. \n \nAll this proves to me is...GOLD (a 5000yr traded rock) is the VALUE KING of ALL!  \n \n[Materials] takes a break, 1 day off out of 30 is ok with the boss (me..)... but.... in a nutshell....the world won&#39;t stop acquiring metals today or even next week. \n \n[UNLESS]: China Overnight Doubles their GOLD RESERVES --- gee that would cause a world gold/silver/ USD currency CRASH. Probability of that happening: 50/50. \n \nKeep the stops over your profit lines!!!! Set a stop. Good to all. Materials next week, maybe even today at close....seeing a big bounce back today?",
+      "score": 44,
+      "timeframes": [
+        "temporal_modifier",
+        "next week",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Laynester/message/632724505"
+    },
+    {
+      "username": "daytradederic",
+      "body": "@Steve_TheBull_Rogers All time low to consolidated range high\u2026target $396.xx\n\nWe tapped it Thursday and opened high to start the day today. It\u2019s not that complicated.\n\nI came late to the day and traded 0dte using the same method and giving me, you guessed it, the projected low of day.\n\nWill do the same Monday.",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "expiration",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/daytradederic/message/632822070"
+    },
+    {
+      "username": "VR2028",
+      "body": "$AAPL $SPY $MSFT $AMD $PLTR $AMZN $ORCL  today&#39;s dump for ORACLE is the the bottom, this will take off before closing and continue next week.",
+      "score": 44,
+      "timeframes": [
+        "temporal_modifier",
+        "next week",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/VR2028/message/632777880"
+    },
+    {
+      "username": "Businesspro",
+      "body": "$QQQ \n\nI\u2019m the 1st one to tell everyone the truth\nWe\u2019re f\u2019kd for tomorrow at the open IMO\nFutures down big time \nMajor fire sale happening this week\nCrypto\u2019s aren\u2019t looking good either \nJust keeping it 100 no sugar coating it \nMarkets are hyper sensitive to everything right now not seeing any buyers just panic selling nearly everything except metals \nWe\u2019re gonna need a miracle soon to save these markets \nMight take most of the day off tomorrow \nPointless to fight the market \nGL everyone",
+      "score": 44,
+      "timeframes": [
+        "temporal_modifier",
+        "opening",
+        "this week",
+        "tomorrow"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Businesspro/message/632696705"
+    },
+    {
+      "username": "Mnybagz",
+      "body": "@JthanP @wait4theFatMitch Zions and Western Alliance got hammered for writing shtty loans to investment funds. So banks have been doing a &quot;risk off&quot; on all that leverage used to buy up and consequently hyper-inflate risky speculative bets on things like crypto, certain nuclear sticks, quantum, etc. + treasury payments are due and Corporate taxes. The combination is a sht storm where they are trying to pull in cash and clean up the books via stop loss raids, margin calls, etc. Tomorrow monthly option expiration and its a new quarter. Hopefully that will be it. Get this week out of the way and solid companies like $TSM will be just fine.",
+      "score": 44,
+      "timeframes": [
+        "expiration",
+        "this week",
+        "tomorrow"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Mnybagz/message/632691052"
+    },
+    {
+      "username": "af1348",
+      "body": "@SeahawkRick 15.87 was previous 52 week high prior to this latest run up so that was just my reference as the level that we must absolutely hold to stay bullish. I did think it was extremely unlikely that we dropped that low. Overnight price action did bring into the 17s until trump talked about easing tariffs. I don\u2019t think that statement is good enough to turn the tide so I\u2019m expecting a pump this morning and selling the news event into close. I\u2019m a strong proponent of it hits a certain in premarket or after hours trading then it will eventually print that price during normal trading hours. I could be wrong but I think we still print into the 17s today or Monday.",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "pre-market",
+        "temporal_modifier",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/af1348/message/632719909"
+    },
+    {
+      "username": "Option_trader11",
+      "body": "$OMER so you guys are saying options expire this week and we go up next week ??",
+      "score": 44,
+      "timeframes": [
+        "next week",
+        "this week",
+        "expiration"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Option_trader11/message/632797426"
+    },
+    {
+      "username": "YungZell",
+      "body": "$HUT I\u2019m chillin because I got paid 10k in covered call premiums already that expire today. If HUT drops below 43 they\u2019re worthless and I sell calls again next week at 45$ strike for another 10k..  if we close above 43 I look for re entry next week.. probably",
+      "score": 44,
+      "timeframes": [
+        "next week",
+        "expiration",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/YungZell/message/632701183"
+    },
+    {
+      "username": "Faqers",
+      "body": "$MSOS EOD volume continues the be the story of the fall.I understand people getting frustrated but we cant forget what happened Mondays close and on Wednesday. were still consolidating while big players are accumulating, yes its volatile and some retarded fudsters will claim victory after today. but we have latterly(not a typo for once) gone no where... if anything were two steps forward one step back. the stochastic is already showing over sold conditions while the MACD just barley crossed down and RSI is slightly below the 50 were testing the weekly 10 and daily 50 which have both proven support repeatedly... on the inverted chart we can clearly see the inverse head and shoulders is still very much intact. i feel i find myself saying this every third week.... absolutely nothing has broken consolidating is normal and healthy before a big move. WE ARE UP 130% from the lows from 3.5 MONTHS AGO. these retarded fud stars literally have fuck all to be excited about but you cant fix stupid.",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Faqers/message/632808882"
+    },
+    {
+      "username": "ajsuff",
+      "body": "$CLF Shorts covered around 3,000,000 shares the last two weeks but the total shares still short is 71,000,000.   I am expecting a little rally this afternoon seeing earnings are Monday before market open.",
+      "score": 44,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "opening",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ajsuff/message/632761814"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$BMI &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $BMI \nNeutral (5.8) \n \n--- \nFinancial Analysis Summary: \nBadger Meter, Inc. \n(BMI) has experienced a volatile period in recent months, with the stock price declining approximately 28% over the past three months. \nDespite this, the company&#39;s fundamentals remain robust. \nThe P/E ratio currently stands at a competitive level compared to its peers in the Instruments-Control industry, suggesting that the stock might be undervalued given its growth potential in smart water solutions and industrial automation trends. \nThe company has shown consistent earnings per share (EPS) growth, contributing to its strong long-term performance. \nOver the past five years, BMI has delivered a total return of 151%, showcasing its ability to generate shareholder value despite short-term market fluctuations. \nRevenue forecasts for the upcoming quarters are optimistic, driven by increased adoption of water metering solutions and energy efficiency innovations. \nComparing BMI to its industry peers like Watts Water Technologies (WTS) and Thermon Group (THR), BMI&#39;s growth potential in the smart water management space offers a compelling case. \nHowever, with options market activity suggesting possible significant movements in the stock, investors should remain cautious of potential volatility. \n \nUpcoming Earnings Report Summary: \nBadger Meter is set to release its third quarter 2025 financial results on October 21, 2025. \nAnalyst consensus anticipates an earnings per share of $1.11 and revenue of $229.36 million, both marking increases from the same period last year. \nHistorical performance indicates that the company has consistently met or exceeded expectations, which could positively impact the stock if this trend continues. \nThe heightened focus on year-over-year earnings and revenue growth underscores investor optimism, although the absence of major company developments might moderate immediate impacts. \n \nSector Performance: \nThe Instruments-Control sector, to which Badger Meter belongs, has been buoyed by trends in industrial automation and energy efficiency. \nCompanies within the sector, including BMI, are well-positioned to capitalize on these growing markets. \nWhile the sector has seen mixed performance, with some peers like Watts Water Technologies experiencing significant gains, Badger Meter&#39;s strategic positioning and innovation in water metering solutions provide a solid foundation for future growth. \nNonetheless, the sector&#39;s overall performance remains subject to broader economic conditions and technological advancements, necessitating a watchful eye on market dynamics. \n \n- Funds were net buyers of $BMI during the previous reporting quarter. \n \n- Funds with large holdings in $BMI include: \n \n- Westfield Capital Management Company LP, MV: $150MM. Fund Rank: 84% \nwww.westfieldcapital.com \n- Mairs &amp; Power Inc, MV: $27MM. Fund Rank: 76% \n \n- Select Equity Group LP, MV: $12MM. Fund Rank: 68% \nwww.selectequity.com \n- PDT Partners LLC, MV: $3MM. Fund Rank: 88% \nwww.pdtpartners.com \n- Ensign Peak Advisors, MV: $2MM. Fund Rank: 67% \n \n- Last 10 days performance: 0% \n- Last 30 days performance: 0% \n- Last 90 days performance: -27% \n \nSome of the latest news articles: \n - Title: 1 Oversold Stock Ready to Bounce Back and 2 We Find Risky \nPublication Date: 10/16/2025 4:34:45 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/1-oversold-stock-ready-bounce-043445909.html?.tsrc=rss \n \n - Title: Badger Meter (BMI) Outpaces Stock Market Gains: What You Should Know \nPublication Date: 10/13/2025 10:00:03 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/badger-meter-bmi-outpaces-stock-220003707.html?.tsrc=rss \n \n - Title: How Badger Meter (BMI) Looks on Valuation After Recent 3% Drop and Q2 Decline \nPublication Date: 10/10/2025 5:11:22 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/badger-meter-bmi-looks-valuation-171122178.html?.tsrc=rss \n \n - Title: 3 Reasons We Love Badger Meter (BMI) \nPublication Date: 10/9/2025 4:02:29 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/3-reasons-love-badger-meter-040229733.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 43,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "short-term",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632780212"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$GPC &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $GPC \nNeutral (5.8) \nFinancial Analysis: \nGenuine Parts Company (GPC) continues to exhibit a strong market presence in the automotive and industrial parts sector, benefiting from its expansive global network of over 10,800 locations. \nThe company&#39;s stable dividend growth history makes it an appealing choice for long-term investors. \nThe recent stock performance has been mixed, with moderate fluctuations observed over the past few months. \nGPC&#39;s valuation remains a focal point for value investors, as it has shown resilience despite short-term volatility. \nThe stock is trading at a P/E ratio that aligns closely with industry averages, suggesting a fair valuation given its current earnings prospects. \nEarnings per share (EPS) growth remains in the single digits, reflecting steady but not spectacular growth. \nRevenue forecasts indicate a conservative upward trajectory, aligning with the broader automotive sector&#39;s performance. \nComparatively, Genuine Parts maintains a competitive edge against peers such as O&#39;Reilly and AutoZone, attributed to its diversified product offerings and strategic acquisitions. \n \nUpcoming Earnings Report: \nGenuine Parts is scheduled to release its third-quarter results on October 21, 2025. \nAnalysts are projecting single-digit growth in bottom-line figures, consistent with the company&#39;s historical performance. \nThe upcoming results will be closely watched for indications of how the company&#39;s strategic initiatives, including potential restructuring and board refreshment, are impacting financial performance. \nHistorically, GPC has delivered stable earnings, with performance metrics closely aligned with analyst estimates. \nThe market&#39;s response to the earnings report will likely hinge on forward guidance and any further announcements regarding business unit separation or strategic realignments. \n \nSector Performance: \nThe automotive and industrial parts sector, to which Genuine Parts belongs, is experiencing a period of cautious optimism. \nDespite challenges such as trade tensions and tariff concerns, the sector has shown resilience, supported by steady demand for replacement parts and services. \nOverall, the sector&#39;s performance has been relatively stable, with key players maintaining their market positions and adapting to evolving market dynamics. \nInvestors are keeping a close watch on macroeconomic indicators and regulatory changes that could influence the sector&#39;s outlook in the near term. \n \n- Funds were net buyers of $GPC during the previous reporting quarter. \n \n- Funds with large holdings in $GPC include: \n \n- Alyeska Investments, MV: $41MM. New position. Fund Rank: 79% \n \n- Sessa Capital IM LP, MV: $31MM. Fund Rank: 83% \n \n- Adage Capital P, MV: $15MM. Fund Rank: 89% \nwww.adagecapital.com \n- Point72 Asset Management LP, MV: $11MM. New position. Fund Rank: 91% \nwww.point72.com \n- Ensign Peak Advisors, MV: $5MM. Fund Rank: 67% \n \n- Last 10 days performance: -4% \n- Last 30 days performance: -4% \n- Last 90 days performance: 9% \n \nSome of the latest news articles: \n - Title: Genuine Parts Company to Present at the Gabelli Funds 49th Annual Automotive Symposium \nPublication Date: 10/14/2025 12:30:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/genuine-parts-company-present-gabelli-123000344.html?.tsrc=rss \n \n - Title: Genuine Parts\u2019 (GPC) Strong Market Position Fuels its Long-Term Dividend Growth \nPublication Date: 10/13/2025 11:44:03 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/genuine-parts-gpc-strong-market-234403838.html?.tsrc=rss \n \n - Title: Buy 5 Low-Beta High-Yielding Stocks to Counter Recent Volatility \nPublication Date: 10/13/2025 11:52:00 AM, Source: yahoo \nURL: https://finance.yahoo.com/news/buy-5-low-beta-high-115200532.html?.tsrc=rss \n \n - Title: Genuine Parts (GPC): Evaluating Current Valuation After Mixed Short-Term Performance \nPublication Date: 10/9/2025 5:10:07 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/genuine-parts-gpc-evaluating-current-171007518.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 43,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "short-term",
+        "months",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632779727"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$MANH &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $MANH \nBullish (7.2) \n \nManhattan Associates (MANH) has demonstrated a strong financial performance recently, with its stock price appreciating significantly, buoyed by positive earnings results and strategic customer wins. \nThe company recently reported strong quarterly results that exceeded market expectations, leading to an increase in its stock price by approximately 5% in a single day and 4.7% over the week. \nA notable customer acquisition with CEVA Logistics further underscores its growing influence in the supply chain solutions space. \nAnalysts have shown confidence in the company&#39;s future prospects, as evidenced by Barclays&#39; initiation of coverage with an &#39;Overweight&#39; rating and a $247 price target, and Stifel&#39;s &#39;Buy&#39; rating with a $250 target. \nThe company&#39;s P/E ratio remains competitive when compared to its industry peers, while its EPS growth is robust, reflecting a consistent upward trajectory. \nRevenue forecasts align with the company&#39;s strategic initiatives and market expansion efforts, particularly in the field of AI-driven supply chain solutions. \nAs the industry continues to evolve, Manhattan Associates is well-positioned to leverage these opportunities, thereby maintaining its growth momentum. \nUpcoming Earnings Report: \nManhattan Associates is set to report its third-quarter earnings shortly, and expectations are mixed. \nWhile some forecasts suggest a potential decline, the company&#39;s recent performance and strategic wins may offset any negative sentiment. \nHistorically, MANH has shown resilience in its financial performance, often surpassing expectations through strong operational execution. \nAnalyst consensus estimates are cautiously optimistic, with a focus on revenue growth and sustained profitability. \nThe upcoming earnings report will be pivotal in setting the tone for the company&#39;s stock performance, as investors closely watch for any deviations from expected outcomes. \nA strong report could further cement MANH&#39;s position as a leader in the supply chain software sector. \nSector Performance: \nThe broader software sector, to which Manhattan Associates belongs, has experienced moderate growth in recent months, driven by ongoing digital transformation and the adoption of AI technologies. \nHowever, the sector&#39;s performance has been somewhat mixed, with some companies struggling to meet lofty valuation multiples while others, like MANH, have excelled. \nThe sector&#39;s growth is slightly lagging behind the S&amp;P 500, with a 2.3% gain compared to the broader market&#39;s higher performance. \nNonetheless, the software industry continues to benefit from strong demand for innovative solutions and services, positioning it for long-term growth despite short-term fluctuations. \n \n- Funds were net buyers of $MANH during the previous reporting quarter. \n \n- Funds with large holdings in $MANH include: \n \n- Alyeska Investments, MV: $2MM. New position. Fund Rank: 79% \n \n- Last 10 days performance: -1% \n- Last 30 days performance: -6% \n- Last 90 days performance: -2% \n \nSome of the latest news articles: \n - Title: Manhattan Associates (MANH) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates \nPublication Date: 10/16/2025 1:15:05 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/manhattan-associates-manh-q3-earnings-131505659.html?.tsrc=rss \n \n - Title: Manhattan Associates, SPS Commerce &#39;Reset Growth Expectations,&#39; Morgan Stanley Says \nPublication Date: 10/14/2025 3:43:24 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/manhattan-associates-sps-commerce-apos-154324839.html?.tsrc=rss \n \n - Title: Nucleus Research Releases 2025 Transportation Management Technology Value Matrix \nPublication Date: 10/14/2025 3:00:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/nucleus-research-releases-2025-transportation-150000059.html?.tsrc=rss \n \n - Title: Earnings Preview: Manhattan Associates (MANH) Q3 Earnings Expected to Decline \nPublication Date: 10/14/2025 2:00:02 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/earnings-preview-manhattan-associates-manh-140002763.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 43,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "short-term",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632685135"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$EQT &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $EQT \nBullish (8.2) \n \n--- \n \nEQT Corporation, a leading natural gas producer in the Appalachian Basin, has been attracting significant attention due to its strategic moves and financial performance. \nThe company&#39;s recent announcement of a 5% increase in the quarterly cash dividend reflects its strong cash flow position and commitment to returning value to shareholders. \nEQT&#39;s operational efficiency, bolstered by its low-cost structure and strategic asset sales, has positioned it well to capitalize on rising natural gas prices. \nAnalysts have noted EQT&#39;s robust free cash flow prospects and have reiterated positive coverage, highlighting its infrastructure strengths and financial flexibility. \nThe company&#39;s valuation remains attractive, with a forward P/E ratio that compares favorably to industry peers. \nAdditionally, EQT&#39;s EPS growth and revenue forecasts are expected to show significant year-over-year gains, supported by its strategic LNG agreements and the strengthening demand for natural gas, particularly in light of AI-driven energy needs. \nEQT&#39;s share price has shown resilience and strong performance, delivering a 48.8% total shareholder return over the past year, demonstrating investor confidence in its growth trajectory and strategic initiatives. \n--- \n \nEQT is scheduled to release its third quarter 2025 earnings on October 21, with a conference call following the next day. \nWhile Wall Street anticipates earnings growth, some analysts express caution about the possibility of an earnings beat. \nHistorical performance suggests a trend of meeting or exceeding expectations, driven by EQT&#39;s strategic focus and market positioning. \nThe consensus estimates point to strong year-over-year gains in earnings and revenues, aligned with the company&#39;s strategic expansion in the LNG market. \nThe impact of this earnings report on EQT&#39;s stock will likely hinge on the company&#39;s ability to meet or surpass these expectations, as well as on guidance for future quarters given the current market dynamics. \n--- \n \nThe energy sector, to which EQT belongs, has been experiencing a robust performance, with the NYSE Energy Sector Index showing gains. \nThis sectoral strength is underpinned by rising energy prices and strategic investments in infrastructure and technology. \nCompanies within this sector, including EQT, are well-positioned to benefit from the increasing demand for natural gas, particularly as AI and data center growth drive energy requirements. \nDespite short-term volatility, the long-term outlook remains positive, with strategic LNG agreements and operational efficiencies contributing to the sector&#39;s resilience and growth potential. \n \n- Funds were net buyers of $EQT during the previous reporting quarter. \n \n- Funds with large holdings in $EQT include: \n \n- Lone Pine Capital LLC, MV: $438MM. New position. Fund Rank: 83% \nwww.lonepinecapital.com \n- Alyeska Investments, MV: $146MM. Fund Rank: 79% \n \n- Duquesne Family Office LLC, MV: $73MM. Fund Rank: 96% \nwww.duquesne.com \n- Holocene Advisors LP, MV: $72MM. Fund Rank: 84% \nwww.holoceneadvisors.com \n- Encompass Capital, MV: $64MM. New position. Fund Rank: 56% \n \n- Last 10 days performance: -1% \n- Last 30 days performance: 11% \n- Last 90 days performance: -5% \n \nSome of the latest news articles: \n - Title: EQT Increases Base Dividend by Five Percent \nPublication Date: 10/16/2025 8:15:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/eqt-increases-dividend-five-percent-201500740.html?.tsrc=rss \n \n - Title: EQT Poised to Report Q3 Earnings: Here&#39;s What You Need to Know \nPublication Date: 10/16/2025 1:56:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/eqt-poised-report-q3-earnings-135600639.html?.tsrc=rss \n \n - Title: Can Analyst Optimism on EQT\u2019s (EQT) Operational Efficiency Redefine Its Investment Case? \nPublication Date: 10/15/2025 1:13:01 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/analyst-optimism-eqt-eqt-operational-131301940.html?.tsrc=rss \n \n - Title: EQT Valuation in Focus as Utilities Ramp Up for AI-Driven Energy Demand and Infrastructure Upgrades \nPublication Date: 10/15/2025 12:11:03 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/eqt-valuation-focus-utilities-ramp-121103330.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 43,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "short-term",
+        "quarter",
+        "long-term"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632684769"
+    },
+    {
+      "username": "1_fed_wolf",
+      "body": "$NCLH Morning!  Daily chart. Ugh....looks red again. \n \nTook a fill at 22.70 few seconds ago though to build my swing position. \nAlmost a buck cheaper than my fills yesterday (woooo), but I am NOW only looking to be at 25% total stake by earnings week instead of 50%.  \n(We are doing 2.5% buy every 50 cents down instead of 5% buys until earnings week for a mad swing trade.) \n \nConsidering the DOW is finally folding up and credit is freezing up. Dow could flash crash all of us. \nGood luck today!",
+      "score": 43,
+      "timeframes": [
+        "temporal_modifier",
+        "earnings",
+        "today",
+        "swing"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/1_fed_wolf/message/632722273"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$PEGA &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $PEGA \nNeutral (5.5) \nFinancial Analysis of Pegasystems (PEGA): \nPegasystems Inc. \nhas been navigating a challenging market environment characterized by renewed trade tensions between the U.S. \nand China, which have recently impacted the technology sector as a whole. \nDespite these macroeconomic headwinds, the company&#39;s stock has shown resilience, experiencing a steady climb to a recent close of $54.86. \nThis performance is noteworthy, considering the broader concerns over supply chain disruptions and rising operational costs. \nFrom a valuation perspective, Pegasystems exhibits a trailing P/E ratio of 47.33 and a forward P/E of 27.32, indicating a market that values its future growth potential. \nThis forward P/E is competitive within the software industry, suggesting investor confidence in its strategic direction. \nPegasystems has reported significant EPS growth, reflecting its focus on operational efficiency and innovative solutions like Pega Infinity &#39;25 and the Pega Smart Investigate Agentic Automation, which leverage AI to enhance productivity and reduce costs. \nRevenue forecasts for Pegasystems remain optimistic, with the company&#39;s initiatives in enterprise transformation and digital modernization expected to drive growth. \nThe management&#39;s strategic focus on integrating AI capabilities into its platform is anticipated to capture a larger share of the market, addressing the inefficiencies associated with legacy systems\u2014an area where the company estimates significant waste across enterprises globally. \n \nUpcoming Earnings Report: \nPegasystems is scheduled to announce its financial results for the third quarter of 2025 on October 21, following the market close. \nAnalysts are keenly watching this release for insights into the company&#39;s performance amid ongoing trade tensions and cost pressures. \nHistorically, Pegasystems has shown robust year-over-year growth, and analyst consensus estimates suggest continued momentum. \nThe market will be particularly attentive to any updates on revenue and EPS figures, which could significantly influence the stock&#39;s trajectory. \nAnalysts expect the company&#39;s strategic initiatives, such as the launch of new AI-driven solutions, to contribute positively to its earnings, potentially offsetting sector-wide challenges. \n \nSector Performance: \nThe technology sector, to which Pegasystems belongs, has faced increased volatility due to geopolitical factors, particularly the U.S.\u2013China trade tensions that have led to tariff threats and tighter export controls. \nDespite these challenges, the sector has shown pockets of resilience, driven by innovation and digital transformation trends. \nHowever, investor sentiment has been cautious, with concerns over supply chain dependencies and rising costs. \nCompanies within the sector are focusing on strengthening their strategic partnerships and expanding their digital capabilities to navigate these uncertainties effectively. \nPegasystems&#39; efforts in this regard position it well within the sector, aligning with broader industry trends toward AI and automation. \n \n- Funds were net buyers of $PEGA during the previous reporting quarter. \n \n- Funds with large holdings in $PEGA include: \n \n- Canada Pension , MV: $14MM. New position. Fund Rank: 78% \n \n- Last 10 days performance: 0% \n- Last 30 days performance: -7% \n- Last 90 days performance: 9% \n \nSome of the latest news articles: \n - Title: Exploring Analyst Estimates for Pegasystems (PEGA) Q3 Earnings, Beyond Revenue and EPS \nPublication Date: 10/16/2025 1:15:06 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/exploring-analyst-estimates-pegasystems-pega-131506008.html?.tsrc=rss \n \n - Title: Pegasystems (PEGA): Assessing Valuation Following Renewed U.S.\u2013China Trade Tensions and Sector Risks \nPublication Date: 10/14/2025 9:13:07 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/pegasystems-pega-assessing-valuation-following-211307032.html?.tsrc=rss \n \n - Title: How Trade Tensions and Rising Costs at Pegasystems (PEGA) Have Changed Its Investment Story \nPublication Date: 10/14/2025 7:08:59 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/trade-tensions-rising-costs-pegasystems-190859781.html?.tsrc=rss \n \n - Title: Average Global Enterprise Wastes More Than $370 Million Every Year Through Technical Debt, Says Research \nPublication Date: 10/14/2025 1:00:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/average-global-enterprise-wastes-more-130000487.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 42,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "quarter",
+        "close/EOD"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632685104"
+    },
+    {
+      "username": "SniffingGains",
+      "body": "$SPY $SPX Flat in pre-market while $BTC.X  currently -5%. \n\nSPY was down quite a bit, however Trump\u2019s comments on China tariffs reversed the down move but Bitcoin remained unaffected.\n\nI wonder which of these will be leading the market direction at the open\u2026 will be important to take note as volatility is \u2018expected\u2019 to continue next week.",
+      "score": 42,
+      "timeframes": [
+        "pre-market",
+        "opening",
+        "next week"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SniffingGains/message/632720273"
+    },
+    {
+      "username": "DavisClarke",
+      "body": "$SPY bears desperation in here is pretty strong today ..  unless trump fucks it last hour of trading this is 667 EoD",
+      "score": 42,
+      "timeframes": [
+        "today",
+        "power hour",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/DavisClarke/message/632787381"
+    },
+    {
+      "username": "dz_moneyman",
+      "body": "$VIX $KRE $IWM $QQQ my two cents about this week\u2019s price action: tariffs and China do not matter right now, as before this morning there were already several headlines after Friday suggesting they won\u2019t happen. Rather, when bank stocks are weak as they are (even with today\u2019s light rebound) it tells you something credit-related might be brewing. Anyone who\u2019s spent more than a few years in the market knows that VIX spikes come about one of two ways: (1) an event, which VIX quickly gets sold off (think, the last August carry trade blowup or the tariff tantrum from April of this year), or (2) a systemic credit event (ex: the SVB bankruptcy &amp; regional bank crisis spring 2023). The QQQ as I type this is up 2% this week after a -2.27% week last week, yet the market is trading in \u201cextreme fear\u201d. Seriously? 3-5% market pullbacks used to be common &amp; are healthy for establishing longer term support/etc.",
+      "score": 41,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "this week",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/dz_moneyman/message/632779988"
+    },
+    {
+      "username": "thewavetrading",
+      "body": "$IWM has experienced an incredible rally since the lows in April. Despite completing a rising wedge pattern and a significant sell-off last Friday, it managed to reach two new all-time highs this week. However, yesterday&#39;s gravestone doji candle, followed by today&#39;s sell-off and a concerning negative divergence in the RSI, suggests that the upward momentum may be over for now.",
+      "score": 41,
+      "timeframes": [
+        "specific day",
+        "temporal_modifier",
+        "this week",
+        "today"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/thewavetrading/message/632689006"
+    },
+    {
+      "username": "Levante",
+      "body": "@Zackpedia Nice swing fam, got in 0.57 premarket, got dip at 0.50, added on 0.63 waiting for 0.80 to sell",
+      "score": 41,
+      "timeframes": [
+        "pre-market",
+        "swing",
+        "catalyst"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Levante/message/632768273"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$GILD\nShare Price: $122.84\n\nContract Selected: Nov 07, 2025 $125 Calls\n\nBuy Zone: $2.98 \u2013 $3.68\nTarget Zone: $4.77 \u2013 $5.83\nPotential Upside: 51% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632812171"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$NOW\nShare Price: $903.94\n\nContract Selected: Nov 07, 2025 $905 Calls\n\nBuy Zone: $40.12 \u2013 $49.56\nTarget Zone: $76.17 \u2013 $93.10\nPotential Upside: 79% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632815544"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$BAC\nShare Price: $51.48\n\nContract Selected: Nov 07, 2025 $50 Calls\n\nBuy Zone: $2.04 \u2013 $2.52\nTarget Zone: $3.50 \u2013 $4.28\nPotential Upside: 62% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632797191"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$GM\nShare Price: $58.37\n\nContract Selected: Nov 07, 2025 $60 Calls\n\nBuy Zone: $1.48 \u2013 $1.83\nTarget Zone: $2.64 \u2013 $3.22\nPotential Upside: 68% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632812789"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$AMGN\nShare Price: $298.81\n\nContract Selected: Nov 07, 2025 $300 Calls\n\nBuy Zone: $7.10 \u2013 $8.77\nTarget Zone: $12.93 \u2013 $15.80\nPotential Upside: 72% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632805715"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$USB\nShare Price: $45.69\n\nContract Selected: Nov 07, 2025 $46.0 Calls\n\nBuy Zone: $0.92 \u2013 $1.13\nTarget Zone: $1.59 \u2013 $1.94\nPotential Upside: 63% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632814848"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$PYPL\nShare Price: $67.60\n\nContract Selected: Nov 07, 2025 $70 Calls\n\nBuy Zone: $2.21 \u2013 $2.73\nTarget Zone: $3.88 \u2013 $4.74\nPotential Upside: 66% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632793820"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$JPM\nShare Price: $297.67\n\nContract Selected: Nov 07, 2025 $300 Calls\n\nBuy Zone: $5.57 \u2013 $6.88\nTarget Zone: $9.70 \u2013 $11.86\nPotential Upside: 65% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632798784"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$LOW\nShare Price: $243.12\n\nContract Selected: Nov 07, 2025 $245 Calls\n\nBuy Zone: $4.21 \u2013 $5.20\nTarget Zone: $7.34 \u2013 $8.97\nPotential Upside: 65% ROI\n\nTime to Expiration: 21 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632677633"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$PG\nShare Price: $149.63\n\nContract Selected: Nov 07, 2025 $150 Calls\n\nBuy Zone: $2.68 \u2013 $3.31\nTarget Zone: $4.62 \u2013 $5.65\nPotential Upside: 63% ROI\n\nTime to Expiration: 21 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632676206"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$HD\nShare Price: $392.58\n\nContract Selected: Nov 07, 2025 $395 Calls\n\nBuy Zone: $6.42 \u2013 $7.93\nTarget Zone: $11.73 \u2013 $14.33\nPotential Upside: 73% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632785939"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$COP\nShare Price: $86.76\n\nContract Selected: Nov 07, 2025 $85 Calls\n\nBuy Zone: $3.15 \u2013 $3.89\nTarget Zone: $5.91 \u2013 $7.23\nPotential Upside: 78% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632786957"
+    },
+    {
+      "username": "FPL",
+      "body": "Oct17 Trade Idea (shared at 9:33AM ET) via: \n \nSPX 6720/25 Call Credit Spread (0DTE) - Successful\ud83d\udfe2 \n \nReached Max Profit levels from 0.70c highest by 1PM ET. Comfortably Holding and Expiring at Max Profit as index was contained into challenge/defensive zone 6650-80 called out at market open through expiry: \n____ \n$SPY $SPX $ES_F $VIX $STUDY",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "opening",
+        "temporal_modifier"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/FPL/message/632804157"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$INTU\nShare Price: $661.80\n\nContract Selected: Nov 07, 2025 $660 Calls\n\nBuy Zone: $16.74 \u2013 $20.68\nTarget Zone: $29.25 \u2013 $35.75\nPotential Upside: 65% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632821552"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$JBHT\nShare Price: $164.88\n\nContract Selected: Feb 20, 2026 $165 Calls\n\nBuy Zone: $10.37 \u2013 $12.81\nTarget Zone: $17.80 \u2013 $21.75\nPotential Upside: 62% ROI\n\nTime to Expiration: 125 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632820775"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$KO\nShare Price: $68.45\n\nContract Selected: Nov 07, 2025 $70 Calls\n\nBuy Zone: $0.65 \u2013 $0.81\nTarget Zone: $1.08 \u2013 $1.32\nPotential Upside: 56% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632820325"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$WMB\nShare Price: $62.44\n\nContract Selected: Nov 07, 2025 $60 Calls\n\nBuy Zone: $2.51 \u2013 $3.10\nTarget Zone: $4.37 \u2013 $5.34\nPotential Upside: 64% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632819611"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$DPZ\nShare Price: $416.15\n\nContract Selected: Jan 16, 2026 $420 Calls\n\nBuy Zone: $16.41 \u2013 $20.27\nTarget Zone: $28.70 \u2013 $35.08\nPotential Upside: 65% ROI\n\nTime to Expiration: 90 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632819106"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$DASH\nShare Price: $263.07\n\nContract Selected: Nov 07, 2025 $265 Calls\n\nBuy Zone: $13.01 \u2013 $16.07\nTarget Zone: $20.96 \u2013 $25.62\nPotential Upside: 52% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632818380"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$NUE\nShare Price: $131.77\n\nContract Selected: Nov 07, 2025 $130 Calls\n\nBuy Zone: $4.84 \u2013 $5.99\nTarget Zone: $8.43 \u2013 $10.30\nPotential Upside: 64% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632817210"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$MSI\nShare Price: $445.10\n\nContract Selected: Jan 16, 2026 $450 Calls\n\nBuy Zone: $14.88 \u2013 $18.38\nTarget Zone: $27.32 \u2013 $33.39\nPotential Upside: 73% ROI\n\nTime to Expiration: 90 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632816366"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$SPGI\nShare Price: $473.10\n\nContract Selected: Nov 07, 2025 $470 Calls\n\nBuy Zone: $12.92 \u2013 $15.96\nTarget Zone: $21.30 \u2013 $26.03\nPotential Upside: 56% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632815228"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$CPAY\nShare Price: $285.50\n\nContract Selected: Jan 15, 2027 $300 Calls\n\nBuy Zone: $31.45 \u2013 $38.85\nTarget Zone: $56.65 \u2013 $69.24\nPotential Upside: 70% ROI\n\nTime to Expiration: 454 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632814266"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$KVUE\nShare Price: $15.30\n\nContract Selected: Nov 07, 2025 $15 Calls\n\nBuy Zone: $0.89 \u2013 $1.10\nTarget Zone: $1.61 \u2013 $1.97\nPotential Upside: 70% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632813389"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$ACN\nShare Price: $238.36\n\nContract Selected: Nov 07, 2025 $240 Calls\n\nBuy Zone: $5.78 \u2013 $7.14\nTarget Zone: $10.76 \u2013 $13.15\nPotential Upside: 76% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632811418"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$F\nShare Price: $11.93\n\nContract Selected: Nov 07, 2025 $10 Calls\n\nBuy Zone: $1.54 \u2013 $1.90\nTarget Zone: $2.86 \u2013 $3.49\nPotential Upside: 75% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632810362"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$BKR\nShare Price: $45.19\n\nContract Selected: Jan 16, 2026 $45 Calls\n\nBuy Zone: $2.55 \u2013 $3.15\nTarget Zone: $4.67 \u2013 $5.71\nPotential Upside: 73% ROI\n\nTime to Expiration: 90 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632807746"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$MCHP\nShare Price: $65.13\n\nContract Selected: Nov 07, 2025 $65 Calls\n\nBuy Zone: $3.31 \u2013 $4.09\nTarget Zone: $5.79 \u2013 $7.08\nPotential Upside: 65% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632807192"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$GNRC\nShare Price: $190.41\n\nContract Selected: Nov 07, 2025 $190 Calls\n\nBuy Zone: $9.43 \u2013 $11.65\nTarget Zone: $15.33 \u2013 $18.73\nPotential Upside: 53% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632804013"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$BLDR\nShare Price: $122.64\n\nContract Selected: Feb 20, 2026 $125 Calls\n\nBuy Zone: $11.64 \u2013 $14.38\nTarget Zone: $19.40 \u2013 $23.71\nPotential Upside: 57% ROI\n\nTime to Expiration: 125 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632801941"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$AAPL\nShare Price: $253.29\n\nContract Selected: Nov 07, 2025 $255 Calls\n\nBuy Zone: $5.61 \u2013 $6.93\nTarget Zone: $9.13 \u2013 $11.16\nPotential Upside: 54% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632800712"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$PLTR\nShare Price: $178.24\n\nContract Selected: Nov 07, 2025 $180 Calls\n\nBuy Zone: $11.39 \u2013 $14.07\nTarget Zone: $19.48 \u2013 $23.81\nPotential Upside: 62% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632799984"
+    },
+    {
+      "username": "QuantInsider",
+      "body": "What\u2019s happening with $ONDS? \n\nBig drop today, down 7.20% \n\nThat\u2019s a massive 27% slide over five days \n\nNo new headlines so it feels like pure momentum driving this \n\nSaw a 5,000-contract Nov 7 $12 ITM put sweep hit on InsiderFinance \n\nThat\u2019s around $2.23M with 167% IV \n\nLooks like urgent downside protection \n\nThis aligns with the current tape \n\nDefinitely some continuation risk here \n\nFlow over the last 5 days is call-biased \n\nNotable $1.27M Mar \u201926 $15 call sweep \n\nMight mean longer-term accumulation is in play \n\nKeep any bearish plays short-term for now",
+      "score": 40,
+      "timeframes": [
+        "short-term",
+        "specific exp",
+        "today"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/QuantInsider/message/632806307"
+    },
+    {
+      "username": "Diefreeandsell",
+      "body": "$LAC  Should You Hold Until End of Day? \nYes, Hold . \nSupport Holding: The $6.64 low (11:30 AM) stayed above $6.43 the October 16 low, with buyers defending the $6.66 zone . \n \nOPEX : Call-heavy ($9\u2013$10) expiry by 4:00 PM EDT reduces de-hedging pressure, likely sparking a late bounce to $7.20\u2013$7.50. \n \nTA Rebound Signals: RSI ~23, Bollinger lower band, and MACD crossover scream oversold snap-back. LAC\u2019s September 2025 dip ($5.47 to $4.80) rebounded +25% in 5 days\u2014$6.64 mirrors this setup. \n \nMarket downturn: S&amp;P -0.6% isn\u2019t severe enough for a $6.43 break unless new news hits like lithium futures crash. Trump could also signal improving China trade relations. \n \nAll that and sellers are getting exhausted! \n\ud83d\ude42",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "temporal_modifier",
+        "close/EOD"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/Diefreeandsell/message/632766894"
+    },
+    {
+      "username": "Lush_Life",
+      "body": "$LEVI Super Booooolish! \n \nThe long-term uptrend is still intact. \n \nThe stock has pulled back to a major, logical support level. \n \nThe last time a similar consolidation happened, it was followed by a major rally. \n \nThe strong closing price today indicates that buyers are defending this support.",
+      "score": 40,
+      "timeframes": [
+        "temporal_modifier",
+        "long-term",
+        "today",
+        "close/EOD"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Lush_Life/message/632806984"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$DE\nShare Price: $457.17\n\nContract Selected: Nov 07, 2025 $455 Calls\n\nBuy Zone: $13.05 \u2013 $16.12\nTarget Zone: $23.34 \u2013 $28.52\nPotential Upside: 69% ROI\n\nTime to Expiration: 21 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632680928"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$PCAR\nShare Price: $93.69\n\nContract Selected: Feb 20, 2026 $95 Calls\n\nBuy Zone: $5.18 \u2013 $6.41\nTarget Zone: $9.67 \u2013 $11.82\nPotential Upside: 76% ROI\n\nTime to Expiration: 125 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632779434"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$QCOM\nShare Price: $163.44\n\nContract Selected: Nov 07, 2025 $165 Calls\n\nBuy Zone: $5.65 \u2013 $6.98\nTarget Zone: $9.58 \u2013 $11.70\nPotential Upside: 60% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632823550"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$MA\nShare Price: $561.07\n\nContract Selected: Nov 07, 2025 $560 Calls\n\nBuy Zone: $14.15 \u2013 $17.48\nTarget Zone: $26.68 \u2013 $32.61\nPotential Upside: 78% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632821995"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$RTX\nShare Price: $157.48\n\nContract Selected: Nov 07, 2025 $160 Calls\n\nBuy Zone: $3.31 \u2013 $4.09\nTarget Zone: $5.63 \u2013 $6.89\nPotential Upside: 61% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632771825"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$DLR\nShare Price: $171.68\n\nContract Selected: Nov 07, 2025 $170 Calls\n\nBuy Zone: $5.78 \u2013 $7.14\nTarget Zone: $9.58 \u2013 $11.71\nPotential Upside: 57% ROI\n\nTime to Expiration: 20 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632763529"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$ROK\nShare Price: $347.67\n\nContract Selected: Jan 16, 2026 $350 Calls\n\nBuy Zone: $17.94 \u2013 $22.16\nTarget Zone: $31.20 \u2013 $38.13\nPotential Upside: 64% ROI\n\nTime to Expiration: 90 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632822384"
+    },
+    {
+      "username": "SuperGreenToday",
+      "body": "$WYNN\nShare Price: $115.91\n\nContract Selected: Nov 07, 2025 $115 Calls\n\nBuy Zone: $4.80 \u2013 $5.93\nTarget Zone: $9.07 \u2013 $11.09\nPotential Upside: 78% ROI\n\nTime to Expiration: 21 Days | Updates via https://fxcapta.com/stockinfo/",
+      "score": 40,
+      "timeframes": [
+        "expiration",
+        "specific exp"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/SuperGreenToday/message/632679852"
+    },
+    {
+      "username": "ChessGM",
+      "body": "$EFX &quot;Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $EFX \nBearish (3.0) \nEquifax Inc. \n(NYSE: EFX) Analysis \nEquifax has recently faced increased competitive pressures and regulatory shifts impacting its core business model, particularly in the credit-scoring market. \nThe company&#39;s strategic response includes significant price reductions for its VantageScore 4.0 credit scores, a move aimed at countering Fair Isaac Corporation&#39;s (FICO) new direct-to-lender distribution model. \nThis pricing strategy could pressure revenue margins, although it might help retain market share in the short term. \nEquifax&#39;s recent product innovations, such as the Equifax Ignite\u00ae AI Advisor and the Market Pulse Index, aim to diversify its offerings and capitalize on data analytics trends. \nHowever, the market&#39;s reception of these innovations has been muted, as evidenced by the recent stock performance and broader financial sector challenges. \nFinancially, Equifax has navigated a challenging environment, with its P/E ratio reflecting market skepticism about its growth prospects relative to peers like Experian and TransUnion. \nEPS growth has been modest, and revenue forecasts remain cautious amid competitive pressures. \nThe company&#39;s ability to leverage its cloud-based data solutions could be crucial in driving future growth, but the effectiveness of these initiatives remains to be seen. \n \nUpcoming Earnings Report Expectations \nEquifax is expected to announce its third-quarter earnings on October 21, 2025. \nAnalysts anticipate single-digit growth in the bottom line, driven by steady revenue increases across its Workforce, USIS, and International units. \nHowever, the company&#39;s ability to exceed expectations may be hampered by the competitive dynamics in the credit-scoring market. \nHistorical performances have indicated a trend of meeting but not significantly surpassing estimates, suggesting that the upcoming report might align closely with existing forecasts. \nThe market will be keenly watching for guidance and any strategic insights into how Equifax plans to navigate ongoing industry disruptions. \n \nSector Performance \nThe financial sector, to which Equifax belongs, has experienced volatility, particularly with the recent strategic shifts by major players like FICO. \nThis has led to some downward pressure on credit bureau stocks, although technology and data-driven segments show potential for recovery. \nWhile certain sub-sectors have benefited from broader economic growth and AI-driven optimism, regulatory changes and competitive pricing strategies have introduced uncertainties that have tempered overall sector performance. \n \n- Funds were net buyers of $EFX during the previous reporting quarter. \n \n- Funds with large holdings in $EFX include: \n \n- Cantillon Captal Management LLC, MV: $449MM. Fund Rank: 76% \nwww.cantillon.com \n- Darsana Capital Partners LP, MV: $259MM. Fund Rank: 89% \n \n- AKO Capital LLP, MV: $236MM. Fund Rank: 82% \nwww.akocapital.com \n- Ensign Peak Advisors, MV: $103MM. Fund Rank: 67% \n \n- Canada Pension , MV: $39MM. Fund Rank: 78% \n \n- Last 10 days performance: -3% \n- Last 30 days performance: -11% \n- Last 90 days performance: -12% \n \nSome of the latest news articles: \n - Title: Equifax Introduces Equifax Ignite\u00ae AI Advisor \nPublication Date: 10/16/2025 8:20:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/equifax-introduces-equifax-ignite-ai-202000788.html?.tsrc=rss \n \n - Title: Equifax Gears Up to Report Q3 Earnings: What&#39;s in the Offing? \nPublication Date: 10/16/2025 4:50:00 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/equifax-gears-report-q3-earnings-165000129.html?.tsrc=rss \n \n - Title: Wall Street&#39;s Insights Into Key Metrics Ahead of Equifax (EFX) Q3 Earnings \nPublication Date: 10/16/2025 1:15:03 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/wall-streets-insights-key-metrics-131503700.html?.tsrc=rss \n \n - Title: Equifax (EFX) Earnings Expected to Grow: What to Know Ahead of Next Week&#39;s Release \nPublication Date: 10/14/2025 2:00:09 PM, Source: yahoo \nURL: https://finance.yahoo.com/news/equifax-efx-earnings-expected-grow-140009946.html?.tsrc=rss \n \nFollow us on stocktwits.com for more earnings alerts. Not a financial advice. Not a trading signal.&quot;",
+      "score": 39,
+      "timeframes": [
+        "specific day",
+        "next week",
+        "temporal_modifier",
+        "quarter"
+      ],
+      "sentiment": null,
+      "likes": 0,
+      "url": "https://stocktwits.com/ChessGM/message/632684976"
+    },
+    {
+      "username": "Chyeahhh",
+      "body": "$ADAP yeah nothing to see here. Didn\u2019t add size because it\u2019s Friday. But time to go enjoy life. ADAP is a no change and still a short.\n\nHope AH isn\u2019t too hard on you longs. Go touch some grass enjoy the weekend.\n\nI\u2019ll be back Monday for more of your hard earned money you pesky longs \ud83d\udd25 \n\nEnjoy the teens while they last. .08 next week",
+      "score": 39,
+      "timeframes": [
+        "specific day",
+        "after-hours",
+        "next week"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/Chyeahhh/message/632806141"
+    },
+    {
+      "username": "SpOngeBoBb44",
+      "body": "$TSLA \nEnd of day selling will happen people are gonna be nervous to hold us over the weekend with ER coming out on Wednesday next week after hours I believe this is going to close red steel and it\u2019s gonna be a red wheat from here on out. Tesla is not going to have very good profits and I don\u2019t think they\u2019re gonna beat earnings. They\u2019ve already said they\u2019re gonna stop making robotics this year. Optimus on hold We are having problems with China. We have a big Building in Shanghai, China and there\u2019s conflict over there so naturally I see less teslas was being bought.",
+      "score": 39,
+      "timeframes": [
+        "specific day",
+        "next week",
+        "close/EOD"
+      ],
+      "sentiment": "Bearish",
+      "likes": 0,
+      "url": "https://stocktwits.com/SpOngeBoBb44/message/632773309"
+    },
+    {
+      "username": "MrStocks785",
+      "body": "$IREN will wake up to 70s next week Monday pump will happen AH always does",
+      "score": 39,
+      "timeframes": [
+        "specific day",
+        "after-hours",
+        "next week"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/MrStocks785/message/632791025"
+    },
+    {
+      "username": "MrStocks785",
+      "body": "$IREN easy $65 AH today but next week $80+",
+      "score": 39,
+      "timeframes": [
+        "after-hours",
+        "next week",
+        "today"
+      ],
+      "sentiment": "Bullish",
+      "likes": 0,
+      "url": "https://stocktwits.com/MrStocks785/message/632781597"
+    }
+  ]
+}
