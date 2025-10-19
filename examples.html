@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockTwits Post Examples - October 17, 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #212529;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+        
+        .nav-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        
+        .nav-link:hover {
+            background: #5568d3;
+        }
+        
+        .section {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #212529;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section-subtitle {
+            font-size: 1em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        
+        .category {
+            margin-bottom: 40px;
+        }
+        
+        .category-title {
+            font-size: 1.3em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .post-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .post-username {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.05em;
+        }
+        
+        .post-body {
+            color: #2c3e50;
+            line-height: 1.7;
+            margin: 12px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .post-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9em;
+            margin-top: 10px;
+            padding: 6px 12px;
+            border: 1px solid #667eea;
+            border-radius: 4px;
+        }
+        
+        .post-link:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin: 2px;
+        }
+        
+        .badge-score {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .badge-indicator {
+            background: #3498db;
+            color: white;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>StockTwits Post Examples</h1>
+            <p class="subtitle">October 17, 2025 - Real examples from the platform</p>
+            <a href="index.html" class="nav-link">← Back to Dashboard</a>
+        </header>
+
+        <!-- 1. Trading Strategies -->
+        <section class="section">
+            <h2 class="section-title">1. Trading Strategy Examples</h2>
+            <p class="section-subtitle">5 example posts for each trading strategy type</p>
+            <div id="strategies-container"></div>
+        </section>
+
+        <!-- 2. Instrument Preferences -->
+        <section class="section">
+            <h2 class="section-title">2. Instrument Preference Examples</h2>
+            <p class="section-subtitle">5 example posts for each instrument type</p>
+            <div id="instruments-container"></div>
+        </section>
+
+        <!-- 3. Time of Posting -->
+        <section class="section">
+            <h2 class="section-title">3. Time of Posting Examples</h2>
+            <p class="section-subtitle">5 example posts for each market phase</p>
+            <div id="time-container"></div>
+        </section>
+
+        <!-- 4. Top Tickers -->
+        <section class="section">
+            <h2 class="section-title">4. Top Ticker Examples</h2>
+            <p class="section-subtitle">5 example posts for each of the most discussed tickers</p>
+            <div id="tickers-container"></div>
+        </section>
+
+        <!-- 5. Time Sensitivity -->
+        <section class="section">
+            <h2 class="section-title">5. Time-Sensitive Posts</h2>
+            <p class="section-subtitle">Top 10 posts with specific timeframes and temporal constraints</p>
+            <div id="time-sensitive-container"></div>
+        </section>
+
+        <!-- 6. Conviction & Debate -->
+        <section class="section">
+            <h2 class="section-title">6. High Conviction & Debate Posts</h2>
+            <p class="section-subtitle">Top 10 posts with strong opinions and disagreement</p>
+            <div id="conviction-container"></div>
+        </section>
+    </div>
+
+    <script>
+        // Embedded data (minified)
+        const data = {"strategies":{"PASSIVE":[{"username":"StockVentures","body":"$AVGO 400 soon","url":"https://stocktwits.com/StockVentures/message/632820067"},{"username":"Basocos_Ball_Cards","body":"$AVGO cute","url":"https://stocktwits.com/Basocos_Ball_Cards/message/632794509"},{"username":"b1ngbong","body":"$AVGO 340 monday morning","url":"https://stocktwits.com/b1ngbong/message/632789076"},{"username":"magical_pomelo_316546","body":"$AVGO","url":"https://stocktwits.com/magical_pomelo_316546/message/632786194"},{"username":"InvestingYoungDotCA","body":"$AMD $AVGO $NVDA $SMH","url":"https://stocktwits.com/InvestingYoungDotCA/message/632780509"}],"DIRECTIONAL":[{"username":"dennismccain","body":"More reasons to like Broadcom — $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/","url":"https://stocktwits.com/dennismccain/message/632819844"},{"username":"HIMAX_TSM_NVDA_CPO","body":"The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics","url":"https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429"},{"username":"Powertrader22","body":"$AVGO looks like robo advisors changed their minds 👌now go positive 🐂","url":"https://stocktwits.com/Powertrader22/message/632793008"},{"username":"Carlos7144","body":"$PATH $AVGO 2 Growth Stocks to Invest $1.X,000 in Right Now https://share.google/hIZqD5jA8izZOsgd3","url":"https://stocktwits.com/Carlos7144/message/632776270"},{"username":"Scottradshaw23","body":"$AVGO Great things take time. Be proud of each small step forward. They're building the foundation of your success story. \n@Scottradshaw23","url":"https://stocktwits.com/Scottradshaw23/message/632764739"}],"OPTIONS":[{"username":"TalkMarkets","body":"#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154","url":"https://stocktwits.com/TalkMarkets/message/632811543"},{"username":"MoneyGroupLLC","body":"Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts","url":"https://stocktwits.com/MoneyGroupLLC/message/632807407"},{"username":"macroaxis","body":"$AVGO - Implied Volatility Drops to 0.96: Potential Opportunity in Broadcom https://www.macroaxis.com/stock-options/AVGO/Broadcom?utm_source=dlvr.it&utm_medium=stocktwits","url":"https://stocktwits.com/macroaxis/message/632773367"},{"username":"Buzzdaq","body":"$AVGO btc Oct17 360c @ .08 (16.50) \n(cover, done for day...)","url":"https://stocktwits.com/Buzzdaq/message/632743893"},{"username":"1ightningAlerts","body":"1ightning® Options Trade Alert (Actionable) | Buy $SPCE Oct 31 $5 Call | Enter: $0.39 Exit: $0.47 | Profit: 21.01% ROI | https://1ightning.com/scalps","url":"https://stocktwits.com/1ightningAlerts/message/632813042"}],"POSITION":[{"username":"drbob512","body":"$TLN $AVGO $TSM i know i'm a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO & TSM & today'","url":"https://stocktwits.com/drbob512/message/632801601"},{"username":"2moontrader","body":"$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM < 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the","url":"https://stocktwits.com/2moontrader/message/632792296"},{"username":"Tammybluntz","body":"Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming","url":"https://stocktwits.com/Tammybluntz/message/632790836"},{"username":"bradtlc","body":"$AVGO 6 month chart looking beautiful.","url":"https://stocktwits.com/bradtlc/message/632785786"},{"username":"Basocos_Ball_Cards","body":"$AVGO easiest dip buy in the game","url":"https://stocktwits.com/Basocos_Ball_Cards/message/632759475"}],"SWING":[{"username":"Badhop1","body":"$SPCE THIS SHOULDNFLY OVER 5 NEXT WEEK. FINAL SHAKE OUT. BUYING MORE...","url":"https://stocktwits.com/Badhop1/message/632812305"},{"username":"JH2500","body":"AERO-SPACE STOCKS:  Four excellent plays know in Sector: $VWAV, $ORKS, $SPCE $ $MNTS. \nMost likely to rip quickly drom here is  \n$MNTS @ $1. 30s: Low Float SpaceX-like play .Fully funded now on Warran","url":"https://stocktwits.com/JH2500/message/632784346"},{"username":"Wallaby_Trantor","body":"$SPCE Can't really afford it, but time to grab a few more...  Ben a crap market week (for me) not much to cheer about.  Hopefully next week there is less BS about tariffs!!","url":"https://stocktwits.com/Wallaby_Trantor/message/632775715"},{"username":"_TheFinalFrontier","body":"$SPCE Also encouraging to see short interest going down. Less room and confidence from shorts may reduce a big squeeze potential, but it means the floor is rising for longer term investors at these le","url":"https://stocktwits.com/_TheFinalFrontier/message/632729240"},{"username":"darknessplayboy","body":"$HAL it's going to the moon","url":"https://stocktwits.com/darknessplayboy/message/632758191"}],"DAY_TRADING":[{"username":"FTV","body":"@officialbananas I did not expect a 25% move up on $GDXD in one day today.  So I sold about half of my position in that ETF and $JDST as well. \nThis gives me an excuse to re-buy these ETFs again if th","url":"https://stocktwits.com/FTV/message/632777735"},{"username":"HOODisthefuture","body":"$DDOG what in the world. That was a bear trap eod then??","url":"https://stocktwits.com/HOODisthefuture/message/632729033"},{"username":"frankjohnson123","body":"$GDX wow look at that volume candle at the end of day....","url":"https://stocktwits.com/frankjohnson123/message/632819495"},{"username":"Lucky_People","body":"$ORCL someone on here posted earlier today that based on some pretty terrible technical analysis the stock would turn green by end of day.","url":"https://stocktwits.com/Lucky_People/message/632811433"},{"username":"forzafang","body":"$META added this morning.  No reason for META to trade like the step child of the group.  Look back and you'll see these are the times to accumulate","url":"https://stocktwits.com/forzafang/message/632788884"}]},"instruments":{"STOCKS":[{"username":"StockVentures","body":"$AVGO 400 soon","url":"https://stocktwits.com/StockVentures/message/632820067"},{"username":"dennismccain","body":"More reasons to like Broadcom — $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/","url":"https://stocktwits.com/dennismccain/message/632819844"},{"username":"TalkMarkets","body":"#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154","url":"https://stocktwits.com/TalkMarkets/message/632811543"},{"username":"HIMAX_TSM_NVDA_CPO","body":"The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics/","url":"https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429"},{"username":"drbob512","body":"$TLN $AVGO $TSM i know i'm a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO & TSM & today's dip gave me an opportunity. Younger daughter gave me the recomm for Talen Energy so i did dd on it & have wanted a nuclear stock for a while now & TLN is presently a good bus. model with revenues now unlike some others.","url":"https://stocktwits.com/drbob512/message/632801601"}],"INDEXES":[{"username":"TheVulcanDevilWhale","body":"$MCD $SPY $DIA $IWM $QQQ","url":"https://stocktwits.com/TheVulcanDevilWhale/message/632718800"},{"username":"doctordinero","body":"$GILD All time high. Patience is king. GLTA $SPY $IBB","url":"https://stocktwits.com/doctordinero/message/632772717"},{"username":"bsmnsj","body":"$NVDA Stay calm, team. NVIDIA is just taking a healthy breather after an impressive run. No need to overreact — market rotations happen. Give it a couple of weeks, and we'll likely see the stock back above $200. Patience pays. Simple as that. $SPY keep calm...","url":"https://stocktwits.com/bsmnsj/message/632821113"},{"username":"Kneel_to_your_KING","body":"$NVDA $PLTR $QQQ $SPY stupid prizes award??? 😆🫵🏻🤡","url":"https://stocktwits.com/Kneel_to_your_KING/message/632820536"},{"username":"MichelleWhite5844","body":"$PLTR $NVDA  Billionaires Are Selling Palantir Stock and Buying a Stock-Split AI Stock Up 1,530% in 3 Years Some of Wall Street Hedge funds are taking profits in Palantir as shares hit record highs, while institutions continue buying Nvidia on expectations of further upside.","url":"https://stocktwits.com/MichelleWhite5844/message/632820154"}],"CRYPTO":[{"username":"2moontrader","body":"$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM < 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the biggest x86 CPU/APU maker now). $AMD is about to go parabolic and the MMs know this, that's why they're trying to bring it down as much as they can before the Q3 earnings pump. MMs are definitely losing their power over this stock post-OpenAI. Not even $NVDA $AVGO $INTC can keep up with this growth that $AMD is about to experience. Enjoy the ride boys!!!! 🚀🚀🚀🚀","url":"https://stocktwits.com/2moontrader/message/632792296"},{"username":"Buzzdaq","body":"$AVGO btc Oct17 360c @ .08 (16.50) \n(cover, done for day...)","url":"https://stocktwits.com/Buzzdaq/message/632743893"},{"username":"XORAA","body":"$BTC.X the amount of bears here signals the bottom is near lol.","url":"https://stocktwits.com/XORAA/message/632821484"},{"username":"LudwigVanBeethoven","body":"$BTC.X $SPY can we now nominate Mr Vladimir Putin for the Nobel Peace Price for real? Having avoided WW3 by sticking to his almost passive procedure while being attacked via poor Ukraine by almost all of 'the west'? Congratulations! The phone call with his clear message was probably successful! No more fat weapons from the US threatening a big war - Z seems to have given orders. Not all clear and on paper yet, but hope. Ukraine needs to accept current borders, withdraw troops, no more weapons allowed -> peace.","url":"https://stocktwits.com/LudwigVanBeethoven/message/632821440"},{"username":"Samurai0","body":"$BTC.X You can love a stock or an asset all you want, but it won't ever love you back. Don't ever get it twisted, it's only business.","url":"https://stocktwits.com/Samurai0/message/632821265"}],"OPTIONS":[{"username":"MoneyGroupLLC","body":"Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts","url":"https://stocktwits.com/MoneyGroupLLC/message/632807407"},{"username":"macroaxis","body":"$AVGO - Implied Volatility Drops to 0.96: Potential Opportunity in Broadcom https://www.macroaxis.com/stock-options/AVGO/Broadcom?utm_source=dlvr.it&utm_medium=stocktwits","url":"https://stocktwits.com/macroaxis/message/632773367"},{"username":"CR0SHIT","body":"$AVGO  \n\n$3.4TN in option expirations today, should see some crazy swings.","url":"https://stocktwits.com/CR0SHIT/message/632763344"},{"username":"1ightningAlerts","body":"1ightning® Options Trade Alert (Actionable) | Buy $SPCE Oct 31 $5 Call | Enter: $0.39 Exit: $0.47 | Profit: 21.01% ROI | https://1ightning.com/scalps","url":"https://stocktwits.com/1ightningAlerts/message/632813042"},{"username":"Sauce_no_magic","body":"$SPCE fuck my 2028 calls huh Branson?😒","url":"https://stocktwits.com/Sauce_no_magic/message/632770860"}],"LEVERAGED_ETFS":[{"username":"VqNismo","body":"$SPY $TQQQ $QQQ $SQQQ Didn't confirm any direction yet this week 📈📉 but yah I enjoyed the volatility 😸🤛","url":"https://stocktwits.com/VqNismo/message/632816065"},{"username":"LouisianaOil","body":"$SQQQ I see a huge opportunity here. Slowly adding 10,000 shares under $15.","url":"https://stocktwits.com/LouisianaOil/message/632810159"},{"username":"gadittri","body":"$SQQQ markets back to business as usual, only up...sigh","url":"https://stocktwits.com/gadittri/message/632808952"},{"username":"sister","body":"$UVXY Coiled Spring can Snap back to 15.45 almost instantaneously.  Just sayin.  $SQQQ $SOXS","url":"https://stocktwits.com/sister/message/632802082"},{"username":"WolfofStockTits","body":"$SQQQ This has got to be the most retarted stock to own ever\n\nMarket was in full crash mode and it was only up 0.30c 😂\n\nNow back to red \n\nNever ever buying this dog","url":"https://stocktwits.com/WolfofStockTits/message/632797091"}]},"time_phases":{"Market Hours":[{"username":"drbob512","body":"$TLN $AVGO $TSM i know i'm a bit late to the party, but i started small positions in these 3. i plan to average down or average up on them. Have always wanted to get AVGO & TSM & today's dip gave me an opportunity. Younger daughter gave me the recomm for Talen Energy so i did dd on it & have wanted a nuclear stock for a while now & TLN is presently a good bus. model with revenues now unlike some others.","url":"https://stocktwits.com/drbob512/message/632801601"},{"username":"Basocos_Ball_Cards","body":"$AVGO cute","url":"https://stocktwits.com/Basocos_Ball_Cards/message/632794509"},{"username":"Powertrader22","body":"$AVGO looks like robo advisors changed their minds 👌now go positive 🐂","url":"https://stocktwits.com/Powertrader22/message/632793008"},{"username":"2moontrader","body":"$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM < 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the biggest x86 CPU/APU maker now). $AMD is about to go parabolic and the MMs know this, that's why they're trying to bring it down as much as they can before the Q3 earnings pump. MMs are definitely losing their power over this stock post-OpenAI. Not even $NVDA $AVGO $INTC can keep up with this growth that $AMD is about to experience. Enjoy the ride boys!!!! 🚀🚀🚀🚀","url":"https://stocktwits.com/2moontrader/message/632792296"},{"username":"Tammybluntz","body":"Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming","url":"https://stocktwits.com/Tammybluntz/message/632790836"}],"Pre-Market":[{"username":"ReverseSplitking","body":"$SPCE .","url":"https://stocktwits.com/ReverseSplitking/message/632719466"},{"username":"Cryptowizard123","body":"$SPCE got in today at 4.06","url":"https://stocktwits.com/Cryptowizard123/message/632715309"},{"username":"Fudd0118","body":"$SPCE  \n \nred start green end","url":"https://stocktwits.com/Fudd0118/message/632705022"},{"username":"DropStock","body":"$SPCE so from 5 to 3 like a rocketship crash","url":"https://stocktwits.com/DropStock/message/632698290"},{"username":"IAMRAVI87","body":"@Financewithpalak holding 1000 waiting for big rally for a long $HAL","url":"https://stocktwits.com/IAMRAVI87/message/632702825"}],"After-Hours":[{"username":"StockVentures","body":"$AVGO 400 soon","url":"https://stocktwits.com/StockVentures/message/632820067"},{"username":"dennismccain","body":"More reasons to like Broadcom — $AVGO \nhttps://www.marketbeat.com/originals/broadcom-nabs-openai-deal-why-its-a-huge-win-avgos-future/","url":"https://stocktwits.com/dennismccain/message/632819844"},{"username":"TalkMarkets","body":"#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154","url":"https://stocktwits.com/TalkMarkets/message/632811543"},{"username":"HIMAX_TSM_NVDA_CPO","body":"The Third Time Will Be The Charm For Broadcom Switch Co-Packaged Optics $avgo $tsm $himx https://www.nextplatform.com/2025/10/17/the-third-time-will-be-the-charm-for-broadcom-switch-co-packaged-optics/","url":"https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632808429"},{"username":"MoneyGroupLLC","body":"Enter: $AVGO NOV 07 2025 $350 CALLS\nBuy in Price: $16.35 - $17.05\n\nTake Profit: $32.74\nStop Bleeding: $15.00\n\nROI Potential: 92%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts","url":"https://stocktwits.com/MoneyGroupLLC/message/632807407"}],"Overnight":[{"username":"LiquidThetaLEAPS","body":"LiquidTheta® LEAPS LIVE Actionable Alert\n\nAsset: $SPCE\nCurrent Share Price: $4.60\n\nContracts: $SPCE January 15, 2027 $5 Calls\n\nScale in: $1.59- $1.94\nScale out: $2.47-$3.17\nCan Easily Capture: 60% ROI Blended\n\nDTE: 456 Days | Join Elites here: https://liquidtheta.com/options","url":"https://stocktwits.com/LiquidThetaLEAPS/message/632691165"},{"username":"MoneyGroupLLC","body":"Enter: $HAL NOV 07 2025 $22 CALLS\nBuy in Price: $1.08 - $1.09\n\nTake Profit: $1.86\nStop Bleeding: $0.95\n\nROI Potential: 72%\nExit Within: 3 Weeks\n\nhttps://moneygroup.us/alerts","url":"https://stocktwits.com/MoneyGroupLLC/message/632681617"},{"username":"1ightningAlerts","body":"1ightning® Options Trade Alert (Actionable) | Buy $MCD Oct 31 $310 Call | Enter: $3.44 Exit: $5.47 | Profit: 59.01% ROI | https://1ightning.com/scalps","url":"https://stocktwits.com/1ightningAlerts/message/632687932"},{"username":"1ightningAlerts","body":"1ightning® Options Trade Alert (Actionable) | Buy $GILD Oct 31 $119 Call | Enter: $4.74 Exit: $9.06 | Profit: 91.06% ROI | https://1ightning.com/scalps","url":"https://stocktwits.com/1ightningAlerts/message/632696365"},{"username":"Knowledgeworthmore","body":"$MRK keep eyes on $SBFM and $UAMY","url":"https://stocktwits.com/Knowledgeworthmore/message/632693554"}]},"top_tickers":{"SPY":[{"username":"TheVulcanDevilWhale","body":"$MCD $SPY $DIA $IWM $QQQ","url":"https://stocktwits.com/TheVulcanDevilWhale/message/632718800"},{"username":"LudwigVanBeethoven","body":"$BTC.X $SPY can we now nominate Mr Vladimir Putin for the Nobel Peace Price for real? Having avoided WW3 by sticking to his almost passive procedure while being attacked via poor Ukraine by almost all of 'the west'? Congratulations! The phone call with his clear message was probably successful! No more fat weapons from the US threatening a big war - Z seems to have given orders. Not all clear and on paper yet, but hope. Ukraine needs to accept current borders, withdraw troops, no more weapons allowed -> peace.","url":"https://stocktwits.com/LudwigVanBeethoven/message/632821440"},{"username":"keepingthefaith1","body":"$QQQ $SPY \nLooking for flush Monday and Thursday next week \nThink $BTC.X  dumps over weekend.","url":"https://stocktwits.com/keepingthefaith1/message/632820944"},{"username":"EpiCRise98","body":"$BTC.X $DJT $SPY","url":"https://stocktwits.com/EpiCRise98/message/632820765"},{"username":"doctordinero","body":"$GILD All time high. Patience is king. GLTA $SPY $IBB","url":"https://stocktwits.com/doctordinero/message/632772717"}],"QQQ":[{"username":"KXTrading","body":"$TQQQ – 2nd price Target 104.35+ HIT 🎯 🤝 \n\n$SQQQ $QQQ $NQ_F","url":"https://stocktwits.com/KXTrading/message/632790704"},{"username":"GaryBx105","body":"$QQQ , $SQQQ    black swan.","url":"https://stocktwits.com/GaryBx105/message/632759813"},{"username":"Shanthi_Rexaline","body":"Why GitLab Stock Is Falling About 4% In Premarket Trading Today https://stocktwits.com/news-articles/markets/equity/why-git-lab-stock-is-falling-about-4-in-premarket-trading-today/ch6s26wR3FM $GTLB $DDOG $QQQ $SKYY","url":"https://stocktwits.com/Shanthi_Rexaline/message/632698640"},{"username":"Universaal","body":"$INTC $QQQ $SLS love that message from DJT appreciate it","url":"https://stocktwits.com/Universaal/message/632810080"},{"username":"MrMagician","body":"$INTC $QQQ $SLS","url":"https://stocktwits.com/MrMagician/message/632809561"}],"BTC.X":[{"username":"XORAA","body":"$BTC.X the amount of bears here signals the bottom is near lol.","url":"https://stocktwits.com/XORAA/message/632821484"},{"username":"Samurai0","body":"$BTC.X You can love a stock or an asset all you want, but it won't ever love you back. Don't ever get it twisted, it's only business.","url":"https://stocktwits.com/Samurai0/message/632821265"},{"username":"Bigmoney2023","body":"$BTC.X by Monday Bitcoin will be below $100,000","url":"https://stocktwits.com/Bigmoney2023/message/632821188"},{"username":"papaputsncalls","body":"$BTC.X bitcoin is done gold and silver are in. $SLV $SA","url":"https://stocktwits.com/papaputsncalls/message/632821070"},{"username":"Paraboljoker","body":"$SUGP Is #1 Trending at the entire market right now! Big players see how undervalued the company is! #Quantum/ #AI \n \nFull accumulation below $10 for next week not selling anything of this amazing gem! \n \nalso trend $BITF $BTC.X $RGTI  $IONQ bit lower down on list","url":"https://stocktwits.com/Paraboljoker/message/632821038"}],"TSLA":[{"username":"GorillaTrades","body":"Top 3 #momentum #stocks In The GorillaTrades #portfolio This Week: Tesla $TSLA +5.9%, eBay $EBAY +5.4%, and Gilead Sciences $GILD +5.4%^","url":"https://stocktwits.com/GorillaTrades/message/632799361"},{"username":"AliYazici","body":"I've never bought Bitcoin in my life — but recently, I noticed huge companies and institutions are buying it nonstop. That opened my eyes.\n\nNow, I realize that people like me — millions of us — will choose $ASST instead of any coin, because it's safer, smarter, and built for growth.\n\n💥 When whales and funds start investing through the stock exchange, a domino compounding effect begins:\n➡️ More increase = more money\n➡️ More money = more increase\n➡️ More increase = more people joining\n\nThat's how volatility makes more money — and $ASST turns every market swing into profit.\n\n💰 Being a Treasury company doesn't just mean holding Bitcoin; it means trading it, growing it, and multiplying it.\nStrive already manages 13 ETFs, standing beside J.P. Morgan, Goldman Sachs, and ARK Invest, and they know how to make volatility create more money.\n\n📈 Bitcoin moves 5–20% every week — and $ASST will use that volatility to make more money, week after week.\n\n🇺🇸 This is the U.S. government's indirect way of attracting Bitcoin investment through the stock market — a safe, transparent gateway for both institutions and individuals.\n\nSooner or later, it will be everywhere in the news — because it's a super-powerful combo:\n • Volatility → More Money\n • More Money → More Growth\n • More Growth → More Investors\n\n🔥 I 100% believe in this.\n$ASST is not just another stock — it's the future of Bitcoin investing through volatility and more money.\n$TSLA \n$MSFT \n$NVDA","url":"https://stocktwits.com/AliYazici/message/632817510"},{"username":"Paraboljoker","body":"$SUGP $TSLA $NVDA $AI SUGP Connections network is massive look below","url":"https://stocktwits.com/Paraboljoker/message/632816098"},{"username":"TheStockTraderHub","body":"Friday's biggest analyst calls:\n\nUBS reiterates Oracle as buy\n\nMorgan Stanley reiterates CoreWeave as equal weight\n\nBank of America reiterates Advanced Micro Devices as buy\n\nWells Fargo initiates Exxon Mobil at overweight\n\nBarclays reiterates Tesla as equal weight\n\n$ORCL $AMD $CRWV $XOM $TSLA","url":"https://stocktwits.com/TheStockTraderHub/message/632725679"},{"username":"inspector_gadget86","body":"$F $GM $NIO $TSLA Auto delinquencies are up more than 50% since 2010 and have transitioned from the safest to riskiest consumer commercial credit product in that time frame","url":"https://stocktwits.com/inspector_gadget86/message/632819827"}],"NVDA":[{"username":"TalkMarkets","body":"#Volatility Soars But The Market Ignores $AAPL $AVGO $NVDA $GLD $SPX https://talkmarkets.com/content/commodities/volatility-soars-but-the-market-ignores?post=529154","url":"https://stocktwits.com/TalkMarkets/message/632811543"},{"username":"2moontrader","body":"$AMD BofA and HSBC upgrade $300+. $TSM esrnings beat. OpenAI deal. Windows 10 ending support, TPM < 2.0 machines rendered obsolete, means MILLIONS new laptops and desktops must be sold ($AMD is the biggest x86 CPU/APU maker now). $AMD is about to go parabolic and the MMs know this, that's why they're trying to bring it down as much as they can before the Q3 earnings pump. MMs are definitely losing their power over this stock post-OpenAI. Not even $NVDA $AVGO $INTC can keep up with this growth that $AMD is about to experience. Enjoy the ride boys!!!! 🚀🚀🚀🚀","url":"https://stocktwits.com/2moontrader/message/632792296"},{"username":"Tammybluntz","body":"Long $AMZN 3000 shares at 218.82 \n\nUp 100k this week. This will print going into/out of earnings in 10 days \n\nrun like $NVDA $AVGO $GOOGL  coming","url":"https://stocktwits.com/Tammybluntz/message/632790836"},{"username":"InvestingYoungDotCA","body":"$AMD $AVGO $NVDA $SMH","url":"https://stocktwits.com/InvestingYoungDotCA/message/632780509"},{"username":"Professor","body":"$AVGO Back to 21EMA once again.  \n \nIf it doesnt bounce. It will be in the same boat as $NVDA & Bearish.","url":"https://stocktwits.com/Professor/message/632758624"}]},"time_sensitive":[{"username":"TheCatalystCalendar","body":"That about describes my day 👇 😂 couldn't actively manage my account today and got slammed! \n\nLuckily I only had a starter in $UAMY but it's still bearish AF on the technicals. Longterm I'm fine. Short term, I don't think today's dip was it now that I have time to look at it. \n\n$TGB grabbed it after open so I'm fine. I think there's going to be a government purchase of shares. Just a feeling in my belly \n\n$RKT I have calls that expire tomorrow 😂  🤬 🤦🏼 OTM. \n\n$NAK I cannot tell you how much I love NAK longterm. I bought Jan 2028 $7 calls early today and I cannot believe how far they dropped in proportion to the commons by close, with such a far out exp. I'll be buying a lot more.   I still have Jan 2027 $5 calls up 698%. I was up 1000% so it's not as good as it sounds 😂 \n\nJust sharing this since I have been sharing my wins, I don't want anyone to think I'm immune from red days. I'm going to turn it into a win by learning.  I usually learn from losses. Don't learn much when I Win 😂","url":"https://stocktwits.com/TheCatalystCalendar/message/632675540","score":77,"timeframes":["temporal_modifier","tomorrow","specific exp","expiration","long-term","today"]},{"username":"AlbertaSwingTrader","body":"$RGTI Tomorrow will be a day of reckoning for this ticker.  Either the bulls will load up with cheap shares & try to push this to new highs next week, or we'll see capitulation like we've never seen before.  I'm betting on the latter.  $35 by market close tomorrow.  Loading up on November-expiry puts, as always.","url":"https://stocktwits.com/AlbertaSwingTrader/message/632692148","score":64,"timeframes":["temporal_modifier","tomorrow","next week","close/EOD","expiration"]},{"username":"QuantInsider","body":"$TSLA action today had a big player making moves\n\nAt 3:02 PM, there was an $8M ask-side block in 10/17 $477.5 ITM puts\n\nThat's a serious near-term protection play\n\nThis could keep the weekly IV bid and add pressure into Friday\n\nIf you're trading directionally, keep it defined risk as we head into expiry\n\nOn the flip side, there's some aggressive upside for next week\n\nGolden sweeps in 10/24 $442.5 and $447.5 calls totaling about $5.9M were bought at the ask\n\nThese are fresh positions but wait for confirmation above the 440 to 447 zone before leaning long\n\nStay sharp out","url":"https://stocktwits.com/QuantInsider/message/632676549","score":61,"timeframes":["specific day","temporal_modifier","next week","expiration","today"]},{"username":"DonCorleone77","body":"$PRAX $KZR $CSX $IBKR $WAFD  \n \nFeel free to follow me for pre-market and after-hours movers every day. \n \nAFTER-HOURS MOVERS: \n \nCurrently Higher After Earnings: \n \n-- CSX (CSX) up 2.3% \n-- F.N.B. (FNB) up 1.6% \n-- Cohen & Steers (CNS) up 0.5% \n \nCurrently Also Higher: \n \n-- Kezar Life Sciences (KZR) up 46.3% after announcing it will explore strategic alternatives as it has been unable to align with FDA on potential registrational clinical trial of zetomipzomib \n-- Praxis Precision Medicines (PRAX) up 5.4% despite common stock offering on momentum following today's 184% spike \n \nCurrently Lower After Earnings: \n \n-- Glacier Bancorp (GBCI) down 3.3% \n-- WaFd (WAFD) down 2.8% \n-- Interactive Brokers Group (IBKR) down 2.6% \n-- Bank OZK (OZK) down 0.7%","url":"https://stocktwits.com/DonCorleone77/message/632678223","score":60,"timeframes":["pre-market","after-hours","earnings","today"]},{"username":"SPY_Options_Levels","body":"In yesterday's letter, we emphasized watching critical SPX levels, and today's action validated our analysis perfectly. Overnight, $SPX lost key support at 6585 and dipped below 6540, but rebounded by the opening bell to reach 6620. This set the stage for a significant trading day, with the dip to our key 6603 support EXACTLY (low of day 6603.76) that triggered a massive 75 point run to high of day 6678.88, ultimately closing $SPY up 0.57% and $SPX up 0.53%.  $ES_F \n \nAs we look toward Monday, while the schedule seems light on the surface, unexpected developments, particularly from the White House, could disrupt the market dynamics. Traders should stay sharp, positioning themselves with the trend and considering 1-3 DTE strategies to manage risk and enhance returns. Join our community to navigate these volatile waters and trust in the levels for actionable insights.","url":"https://stocktwits.com/SPY_Options_Levels/message/632820847","score":59,"timeframes":["specific day","temporal_modifier","opening","close/EOD","today"]},{"username":"FTV","body":"@TOTrader2025 @WhyAlwaysMe_ I love your analogy lol. It seems to me that the markets have become so incredibly important to him, far more than in his previous term.\nBut it may be more sinister than that, because the market is what's keeping the economy from going into a recession. If the stock market collapses, that's basically your initial trigger for the recession (and then you have the generational buying opportunity).\n\nAnyway, the moment the premarket opened, I slid in a tiny $UVIX -> $SVIX exchange to continue my DCA on SVIX.  And some small nibbles on ETHU BITU.\n\nOptions expiration today… Though I think most of the real activity happened yesterday, so today should be a lot calmer.\n\nBut I would have sold at least half of my UVIX position between $16-$17 if I was given the opportunity which of course was frustrating that it all happened out of reach.\n\nI don't believe that that was the end of this selling, not at $SPY658, that's for sure.  But will have to wait till next week.","url":"https://stocktwits.com/FTV/message/632731724","score":59,"timeframes":["pre-market","next week","expiration","today"]},{"username":"Uknowthe_thing","body":"$MSOS Monday and Tuesday back to 5.40 to sell more calls to expire Friday . Maybe we get a post from Kass or Tyson to help . Until a few weeks becomes today this is normal .","url":"https://stocktwits.com/Uknowthe_thing/message/632822499","score":59,"timeframes":["specific day","weeks","temporal_modifier","expiration","today"]},{"username":"UnsettledOnPurpose","body":"$HYLN Did we move down today because a lot of investors thought, \"Gee. I suddenly don't like the ridiculous opportunity here.\" -OR- Did the shorties just double-down (again)? \n \nIf I was a chart guy, I would say that we're definitely closing lower again Friday as the shorties try to push this under $2 for options expiry. That's fine. I'm ready to buy more.","url":"https://stocktwits.com/UnsettledOnPurpose/message/632679440","score":59,"timeframes":["specific day","expiration","today","close/EOD"]},{"username":"ChessGM","body":"$GM \"Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $GM \nBearish (3.2) \nGeneral Motors (GM) Financial Analysis... (truncated for brevity)","url":"https://stocktwits.com/ChessGM/message/632685078","score":55,"timeframes":["specific day","temporal_modifier","quarter","expiration","long-term"]},{"username":"ChessGM","body":"$DHR \"Heads up alert! Upcoming earnings on Tuesday, 10/21/2025 for $DHR \nBearish (3.0) \nFinancial Analysis... (truncated for brevity)","url":"https://stocktwits.com/ChessGM/message/632684889","score":55,"timeframes":["specific day","temporal_modifier","short-term","next week","quarter","long-term"]}],"high_conviction":[{"username":"2019Vtrader2025","body":"@irishman217 @REBELSUN @SexyStockSlayer quite it up Irish man, all excited cause you bought a stock at $1.80 in hopes that it will rise. It can either dump or rip up. Given the CEO's past history we're all most likely going to get screwed but there's always a chancethat the third time is the charm","url":"https://stocktwits.com/2019Vtrader2025/message/632811443","score":57,"indicators":["direct_challenge","disagreement","high_conviction","specific_prediction"]},{"username":"jenbunn","body":"@cubie @simon58 @Zorrelak @judgeyoung2 @ribbey @EBE_day @TraderRapp @tonyctl @lukenight @twincam $SPOT came back!!! I watched that break!!! Had it posted, but kept moving my levels down- the next spot that was interesting was closer to 650…. $SPOT","url":"https://stocktwits.com/jenbunn/message/632751037","score":54,"indicators":["shouting_conviction","direct_challenge","disagreement","emphatic"]},{"username":"HIMAX_TSM_NVDA_CPO","body":"@normagain @EyesOfDevilz I didn't realize Rubin Ultra would be used for Open AI.  I suppose I could have put 2 and 2 together, since HIMX is known to be used for NVDA, but to get confirmation that Open AI would use Rubin Ultra is pretty big IMHO.  I am genuinely thinking that Kuo's 2028 EPS estimate for HIMX is too conservative.\n\nImagine $4 or $5 EPS in 2028.  What kind of multiple could we get on that???","url":"https://stocktwits.com/HIMAX_TSM_NVDA_CPO/message/632711223","score":53,"indicators":["shouting_conviction","direct_challenge","contrarian","disagreement"]},{"username":"jenbunn","body":"@cubie @ribbey @simon58 @Zorrelak @judgeyoung2 @EBE_day @TraderRapp @tonyctl @lukenight @twincam like $PONY for next week the 17.50p/20c same vol minutes later 30,000 vol it was just 12,000 or 19,000 I don't remember now, but 30,000 $PONT puts/calls 10/24 exp","url":"https://stocktwits.com/jenbunn/message/632769054","score":49,"indicators":["shouting_conviction","direct_challenge","disagreement"]},{"username":"DinoMcnuggets","body":"@risingphoenix2024 @DTT10 @SoundsAwesome Looks like TLT will hit 91.4 EOD, and equities will be crashing into the weekend. Then we might have black Monday. Long Bond squeeze is about to happen. Long bonds are such a shorted equity, when it runs it's going to be painful for shorts, and it's also going to have severe negative impacts on the credit system. Think Yen crisis, but this time it is going to be centered around US bonds.","url":"https://stocktwits.com/DinoMcnuggets/message/632772334","score":49,"indicators":["shouting_conviction","direct_challenge","disagreement"]},{"username":"BioRich","body":"$ALT @EggHeadeds No, very simply it means that they're dealing with delusional low quotients that fail to recognize simple concepts while pumping to recover their losses.   \n\nSimple question, how many times to people have to be reminded that there's no Fibrosis Improvement or MASH endpoint readouts at 48W? \n\n^^^This is why we have to speak to this group like children.","url":"https://stocktwits.com/BioRich/message/632779622","score":49,"indicators":["shouting_conviction","direct_challenge","disagreement","questioning"]},{"username":"Olddrache","body":"@LeapOptionTrader @PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @Gagooza Was hoping for more.  Cant trade the flat here. Have position but not doing anything else until we see a move  \n AFRM","url":"https://stocktwits.com/Olddrache/message/632785123","score":49,"indicators":["shouting_conviction","direct_challenge","disagreement"]},{"username":"Olddrache","body":"@PRILZZ @Prilz @sniper18 @1oldmanriver @quaintsow1 @rswallace1973 @lukkky @Kudagra @LeapOptionTrader @Gagooza OPEN 6.9 starter, keep a stop loss on that if you try.  Can have some volatility out of no where","url":"https://stocktwits.com/Olddrache/message/632779401","score":49,"indicators":["shouting_conviction","direct_challenge","disagreement"]},{"username":"Toru4","body":"@IdcWhatever @ATLbagger @stampeeder14 I think today's drop was for sure the news. Tomorrow could rebound nicely to $2.50ish, or could drop to below $2 then rebound to $2 ish. Hopefully it's the first but as long as we close above $2 for the weekend, I'll be happy.","url":"https://stocktwits.com/Toru4/message/632683332","score":49,"indicators":["direct_challenge","disagreement","high_conviction"]},{"username":"Fosco_","body":"@Otus @speed717 @LarryYMB may be they just needed bunch of cash (hence my point), but my preferred and safer scenario si definitely Buy Back... \"Why go complex when you can go simple\"....  \nAnyway, we'll see soon enough what's happening with this trial","url":"https://stocktwits.com/Fosco_/message/632726952","score":49,"indicators":["direct_challenge","disagreement","high_conviction"]}]};
+
+        // Strategy descriptions
+        const strategyDescriptions = {
+            'PASSIVE': 'Observing, asking questions, minimal trading intent',
+            'DIRECTIONAL': 'Price predictions, sentiment, opinions without specific execution plans',
+            'OPTIONS': 'Options trading, leverage, volatility plays (calls, puts, spreads)',
+            'POSITION': 'Longer-term positions, news/catalyst driven, technical analysis',
+            'SWING': 'Multi-day momentum, breakouts, short-term plays (days to weeks)',
+            'DAY_TRADING': 'Intraday & ultra-short term (scalping, same-day exits, EOD mentions)'
+        };
+
+        const instrumentDescriptions = {
+            'STOCKS': 'Individual stocks and equities',
+            'INDEXES': 'Index funds and ETFs (SPY, QQQ, DIA, IWM)',
+            'CRYPTO': 'Cryptocurrencies (BTC, ETH, etc.)',
+            'OPTIONS': 'Options contracts with explicit calls/puts language',
+            'LEVERAGED_ETFS': 'Leveraged and inverse ETFs (TQQQ, SQQQ, SOXL, etc.)'
+        };
+
+        const timePhaseDescriptions = {
+            'Market Hours': '9:30 AM - 4:00 PM ET (Regular trading session)',
+            'Pre-Market': '4:00 AM - 9:30 AM ET (Early morning activity)',
+            'After-Hours': '4:00 PM - 8:00 PM ET (Evening trading)',
+            'Overnight': '8:00 PM - 4:00 AM ET (Late night / Asian session)'
+        };
+
+        // Render functions
+        function renderStrategies() {
+            const container = document.getElementById('strategies-container');
+            let html = '';
+            
+            for (const [strategy, posts] of Object.entries(data.strategies)) {
+                html += `
+                    <div class="category">
+                        <div class="category-title">${strategy.replace(/_/g, ' ')}</div>
+                        <p style="color: #6c757d; margin-bottom: 15px; font-size: 0.95em;">${strategyDescriptions[strategy]}</p>
+                        ${posts.map(post => `
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <span class="post-username">@${post.username}</span>
+                                </div>
+                                <div class="post-body">${post.body}</div>
+                                ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function renderInstruments() {
+            const container = document.getElementById('instruments-container');
+            let html = '';
+            
+            for (const [instrument, posts] of Object.entries(data.instruments)) {
+                html += `
+                    <div class="category">
+                        <div class="category-title">${instrument.replace(/_/g, ' ')}</div>
+                        <p style="color: #6c757d; margin-bottom: 15px; font-size: 0.95em;">${instrumentDescriptions[instrument]}</p>
+                        ${posts.map(post => `
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <span class="post-username">@${post.username}</span>
+                                </div>
+                                <div class="post-body">${post.body}</div>
+                                ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function renderTimePhases() {
+            const container = document.getElementById('time-container');
+            let html = '';
+            
+            for (const [phase, posts] of Object.entries(data.time_phases)) {
+                html += `
+                    <div class="category">
+                        <div class="category-title">${phase}</div>
+                        <p style="color: #6c757d; margin-bottom: 15px; font-size: 0.95em;">${timePhaseDescriptions[phase]}</p>
+                        ${posts.map(post => `
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <span class="post-username">@${post.username}</span>
+                                </div>
+                                <div class="post-body">${post.body}</div>
+                                ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function renderTickers() {
+            const container = document.getElementById('tickers-container');
+            let html = '';
+            
+            for (const [ticker, posts] of Object.entries(data.top_tickers)) {
+                html += `
+                    <div class="category">
+                        <div class="category-title">$${ticker}</div>
+                        ${posts.map(post => `
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <span class="post-username">@${post.username}</span>
+                                </div>
+                                <div class="post-body">${post.body}</div>
+                                ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function renderTimeSensitive() {
+            const container = document.getElementById('time-sensitive-container');
+            const html = data.time_sensitive.map((post, i) => `
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="post-username">#${i + 1} @${post.username}</span>
+                        <span class="badge badge-score">Score: ${post.score}/100</span>
+                    </div>
+                    <div class="post-body">${post.body}</div>
+                    <div style="margin-top: 10px;">
+                        ${post.timeframes.map(tf => `<span class="badge badge-indicator">${tf}</span>`).join('')}
+                    </div>
+                    ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                </div>
+            `).join('');
+            container.innerHTML = html;
+        }
+
+        function renderConviction() {
+            const container = document.getElementById('conviction-container');
+            const html = data.high_conviction.map((post, i) => `
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="post-username">#${i + 1} @${post.username}</span>
+                        <span class="badge badge-score">Score: ${post.score}/100</span>
+                    </div>
+                    <div class="post-body">${post.body}</div>
+                    <div style="margin-top: 10px;">
+                        ${post.indicators.map(ind => `<span class="badge badge-indicator">${ind}</span>`).join('')}
+                    </div>
+                    ${post.url ? `<a href="${post.url}" target="_blank" class="post-link">View on StockTwits →</a>` : ''}
+                </div>
+            `).join('');
+            container.innerHTML = html;
+        }
+
+        // Initialize
+        renderStrategies();
+        renderInstruments();
+        renderTimePhases();
+        renderTickers();
+        renderTimeSensitive();
+        renderConviction();
+    </script>
+</body>
+</html>
+
