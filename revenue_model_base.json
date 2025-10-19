@@ -1,0 +1,34 @@
+{
+  "assumptions": {
+    "dau": 350000,
+    "mau": 297500,
+    "monthly_active_rate": 0.85
+  },
+  "segments": {
+    "HIGH_TWITCH": {
+      "users": 87504,
+      "pct_of_mau": 29.41,
+      "annual_arpu": 200,
+      "annual_revenue": 17500800,
+      "monthly_revenue": 1458400.0
+    },
+    "MEDIUM_TWITCH": {
+      "users": 121417,
+      "pct_of_mau": 40.81,
+      "annual_arpu": 50,
+      "annual_revenue": 6070850,
+      "monthly_revenue": 505904.1666666667
+    },
+    "LOW_TWITCH": {
+      "users": 88578,
+      "pct_of_mau": 29.77,
+      "annual_arpu": 10,
+      "annual_revenue": 885780,
+      "monthly_revenue": 73815.0
+    }
+  },
+  "total_annual_revenue": 24457430,
+  "total_monthly_revenue": 2038119.1666666667,
+  "arpu_per_dau": 69.87837142857143,
+  "arpu_per_mau": 82.2098487394958
+}

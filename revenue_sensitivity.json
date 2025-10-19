@@ -1,0 +1,132 @@
+{
+  "BASE_CASE": {
+    "description": "Current assumptions",
+    "dau": 350000,
+    "mau": 297500,
+    "arpu": {
+      "HIGH_TWITCH": 200,
+      "MEDIUM_TWITCH": 50,
+      "LOW_TWITCH": 10
+    },
+    "revenue": {
+      "high_twitch": 17493000,
+      "medium_twitch": 6068950,
+      "low_twitch": 886550,
+      "total_annual": 24448500,
+      "total_monthly": 2037375.0
+    },
+    "users": {
+      "high_twitch": 87465,
+      "medium_twitch": 121379,
+      "low_twitch": 88655
+    },
+    "metrics": {
+      "arpu_per_dau": 69.85285714285715,
+      "arpu_per_mau": 82.17983193277311
+    }
+  },
+  "BULL_CASE": {
+    "description": "Strong product-market fit, viral growth",
+    "dau": 500000,
+    "mau": 425000,
+    "arpu": {
+      "HIGH_TWITCH": 400,
+      "MEDIUM_TWITCH": 100,
+      "LOW_TWITCH": 20
+    },
+    "revenue": {
+      "high_twitch": 49980000,
+      "medium_twitch": 17340000,
+      "low_twitch": 2533000,
+      "total_annual": 69853000,
+      "total_monthly": 5821083.333333333
+    },
+    "users": {
+      "high_twitch": 124950,
+      "medium_twitch": 173400,
+      "low_twitch": 126650
+    },
+    "metrics": {
+      "arpu_per_dau": 139.706,
+      "arpu_per_mau": 164.36
+    }
+  },
+  "BEAR_CASE": {
+    "description": "Conservative monetization, limited growth",
+    "dau": 300000,
+    "mau": 255000,
+    "arpu": {
+      "HIGH_TWITCH": 100,
+      "MEDIUM_TWITCH": 25,
+      "LOW_TWITCH": 5
+    },
+    "revenue": {
+      "high_twitch": 7497000,
+      "medium_twitch": 2601000,
+      "low_twitch": 379950,
+      "total_annual": 10477950,
+      "total_monthly": 873162.5
+    },
+    "users": {
+      "high_twitch": 74970,
+      "medium_twitch": 104040,
+      "low_twitch": 75990
+    },
+    "metrics": {
+      "arpu_per_dau": 34.9265,
+      "arpu_per_mau": 41.09
+    }
+  },
+  "AGGRESSIVE_HIGH_TWITCH": {
+    "description": "Premium features for day traders/options",
+    "dau": 350000,
+    "mau": 297500,
+    "arpu": {
+      "HIGH_TWITCH": 500,
+      "MEDIUM_TWITCH": 50,
+      "LOW_TWITCH": 10
+    },
+    "revenue": {
+      "high_twitch": 43732500,
+      "medium_twitch": 6068950,
+      "low_twitch": 886550,
+      "total_annual": 50688000,
+      "total_monthly": 4224000.0
+    },
+    "users": {
+      "high_twitch": 87465,
+      "medium_twitch": 121379,
+      "low_twitch": 88655
+    },
+    "metrics": {
+      "arpu_per_dau": 144.82285714285715,
+      "arpu_per_mau": 170.3798319327731
+    }
+  },
+  "MASS_MARKET": {
+    "description": "Broader appeal, more casual users",
+    "dau": 750000,
+    "mau": 637500,
+    "arpu": {
+      "HIGH_TWITCH": 150,
+      "MEDIUM_TWITCH": 40,
+      "LOW_TWITCH": 15
+    },
+    "revenue": {
+      "high_twitch": 28113750,
+      "medium_twitch": 10403960,
+      "low_twitch": 2849625,
+      "total_annual": 41367335,
+      "total_monthly": 3447277.9166666665
+    },
+    "users": {
+      "high_twitch": 187425,
+      "medium_twitch": 260099,
+      "low_twitch": 189975
+    },
+    "metrics": {
+      "arpu_per_dau": 55.15644666666667,
+      "arpu_per_mau": 64.88993725490197
+    }
+  }
+}
